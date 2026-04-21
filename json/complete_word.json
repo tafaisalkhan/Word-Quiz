@@ -1,0 +1,1658 @@
+{
+  "easy": [
+    {
+      "prompt": "A P _ L E",
+      "answer": "P",
+      "options": [
+        "I",
+        "E",
+        "P",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "B R _ A D",
+      "answer": "E",
+      "options": [
+        "A",
+        "U",
+        "O",
+        "I",
+        "E"
+      ]
+    },
+    {
+      "prompt": "B R _ S H",
+      "answer": "U",
+      "options": [
+        "I",
+        "A",
+        "E",
+        "U",
+        "O"
+      ]
+    },
+    {
+      "prompt": "C H _ I R",
+      "answer": "A",
+      "options": [
+        "A",
+        "E",
+        "U",
+        "O",
+        "I"
+      ]
+    },
+    {
+      "prompt": "C L _ U D",
+      "answer": "O",
+      "options": [
+        "I",
+        "A",
+        "U",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "D R _ A M",
+      "answer": "E",
+      "options": [
+        "A",
+        "O",
+        "I",
+        "E",
+        "U"
+      ]
+    },
+    {
+      "prompt": "F L _ O R",
+      "answer": "O",
+      "options": [
+        "A",
+        "U",
+        "I",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "F R _ M E",
+      "answer": "A",
+      "options": [
+        "A",
+        "I",
+        "E",
+        "O",
+        "U"
+      ]
+    },
+    {
+      "prompt": "G A R _ E N",
+      "answer": "D",
+      "options": [
+        "D",
+        "I",
+        "A",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "G L _ S S",
+      "answer": "A",
+      "options": [
+        "U",
+        "I",
+        "O",
+        "E",
+        "A"
+      ]
+    },
+    {
+      "prompt": "G R _ P E",
+      "answer": "A",
+      "options": [
+        "A",
+        "I",
+        "U",
+        "E",
+        "O"
+      ]
+    },
+    {
+      "prompt": "G R _ E N",
+      "answer": "E",
+      "options": [
+        "A",
+        "U",
+        "E",
+        "I",
+        "O"
+      ]
+    },
+    {
+      "prompt": "H E _ R T",
+      "answer": "A",
+      "options": [
+        "A",
+        "O",
+        "U",
+        "I",
+        "E"
+      ]
+    },
+    {
+      "prompt": "H O _ E Y",
+      "answer": "N",
+      "options": [
+        "A",
+        "O",
+        "N",
+        "I",
+        "E"
+      ]
+    },
+    {
+      "prompt": "H O _ S E",
+      "answer": "U",
+      "options": [
+        "E",
+        "O",
+        "U",
+        "A",
+        "I"
+      ]
+    },
+    {
+      "prompt": "J U _ C E",
+      "answer": "I",
+      "options": [
+        "U",
+        "O",
+        "E",
+        "I",
+        "A"
+      ]
+    },
+    {
+      "prompt": "K N _ F E",
+      "answer": "I",
+      "options": [
+        "A",
+        "U",
+        "O",
+        "I",
+        "E"
+      ]
+    },
+    {
+      "prompt": "L I _ H T",
+      "answer": "G",
+      "options": [
+        "O",
+        "A",
+        "G",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "M A _ G O",
+      "answer": "N",
+      "options": [
+        "I",
+        "N",
+        "O",
+        "E",
+        "A"
+      ]
+    },
+    {
+      "prompt": "M U _ I C",
+      "answer": "S",
+      "options": [
+        "O",
+        "I",
+        "S",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "prompt": "O C _ A N",
+      "answer": "E",
+      "options": [
+        "A",
+        "U",
+        "O",
+        "I",
+        "E"
+      ]
+    },
+    {
+      "prompt": "P A _ E R",
+      "answer": "P",
+      "options": [
+        "O",
+        "A",
+        "P",
+        "I",
+        "E"
+      ]
+    },
+    {
+      "prompt": "P E _ C E",
+      "answer": "A",
+      "options": [
+        "U",
+        "E",
+        "I",
+        "O",
+        "A"
+      ]
+    },
+    {
+      "prompt": "P I L _ O W",
+      "answer": "L",
+      "options": [
+        "I",
+        "E",
+        "O",
+        "L",
+        "A"
+      ]
+    },
+    {
+      "prompt": "P L _ N T",
+      "answer": "A",
+      "options": [
+        "I",
+        "A",
+        "E",
+        "O",
+        "U"
+      ]
+    },
+    {
+      "prompt": "P L _ T E",
+      "answer": "A",
+      "options": [
+        "I",
+        "E",
+        "A",
+        "U",
+        "O"
+      ]
+    },
+    {
+      "prompt": "Q U _ E N",
+      "answer": "E",
+      "options": [
+        "A",
+        "O",
+        "I",
+        "E",
+        "U"
+      ]
+    },
+    {
+      "prompt": "R I _ E R",
+      "answer": "V",
+      "options": [
+        "O",
+        "V",
+        "A",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "R O _ O T",
+      "answer": "B",
+      "options": [
+        "E",
+        "B",
+        "A",
+        "O",
+        "I"
+      ]
+    },
+    {
+      "prompt": "S M _ L E",
+      "answer": "I",
+      "options": [
+        "I",
+        "A",
+        "E",
+        "O",
+        "U"
+      ]
+    },
+    {
+      "prompt": "S N _ K E",
+      "answer": "A",
+      "options": [
+        "A",
+        "I",
+        "E",
+        "O",
+        "U"
+      ]
+    },
+    {
+      "prompt": "S P _ O N",
+      "answer": "O",
+      "options": [
+        "A",
+        "U",
+        "O",
+        "I",
+        "E"
+      ]
+    },
+    {
+      "prompt": "S T _ R",
+      "answer": "A",
+      "options": [
+        "U",
+        "O",
+        "E",
+        "I",
+        "A"
+      ]
+    },
+    {
+      "prompt": "S T _ N E",
+      "answer": "O",
+      "options": [
+        "E",
+        "A",
+        "O",
+        "I",
+        "U"
+      ]
+    },
+    {
+      "prompt": "S T _ R Y",
+      "answer": "O",
+      "options": [
+        "I",
+        "U",
+        "O",
+        "E",
+        "A"
+      ]
+    },
+    {
+      "prompt": "S U _ A R",
+      "answer": "G",
+      "options": [
+        "G",
+        "O",
+        "A",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "T A _ L E",
+      "answer": "B",
+      "options": [
+        "O",
+        "A",
+        "B",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "T I _ E R",
+      "answer": "G",
+      "options": [
+        "O",
+        "E",
+        "I",
+        "G",
+        "A"
+      ]
+    },
+    {
+      "prompt": "T R _ I N",
+      "answer": "A",
+      "options": [
+        "A",
+        "E",
+        "O",
+        "I",
+        "U"
+      ]
+    },
+    {
+      "prompt": "T R _ E",
+      "answer": "E",
+      "options": [
+        "U",
+        "E",
+        "A",
+        "I",
+        "O"
+      ]
+    },
+    {
+      "prompt": "W A _ E R",
+      "answer": "T",
+      "options": [
+        "I",
+        "A",
+        "E",
+        "T",
+        "O"
+      ]
+    },
+    {
+      "prompt": "W H _ E L",
+      "answer": "E",
+      "options": [
+        "O",
+        "E",
+        "A",
+        "U",
+        "I"
+      ]
+    },
+    {
+      "prompt": "W I N _ O W",
+      "answer": "D",
+      "options": [
+        "I",
+        "D",
+        "E",
+        "O",
+        "A"
+      ]
+    },
+    {
+      "prompt": "Y E L _ O W",
+      "answer": "L",
+      "options": [
+        "E",
+        "I",
+        "A",
+        "O",
+        "L"
+      ]
+    },
+    {
+      "prompt": "Z E _ R A",
+      "answer": "B",
+      "options": [
+        "I",
+        "B",
+        "A",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "B U T _ O N",
+      "answer": "T",
+      "options": [
+        "T",
+        "E",
+        "O",
+        "A",
+        "I"
+      ]
+    },
+    {
+      "prompt": "C A N _ L E",
+      "answer": "D",
+      "options": [
+        "I",
+        "D",
+        "A",
+        "E",
+        "O"
+      ]
+    },
+    {
+      "prompt": "F L O _ E R",
+      "answer": "W",
+      "options": [
+        "A",
+        "I",
+        "O",
+        "W",
+        "E"
+      ]
+    },
+    {
+      "prompt": "P O C _ E T",
+      "answer": "K",
+      "options": [
+        "I",
+        "A",
+        "K",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "S I L _ E R",
+      "answer": "V",
+      "options": [
+        "V",
+        "O",
+        "E",
+        "A",
+        "I"
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "prompt": "B A L _ N C E",
+      "answer": "A",
+      "options": [
+        "O",
+        "I",
+        "U",
+        "E",
+        "A"
+      ]
+    },
+    {
+      "prompt": "C A P _ A I N",
+      "answer": "T",
+      "options": [
+        "I",
+        "E",
+        "O",
+        "T",
+        "A"
+      ]
+    },
+    {
+      "prompt": "C A R _ O O N",
+      "answer": "T",
+      "options": [
+        "E",
+        "T",
+        "I",
+        "O",
+        "A"
+      ]
+    },
+    {
+      "prompt": "C R Y _ T A L",
+      "answer": "S",
+      "options": [
+        "O",
+        "S",
+        "A",
+        "I",
+        "E"
+      ]
+    },
+    {
+      "prompt": "D O L _ H I N",
+      "answer": "P",
+      "options": [
+        "A",
+        "E",
+        "P",
+        "I",
+        "O"
+      ]
+    },
+    {
+      "prompt": "E L E _ A N T",
+      "answer": "G",
+      "options": [
+        "E",
+        "A",
+        "O",
+        "I",
+        "G"
+      ]
+    },
+    {
+      "prompt": "F A C _ O R Y",
+      "answer": "T",
+      "options": [
+        "T",
+        "A",
+        "E",
+        "I",
+        "O"
+      ]
+    },
+    {
+      "prompt": "F R E _ D O M",
+      "answer": "E",
+      "options": [
+        "E",
+        "U",
+        "I",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "G R A _ I T Y",
+      "answer": "V",
+      "options": [
+        "E",
+        "V",
+        "O",
+        "I",
+        "A"
+      ]
+    },
+    {
+      "prompt": "H A R _ E S T",
+      "answer": "V",
+      "options": [
+        "E",
+        "O",
+        "A",
+        "I",
+        "V"
+      ]
+    },
+    {
+      "prompt": "J O U _ N E Y",
+      "answer": "R",
+      "options": [
+        "R",
+        "E",
+        "I",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "K I N _ D O M",
+      "answer": "G",
+      "options": [
+        "O",
+        "A",
+        "E",
+        "G",
+        "I"
+      ]
+    },
+    {
+      "prompt": "L A N _ E R N",
+      "answer": "T",
+      "options": [
+        "T",
+        "A",
+        "E",
+        "I",
+        "O"
+      ]
+    },
+    {
+      "prompt": "L I B _ A R Y",
+      "answer": "R",
+      "options": [
+        "O",
+        "A",
+        "I",
+        "R",
+        "E"
+      ]
+    },
+    {
+      "prompt": "M A G N _ T I C",
+      "answer": "E",
+      "options": [
+        "A",
+        "E",
+        "O",
+        "U",
+        "I"
+      ]
+    },
+    {
+      "prompt": "M E A _ O W S",
+      "answer": "D",
+      "options": [
+        "D",
+        "O",
+        "E",
+        "A",
+        "I"
+      ]
+    },
+    {
+      "prompt": "M I R _ C L E",
+      "answer": "A",
+      "options": [
+        "U",
+        "O",
+        "I",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "prompt": "M O N _ O O N",
+      "answer": "S",
+      "options": [
+        "A",
+        "O",
+        "E",
+        "I",
+        "S"
+      ]
+    },
+    {
+      "prompt": "M O U N _ A I N",
+      "answer": "T",
+      "options": [
+        "T",
+        "E",
+        "I",
+        "O",
+        "A"
+      ]
+    },
+    {
+      "prompt": "M Y S _ E R Y",
+      "answer": "T",
+      "options": [
+        "O",
+        "T",
+        "E",
+        "I",
+        "A"
+      ]
+    },
+    {
+      "prompt": "N A T _ R A L",
+      "answer": "U",
+      "options": [
+        "I",
+        "U",
+        "A",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "N O T E _ O O K",
+      "answer": "B",
+      "options": [
+        "O",
+        "A",
+        "I",
+        "E",
+        "B"
+      ]
+    },
+    {
+      "prompt": "O R C _ A R D",
+      "answer": "H",
+      "options": [
+        "O",
+        "I",
+        "A",
+        "E",
+        "H"
+      ]
+    },
+    {
+      "prompt": "P A S _ I O N",
+      "answer": "S",
+      "options": [
+        "I",
+        "E",
+        "A",
+        "O",
+        "S"
+      ]
+    },
+    {
+      "prompt": "P A T _ E R N",
+      "answer": "T",
+      "options": [
+        "T",
+        "I",
+        "O",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "prompt": "P I O _ E E R",
+      "answer": "N",
+      "options": [
+        "N",
+        "O",
+        "I",
+        "E",
+        "A"
+      ]
+    },
+    {
+      "prompt": "P L A _ E T",
+      "answer": "N",
+      "options": [
+        "I",
+        "A",
+        "E",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "prompt": "P O E _ R Y",
+      "answer": "T",
+      "options": [
+        "I",
+        "A",
+        "O",
+        "E",
+        "T"
+      ]
+    },
+    {
+      "prompt": "R A I _ W A Y",
+      "answer": "L",
+      "options": [
+        "A",
+        "I",
+        "L",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "R E F _ E C T",
+      "answer": "L",
+      "options": [
+        "L",
+        "I",
+        "O",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "prompt": "S A I _ I N G",
+      "answer": "L",
+      "options": [
+        "O",
+        "A",
+        "L",
+        "I",
+        "E"
+      ]
+    },
+    {
+      "prompt": "S C U L _ T O R",
+      "answer": "P",
+      "options": [
+        "P",
+        "I",
+        "E",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "S E A S _ E L L",
+      "answer": "H",
+      "options": [
+        "A",
+        "O",
+        "E",
+        "I",
+        "H"
+      ]
+    },
+    {
+      "prompt": "S H A _ O W S",
+      "answer": "D",
+      "options": [
+        "A",
+        "O",
+        "I",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "prompt": "S P A _ K L E",
+      "answer": "R",
+      "options": [
+        "E",
+        "R",
+        "A",
+        "O",
+        "I"
+      ]
+    },
+    {
+      "prompt": "S T A _ I O N",
+      "answer": "T",
+      "options": [
+        "I",
+        "O",
+        "E",
+        "A",
+        "T"
+      ]
+    },
+    {
+      "prompt": "S U N L _ G H T",
+      "answer": "I",
+      "options": [
+        "A",
+        "I",
+        "U",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "T E L E _ R A M",
+      "answer": "G",
+      "options": [
+        "A",
+        "E",
+        "G",
+        "I",
+        "O"
+      ]
+    },
+    {
+      "prompt": "T E M _ L E",
+      "answer": "P",
+      "options": [
+        "O",
+        "A",
+        "P",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "T H U _ D E R",
+      "answer": "N",
+      "options": [
+        "E",
+        "I",
+        "N",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "T R I A _ G L E",
+      "answer": "N",
+      "options": [
+        "E",
+        "N",
+        "I",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "U M B R _ L L A",
+      "answer": "E",
+      "options": [
+        "I",
+        "U",
+        "E",
+        "O",
+        "A"
+      ]
+    },
+    {
+      "prompt": "V I C _ O R Y",
+      "answer": "T",
+      "options": [
+        "E",
+        "I",
+        "O",
+        "T",
+        "A"
+      ]
+    },
+    {
+      "prompt": "V I L L _ G E R",
+      "answer": "A",
+      "options": [
+        "O",
+        "E",
+        "I",
+        "A",
+        "U"
+      ]
+    },
+    {
+      "prompt": "W H I _ P E R",
+      "answer": "S",
+      "options": [
+        "E",
+        "I",
+        "S",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "W I L D _ I F E",
+      "answer": "L",
+      "options": [
+        "A",
+        "L",
+        "I",
+        "E",
+        "O"
+      ]
+    },
+    {
+      "prompt": "W I N D _ O C K",
+      "answer": "S",
+      "options": [
+        "O",
+        "E",
+        "A",
+        "S",
+        "I"
+      ]
+    },
+    {
+      "prompt": "W O N _ E R",
+      "answer": "D",
+      "options": [
+        "D",
+        "I",
+        "E",
+        "O",
+        "A"
+      ]
+    },
+    {
+      "prompt": "Z E A _ O U S",
+      "answer": "L",
+      "options": [
+        "L",
+        "A",
+        "O",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "B L O _ S O M",
+      "answer": "S",
+      "options": [
+        "O",
+        "E",
+        "A",
+        "I",
+        "S"
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "prompt": "A B S T _ A C T",
+      "answer": "R",
+      "options": [
+        "R",
+        "A",
+        "I",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "A C A D _ M I C",
+      "answer": "E",
+      "options": [
+        "E",
+        "U",
+        "I",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "A C C U _ A C Y",
+      "answer": "R",
+      "options": [
+        "O",
+        "A",
+        "I",
+        "R",
+        "E"
+      ]
+    },
+    {
+      "prompt": "A L C _ E M Y",
+      "answer": "H",
+      "options": [
+        "A",
+        "H",
+        "E",
+        "O",
+        "I"
+      ]
+    },
+    {
+      "prompt": "A S T E _ O I D",
+      "answer": "R",
+      "options": [
+        "O",
+        "I",
+        "A",
+        "R",
+        "E"
+      ]
+    },
+    {
+      "prompt": "B L U E _ R I N T",
+      "answer": "P",
+      "options": [
+        "O",
+        "P",
+        "I",
+        "E",
+        "A"
+      ]
+    },
+    {
+      "prompt": "C A T A _ Y S T",
+      "answer": "L",
+      "options": [
+        "O",
+        "I",
+        "A",
+        "E",
+        "L"
+      ]
+    },
+    {
+      "prompt": "C H R O _ I C L E",
+      "answer": "N",
+      "options": [
+        "N",
+        "E",
+        "I",
+        "O",
+        "A"
+      ]
+    },
+    {
+      "prompt": "C L A _ I T Y",
+      "answer": "R",
+      "options": [
+        "R",
+        "I",
+        "A",
+        "E",
+        "O"
+      ]
+    },
+    {
+      "prompt": "C O M P A _ S I O N",
+      "answer": "S",
+      "options": [
+        "O",
+        "I",
+        "E",
+        "S",
+        "A"
+      ]
+    },
+    {
+      "prompt": "C O N T _ A S T",
+      "answer": "R",
+      "options": [
+        "O",
+        "I",
+        "R",
+        "E",
+        "A"
+      ]
+    },
+    {
+      "prompt": "C R E S _ E N D O",
+      "answer": "C",
+      "options": [
+        "O",
+        "I",
+        "A",
+        "C",
+        "E"
+      ]
+    },
+    {
+      "prompt": "D E L I _ A T E",
+      "answer": "C",
+      "options": [
+        "A",
+        "C",
+        "O",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "D Y N A _ I C S",
+      "answer": "M",
+      "options": [
+        "E",
+        "O",
+        "A",
+        "I",
+        "M"
+      ]
+    },
+    {
+      "prompt": "E L E V _ T I O N",
+      "answer": "A",
+      "options": [
+        "I",
+        "O",
+        "E",
+        "A",
+        "U"
+      ]
+    },
+    {
+      "prompt": "E Q U _ N O X",
+      "answer": "I",
+      "options": [
+        "U",
+        "A",
+        "O",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "F E S T _ V A L",
+      "answer": "I",
+      "options": [
+        "A",
+        "E",
+        "I",
+        "U",
+        "O"
+      ]
+    },
+    {
+      "prompt": "F O R M I _ A B L E",
+      "answer": "D",
+      "options": [
+        "I",
+        "A",
+        "O",
+        "D",
+        "E"
+      ]
+    },
+    {
+      "prompt": "F R A C _ I O N",
+      "answer": "T",
+      "options": [
+        "A",
+        "O",
+        "T",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "G A L A _ I E S",
+      "answer": "X",
+      "options": [
+        "O",
+        "I",
+        "A",
+        "E",
+        "X"
+      ]
+    },
+    {
+      "prompt": "H A R M _ N I C",
+      "answer": "O",
+      "options": [
+        "E",
+        "I",
+        "U",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "H E R I _ A G E",
+      "answer": "T",
+      "options": [
+        "A",
+        "O",
+        "E",
+        "I",
+        "T"
+      ]
+    },
+    {
+      "prompt": "H O R I _ O N S",
+      "answer": "Z",
+      "options": [
+        "Z",
+        "A",
+        "O",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "I L L U _ I O N",
+      "answer": "S",
+      "options": [
+        "S",
+        "E",
+        "I",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "I M M U _ I T Y",
+      "answer": "N",
+      "options": [
+        "A",
+        "I",
+        "O",
+        "N",
+        "E"
+      ]
+    },
+    {
+      "prompt": "I N F I _ I T E",
+      "answer": "N",
+      "options": [
+        "O",
+        "N",
+        "E",
+        "A",
+        "I"
+      ]
+    },
+    {
+      "prompt": "J U B I _ A N T",
+      "answer": "L",
+      "options": [
+        "O",
+        "L",
+        "A",
+        "E",
+        "I"
+      ]
+    },
+    {
+      "prompt": "L A N D _ C A P E",
+      "answer": "S",
+      "options": [
+        "S",
+        "I",
+        "O",
+        "E",
+        "A"
+      ]
+    },
+    {
+      "prompt": "L U M I _ A R Y",
+      "answer": "N",
+      "options": [
+        "E",
+        "I",
+        "A",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "prompt": "M A R A _ H O N",
+      "answer": "T",
+      "options": [
+        "E",
+        "I",
+        "T",
+        "A",
+        "O"
+      ]
+    },
+    {
+      "prompt": "M E R I _ I A N",
+      "answer": "D",
+      "options": [
+        "A",
+        "O",
+        "I",
+        "E",
+        "D"
+      ]
+    },
+    {
+      "prompt": "M O M E _ T U M",
+      "answer": "N",
+      "options": [
+        "N",
+        "A",
+        "I",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "N A R R _ T I V E",
+      "answer": "A",
+      "options": [
+        "U",
+        "A",
+        "I",
+        "E",
+        "O"
+      ]
+    },
+    {
+      "prompt": "O B S I _ I A N",
+      "answer": "D",
+      "options": [
+        "I",
+        "E",
+        "A",
+        "O",
+        "D"
+      ]
+    },
+    {
+      "prompt": "O R I G _ M I S",
+      "answer": "A",
+      "options": [
+        "O",
+        "I",
+        "U",
+        "A",
+        "E"
+      ]
+    },
+    {
+      "prompt": "P A R _ D O X",
+      "answer": "A",
+      "options": [
+        "I",
+        "A",
+        "U",
+        "E",
+        "O"
+      ]
+    },
+    {
+      "prompt": "P A V I _ I O N",
+      "answer": "L",
+      "options": [
+        "I",
+        "A",
+        "O",
+        "L",
+        "E"
+      ]
+    },
+    {
+      "prompt": "P H O _ N I X",
+      "answer": "E",
+      "options": [
+        "I",
+        "A",
+        "U",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "P R E D I _ T I O N",
+      "answer": "C",
+      "options": [
+        "E",
+        "I",
+        "O",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "prompt": "Q U A _ T U M",
+      "answer": "N",
+      "options": [
+        "I",
+        "E",
+        "A",
+        "N",
+        "O"
+      ]
+    },
+    {
+      "prompt": "R A D I _ N C E",
+      "answer": "A",
+      "options": [
+        "E",
+        "I",
+        "O",
+        "A",
+        "U"
+      ]
+    },
+    {
+      "prompt": "R E S O _ A N T",
+      "answer": "N",
+      "options": [
+        "I",
+        "N",
+        "O",
+        "E",
+        "A"
+      ]
+    },
+    {
+      "prompt": "S A P P _ I R E",
+      "answer": "H",
+      "options": [
+        "E",
+        "I",
+        "O",
+        "H",
+        "A"
+      ]
+    },
+    {
+      "prompt": "S P E C _ R U M",
+      "answer": "T",
+      "options": [
+        "O",
+        "E",
+        "A",
+        "I",
+        "T"
+      ]
+    },
+    {
+      "prompt": "S Y M P _ O N Y",
+      "answer": "H",
+      "options": [
+        "O",
+        "H",
+        "A",
+        "I",
+        "E"
+      ]
+    },
+    {
+      "prompt": "T A N G _ B L E",
+      "answer": "I",
+      "options": [
+        "A",
+        "U",
+        "I",
+        "O",
+        "E"
+      ]
+    },
+    {
+      "prompt": "U M B R _ L L A S",
+      "answer": "E",
+      "options": [
+        "O",
+        "U",
+        "E",
+        "I",
+        "A"
+      ]
+    },
+    {
+      "prompt": "V A N G _ A R D",
+      "answer": "U",
+      "options": [
+        "O",
+        "E",
+        "I",
+        "A",
+        "U"
+      ]
+    },
+    {
+      "prompt": "W I L D E _ N E S S",
+      "answer": "R",
+      "options": [
+        "E",
+        "R",
+        "A",
+        "I",
+        "O"
+      ]
+    },
+    {
+      "prompt": "Z E N I _ H A L",
+      "answer": "T",
+      "options": [
+        "T",
+        "I",
+        "O",
+        "E",
+        "A"
+      ]
+    }
+  ]
+}

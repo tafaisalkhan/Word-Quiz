@@ -1,0 +1,1658 @@
+{
+  "easy": [
+    {
+      "prompt": "Find a synonym for: Happy",
+      "answer": "Glad",
+      "options": [
+        "Street",
+        "Purchase",
+        "Secure",
+        "Glad",
+        "Kid"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Big",
+      "answer": "Large",
+      "options": [
+        "Tale",
+        "Task",
+        "Large",
+        "Select",
+        "Thought"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Small",
+      "answer": "Tiny",
+      "options": [
+        "Repair",
+        "Tiny",
+        "Kid",
+        "Start",
+        "Mad"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Fast",
+      "answer": "Quick",
+      "options": [
+        "Difficult",
+        "Lovely",
+        "Kid",
+        "Novice",
+        "Quick"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Smart",
+      "answer": "Clever",
+      "options": [
+        "Kid",
+        "Wealthy",
+        "Clever",
+        "Humorous",
+        "Task"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Quiet",
+      "answer": "Silent",
+      "options": [
+        "Powerful",
+        "Assist",
+        "Tiny",
+        "Silent",
+        "Select"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Brave",
+      "answer": "Bold",
+      "options": [
+        "True",
+        "Bold",
+        "Purchase",
+        "Hold",
+        "Difficult"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Angry",
+      "answer": "Mad",
+      "options": [
+        "Rapidly",
+        "Mad",
+        "Hold",
+        "Repair",
+        "Street"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Begin",
+      "answer": "Start",
+      "options": [
+        "Repair",
+        "Assist",
+        "Difficult",
+        "Ancient",
+        "Start"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: End",
+      "answer": "Finish",
+      "options": [
+        "Finish",
+        "Silent",
+        "Reply",
+        "Large",
+        "Select"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Job",
+      "answer": "Task",
+      "options": [
+        "Task",
+        "Humorous",
+        "Start",
+        "Affordable",
+        "Novice"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Gift",
+      "answer": "Present",
+      "options": [
+        "Street",
+        "Present",
+        "Large",
+        "Silent",
+        "Close"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Child",
+      "answer": "Kid",
+      "options": [
+        "Purchase",
+        "Tale",
+        "Clever",
+        "Mistake",
+        "Kid"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Home",
+      "answer": "House",
+      "options": [
+        "Simple",
+        "Close",
+        "House",
+        "True",
+        "Clever"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Idea",
+      "answer": "Thought",
+      "options": [
+        "Thought",
+        "Hold",
+        "Clever",
+        "Powerful",
+        "Kid"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Answer",
+      "answer": "Reply",
+      "options": [
+        "Reply",
+        "Affordable",
+        "Peaceful",
+        "Depart",
+        "Hold"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Story",
+      "answer": "Tale",
+      "options": [
+        "Tale",
+        "Start",
+        "Tiny",
+        "Glad",
+        "True"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Rich",
+      "answer": "Wealthy",
+      "options": [
+        "Powerful",
+        "See",
+        "Ancient",
+        "Wealthy",
+        "Task"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Clean",
+      "answer": "Tidy",
+      "options": [
+        "Depart",
+        "Tale",
+        "Affordable",
+        "Select",
+        "Tidy"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Help",
+      "answer": "Assist",
+      "options": [
+        "Frail",
+        "Speck",
+        "Assist",
+        "Kid",
+        "Stroll"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Buy",
+      "answer": "Purchase",
+      "options": [
+        "Purchase",
+        "Finish",
+        "Rapidly",
+        "Novice",
+        "Present"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Look",
+      "answer": "See",
+      "options": [
+        "Lovely",
+        "See",
+        "Novice",
+        "Glad",
+        "Leap"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Near",
+      "answer": "Close",
+      "options": [
+        "Speak",
+        "Silent",
+        "Frail",
+        "House",
+        "Close"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Error",
+      "answer": "Mistake",
+      "options": [
+        "Close",
+        "Mistake",
+        "Image",
+        "House",
+        "Purchase"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Road",
+      "answer": "Street",
+      "options": [
+        "Speak",
+        "Glad",
+        "Street",
+        "Finish",
+        "Task"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Jump",
+      "answer": "Leap",
+      "options": [
+        "Mad",
+        "Leap",
+        "Task",
+        "Bold",
+        "Youthful"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Safe",
+      "answer": "Secure",
+      "options": [
+        "Glad",
+        "Secure",
+        "Stroll",
+        "Silent",
+        "Street"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Funny",
+      "answer": "Humorous",
+      "options": [
+        "Kid",
+        "Tidy",
+        "Humorous",
+        "Reply",
+        "Leap"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Easy",
+      "answer": "Simple",
+      "options": [
+        "Simple",
+        "Quick",
+        "Tale",
+        "Reply",
+        "Affordable"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Hard",
+      "answer": "Difficult",
+      "options": [
+        "Reply",
+        "Secure",
+        "Hold",
+        "Difficult",
+        "Peaceful"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Pretty",
+      "answer": "Lovely",
+      "options": [
+        "Lovely",
+        "Wealthy",
+        "Glad",
+        "Large",
+        "Close"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Old",
+      "answer": "Ancient",
+      "options": [
+        "Ancient",
+        "Finish",
+        "Repair",
+        "Youthful",
+        "Mad"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Young",
+      "answer": "Youthful",
+      "options": [
+        "Lovely",
+        "Youthful",
+        "Ancient",
+        "Mad",
+        "Depart"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Strong",
+      "answer": "Powerful",
+      "options": [
+        "Affordable",
+        "Powerful",
+        "Humorous",
+        "Glad",
+        "Quick"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Weak",
+      "answer": "Frail",
+      "options": [
+        "Novice",
+        "Select",
+        "Difficult",
+        "Purchase",
+        "Frail"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Friend",
+      "answer": "Pal",
+      "options": [
+        "Kid",
+        "Stroll",
+        "Powerful",
+        "Speck",
+        "Pal"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Talk",
+      "answer": "Speak",
+      "options": [
+        "True",
+        "Glad",
+        "Thought",
+        "Street",
+        "Speak"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Walk",
+      "answer": "Stroll",
+      "options": [
+        "Difficult",
+        "Stroll",
+        "Powerful",
+        "Mistake",
+        "Ancient"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Beginner",
+      "answer": "Novice",
+      "options": [
+        "Depart",
+        "Glad",
+        "True",
+        "Pal",
+        "Novice"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Picture",
+      "answer": "Image",
+      "options": [
+        "Quick",
+        "Kid",
+        "Peaceful",
+        "Frail",
+        "Image"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Buyable",
+      "answer": "Affordable",
+      "options": [
+        "Ancient",
+        "Affordable",
+        "Close",
+        "Present",
+        "Mistake"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Shiny",
+      "answer": "Bright",
+      "options": [
+        "Bright",
+        "See",
+        "Tiny",
+        "Present",
+        "Lovely"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Calm",
+      "answer": "Peaceful",
+      "options": [
+        "Peaceful",
+        "Simple",
+        "Purchase",
+        "House",
+        "Silent"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Choose",
+      "answer": "Select",
+      "options": [
+        "Tale",
+        "House",
+        "Select",
+        "Silent",
+        "Wealthy"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Quickly",
+      "answer": "Rapidly",
+      "options": [
+        "Rapidly",
+        "Glad",
+        "Humorous",
+        "Large",
+        "Thought"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Leave",
+      "answer": "Depart",
+      "options": [
+        "True",
+        "Mistake",
+        "Thought",
+        "Depart",
+        "Powerful"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Fix",
+      "answer": "Repair",
+      "options": [
+        "Repair",
+        "Mad",
+        "Pal",
+        "Rapidly",
+        "Large"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Keep",
+      "answer": "Hold",
+      "options": [
+        "Hold",
+        "Humorous",
+        "Image",
+        "House",
+        "Task"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Tiny bit",
+      "answer": "Speck",
+      "options": [
+        "Stroll",
+        "Close",
+        "Select",
+        "Start",
+        "Speck"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Real",
+      "answer": "True",
+      "options": [
+        "Reply",
+        "Powerful",
+        "Tidy",
+        "True",
+        "Purchase"
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "prompt": "Find a synonym for: Radiant",
+      "answer": "Luminous",
+      "options": [
+        "Display",
+        "Luminous",
+        "Swift",
+        "Idle",
+        "Support"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Rapid",
+      "answer": "Swift",
+      "options": [
+        "Swift",
+        "Support",
+        "Construct",
+        "Expensive",
+        "Pristine"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Tiny",
+      "answer": "Minute",
+      "options": [
+        "Employ",
+        "Expensive",
+        "Practical",
+        "Archaic",
+        "Minute"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Calm",
+      "answer": "Serene",
+      "options": [
+        "Plausible",
+        "Fragile",
+        "Tranquil",
+        "Serene",
+        "Opt"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Ancient",
+      "answer": "Archaic",
+      "options": [
+        "Vacant",
+        "Archaic",
+        "Occupied",
+        "Peculiar",
+        "Fortunate"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Brave",
+      "answer": "Courageous",
+      "options": [
+        "Practical",
+        "Subtle",
+        "Chaotic",
+        "Courageous",
+        "Keen"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Careful",
+      "answer": "Cautious",
+      "options": [
+        "Peculiar",
+        "Cautious",
+        "Dim",
+        "Tranquil",
+        "Renowned"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Clear",
+      "answer": "Obvious",
+      "options": [
+        "Expensive",
+        "Occupied",
+        "Obvious",
+        "Cautious",
+        "Archaic"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Lucky",
+      "answer": "Fortunate",
+      "options": [
+        "Renowned",
+        "Concise",
+        "Cautious",
+        "Fortunate",
+        "Affable"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Honest",
+      "answer": "Truthful",
+      "options": [
+        "Vivid",
+        "Practical",
+        "Renowned",
+        "Truthful",
+        "Fragile"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Funny",
+      "answer": "Amusing",
+      "options": [
+        "Muted",
+        "Amusing",
+        "Luminous",
+        "Fortunate",
+        "Plain"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Neat",
+      "answer": "Orderly",
+      "options": [
+        "Expensive",
+        "Orderly",
+        "Cautious",
+        "Amusing",
+        "Practical"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Strong",
+      "answer": "Robust",
+      "options": [
+        "Robust",
+        "Risky",
+        "Peculiar",
+        "Chaotic",
+        "Alter"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Weak",
+      "answer": "Fragile",
+      "options": [
+        "Fragile",
+        "Prompt",
+        "Subtle",
+        "Occupied",
+        "Expensive"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Empty",
+      "answer": "Vacant",
+      "options": [
+        "Typical",
+        "Chaotic",
+        "Utter",
+        "Blend",
+        "Vacant"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Famous",
+      "answer": "Renowned",
+      "options": [
+        "Require",
+        "Prompt",
+        "Renowned",
+        "Plain",
+        "Robust"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Quiet",
+      "answer": "Tranquil",
+      "options": [
+        "Amusing",
+        "Idle",
+        "Obvious",
+        "Gloomy",
+        "Tranquil"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Busy",
+      "answer": "Occupied",
+      "options": [
+        "Cautious",
+        "Chaotic",
+        "Construct",
+        "Display",
+        "Occupied"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Friendly",
+      "answer": "Affable",
+      "options": [
+        "Peculiar",
+        "Cautious",
+        "Plain",
+        "Affable",
+        "Fragile"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Bright",
+      "answer": "Vivid",
+      "options": [
+        "Plausible",
+        "Courageous",
+        "Vivid",
+        "Ponder",
+        "Typical"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Dark",
+      "answer": "Dim",
+      "options": [
+        "Chaotic",
+        "Robust",
+        "Cheerful",
+        "Renowned",
+        "Dim"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Dangerous",
+      "answer": "Risky",
+      "options": [
+        "Risky",
+        "Prompt",
+        "Obvious",
+        "Occupied",
+        "Vivid"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Change",
+      "answer": "Alter",
+      "options": [
+        "Subtle",
+        "Truthful",
+        "Affable",
+        "Alter",
+        "Fragile"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Help",
+      "answer": "Support",
+      "options": [
+        "Occupied",
+        "Employ",
+        "Support",
+        "Tranquil",
+        "Obvious"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Think",
+      "answer": "Ponder",
+      "options": [
+        "Ponder",
+        "Require",
+        "Expensive",
+        "Truthful",
+        "Idle"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Speak",
+      "answer": "Utter",
+      "options": [
+        "Construct",
+        "Obvious",
+        "Utter",
+        "Chaotic",
+        "Muted"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Choose",
+      "answer": "Opt",
+      "options": [
+        "Concise",
+        "Opt",
+        "Practical",
+        "Ponder",
+        "Blend"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Mix",
+      "answer": "Blend",
+      "options": [
+        "Idle",
+        "Cheerful",
+        "Typical",
+        "Luminous",
+        "Blend"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Build",
+      "answer": "Construct",
+      "options": [
+        "Construct",
+        "Practical",
+        "Serene",
+        "Weary",
+        "Truthful"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Use",
+      "answer": "Employ",
+      "options": [
+        "Occupied",
+        "Employ",
+        "Noble",
+        "Truthful",
+        "Pristine"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Show",
+      "answer": "Display",
+      "options": [
+        "Pristine",
+        "Idle",
+        "Minute",
+        "Support",
+        "Display"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Need",
+      "answer": "Require",
+      "options": [
+        "Require",
+        "Ponder",
+        "Idle",
+        "Minute",
+        "Affable"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Lazy",
+      "answer": "Idle",
+      "options": [
+        "Gloomy",
+        "Idle",
+        "Archaic",
+        "Occupied",
+        "Amusing"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Simple",
+      "answer": "Plain",
+      "options": [
+        "Cheerful",
+        "Plain",
+        "Expensive",
+        "Robust",
+        "Affable"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Tired",
+      "answer": "Weary",
+      "options": [
+        "Pristine",
+        "Display",
+        "Affable",
+        "Weary",
+        "Cheerful"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Clean",
+      "answer": "Pristine",
+      "options": [
+        "Occupied",
+        "Orderly",
+        "Truthful",
+        "Practical",
+        "Pristine"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Messy",
+      "answer": "Chaotic",
+      "options": [
+        "Prompt",
+        "Peculiar",
+        "Chaotic",
+        "Display",
+        "Fortunate"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Honorable",
+      "answer": "Noble",
+      "options": [
+        "Keen",
+        "Dim",
+        "Archaic",
+        "Opt",
+        "Noble"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Odd",
+      "answer": "Peculiar",
+      "options": [
+        "Cautious",
+        "Truthful",
+        "Concise",
+        "Utter",
+        "Peculiar"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Quick",
+      "answer": "Prompt",
+      "options": [
+        "Weary",
+        "Prompt",
+        "Gloomy",
+        "Peculiar",
+        "Cheerful"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Sad",
+      "answer": "Gloomy",
+      "options": [
+        "Pristine",
+        "Gloomy",
+        "Minute",
+        "Chaotic",
+        "Peculiar"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Happy",
+      "answer": "Cheerful",
+      "options": [
+        "Noble",
+        "Utter",
+        "Cheerful",
+        "Cautious",
+        "Amusing"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Useful",
+      "answer": "Practical",
+      "options": [
+        "Expensive",
+        "Practical",
+        "Prompt",
+        "Noble",
+        "Construct"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Realistic",
+      "answer": "Plausible",
+      "options": [
+        "Display",
+        "Tranquil",
+        "Dim",
+        "Serene",
+        "Plausible"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Costly",
+      "answer": "Expensive",
+      "options": [
+        "Employ",
+        "Obvious",
+        "Keen",
+        "Expensive",
+        "Pristine"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Silent",
+      "answer": "Muted",
+      "options": [
+        "Chaotic",
+        "Muted",
+        "Blend",
+        "Expensive",
+        "Typical"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Sharp",
+      "answer": "Keen",
+      "options": [
+        "Opt",
+        "Support",
+        "Risky",
+        "Keen",
+        "Employ"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Faint",
+      "answer": "Subtle",
+      "options": [
+        "Cheerful",
+        "Swift",
+        "Truthful",
+        "Subtle",
+        "Vivid"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Common",
+      "answer": "Typical",
+      "options": [
+        "Renowned",
+        "Typical",
+        "Keen",
+        "Weary",
+        "Minute"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Brief",
+      "answer": "Concise",
+      "options": [
+        "Concise",
+        "Chaotic",
+        "Robust",
+        "Utter",
+        "Opt"
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "prompt": "Find a synonym for: Abundant",
+      "answer": "Plentiful",
+      "options": [
+        "Plentiful",
+        "Ardent",
+        "Vigilant",
+        "Contemporary",
+        "Lenient"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Accurate",
+      "answer": "Precise",
+      "options": [
+        "Irritating",
+        "Diminish",
+        "Precise",
+        "Perplexed",
+        "Scarce"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Adaptable",
+      "answer": "Versatile",
+      "options": [
+        "Succinct",
+        "Exhaustive",
+        "Halcyon",
+        "Versatile",
+        "Precise"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Alert",
+      "answer": "Vigilant",
+      "options": [
+        "Succinct",
+        "Vague",
+        "Vigilant",
+        "Benevolent",
+        "Fragile"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Ambiguous",
+      "answer": "Vague",
+      "options": [
+        "Scarce",
+        "Vigilant",
+        "Peril",
+        "Equitable",
+        "Vague"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Ancient",
+      "answer": "Primeval",
+      "options": [
+        "Haughty",
+        "Elementary",
+        "Illustrious",
+        "Primeval",
+        "Lenient"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Annoying",
+      "answer": "Irritating",
+      "options": [
+        "Elementary",
+        "Plentiful",
+        "Contention",
+        "Versatile",
+        "Irritating"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Answer",
+      "answer": "Rejoinder",
+      "options": [
+        "Enervated",
+        "Rejoinder",
+        "Expeditious",
+        "Benevolent",
+        "Perplexed"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Approve",
+      "answer": "Endorse",
+      "options": [
+        "Enervated",
+        "Endorse",
+        "Irritating",
+        "Fragile",
+        "Stalwart"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Argument",
+      "answer": "Contention",
+      "options": [
+        "Expeditious",
+        "Contention",
+        "Benevolent",
+        "Antagonistic",
+        "Elementary"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Arrogant",
+      "answer": "Haughty",
+      "options": [
+        "Vague",
+        "Contemporary",
+        "Immense",
+        "Haughty",
+        "Diminish"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Artful",
+      "answer": "Ingenious",
+      "options": [
+        "Meticulous",
+        "Elementary",
+        "Adept",
+        "Irritating",
+        "Ingenious"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Balanced",
+      "answer": "Equitable",
+      "options": [
+        "Equitable",
+        "Fragile",
+        "Taciturn",
+        "Innovative",
+        "Resplendent"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Brief",
+      "answer": "Succinct",
+      "options": [
+        "Antagonistic",
+        "Primeval",
+        "Haughty",
+        "Vigilant",
+        "Succinct"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Bright",
+      "answer": "Resplendent",
+      "options": [
+        "Plentiful",
+        "Succinct",
+        "Adept",
+        "Resplendent",
+        "Precise"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Careful",
+      "answer": "Meticulous",
+      "options": [
+        "Meticulous",
+        "Perplexed",
+        "Ardent",
+        "Vigilant",
+        "Haughty"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Complex",
+      "answer": "Intricate",
+      "options": [
+        "Meticulous",
+        "Intricate",
+        "Illustrious",
+        "Ingenious",
+        "Antagonistic"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Confused",
+      "answer": "Perplexed",
+      "options": [
+        "Enervated",
+        "Endorse",
+        "Magnanimous",
+        "Perplexed",
+        "Flawless"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Danger",
+      "answer": "Peril",
+      "options": [
+        "Peril",
+        "Exhaustive",
+        "Rejoinder",
+        "Diminish",
+        "Flawless"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Decrease",
+      "answer": "Diminish",
+      "options": [
+        "Antagonistic",
+        "Diminish",
+        "Ingenious",
+        "Innovative",
+        "Succinct"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Delicate",
+      "answer": "Fragile",
+      "options": [
+        "Elated",
+        "Ardent",
+        "Fragile",
+        "Succinct",
+        "Illustrious"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Detailed",
+      "answer": "Exhaustive",
+      "options": [
+        "Exhaustive",
+        "Contemporary",
+        "Advantageous",
+        "Taciturn",
+        "Primeval"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Eager",
+      "answer": "Ardent",
+      "options": [
+        "Magnanimous",
+        "Equitable",
+        "Ardent",
+        "Succinct",
+        "Adept"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Famous",
+      "answer": "Illustrious",
+      "options": [
+        "Halcyon",
+        "Providential",
+        "Primeval",
+        "Expeditious",
+        "Illustrious"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Flexible",
+      "answer": "Pliable",
+      "options": [
+        "Rejoinder",
+        "Intricate",
+        "Pliable",
+        "Ardent",
+        "Advantageous"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Generous",
+      "answer": "Magnanimous",
+      "options": [
+        "Providential",
+        "Advantageous",
+        "Vigilant",
+        "Magnanimous",
+        "Vague"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Gentle",
+      "answer": "Lenient",
+      "options": [
+        "Candid",
+        "Illustrious",
+        "Lenient",
+        "Exultant",
+        "Rejoinder"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Gloomy",
+      "answer": "Melancholic",
+      "options": [
+        "Ingenious",
+        "Melancholic",
+        "Magnanimous",
+        "Halcyon",
+        "Contemporary"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Honest",
+      "answer": "Candid",
+      "options": [
+        "Intricate",
+        "Endorse",
+        "Halcyon",
+        "Flawless",
+        "Candid"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Hostile",
+      "answer": "Antagonistic",
+      "options": [
+        "Antagonistic",
+        "Benevolent",
+        "Advantageous",
+        "Ardent",
+        "Irritating"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Important",
+      "answer": "Paramount",
+      "options": [
+        "Paramount",
+        "Perplexed",
+        "Stalwart",
+        "Peril",
+        "Candid"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Inventive",
+      "answer": "Innovative",
+      "options": [
+        "Ingenious",
+        "Candid",
+        "Perplexed",
+        "Innovative",
+        "Vague"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Joyful",
+      "answer": "Exultant",
+      "options": [
+        "Magnanimous",
+        "Vigilant",
+        "Irritating",
+        "Exultant",
+        "Versatile"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Kind",
+      "answer": "Benevolent",
+      "options": [
+        "Benevolent",
+        "Rejoinder",
+        "Ardent",
+        "Melancholic",
+        "Irritating"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Large",
+      "answer": "Immense",
+      "options": [
+        "Fragile",
+        "Perplexed",
+        "Immense",
+        "Magnanimous",
+        "Scarce"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Lucky",
+      "answer": "Providential",
+      "options": [
+        "Vague",
+        "Lenient",
+        "Providential",
+        "Ingenious",
+        "Flawless"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Modern",
+      "answer": "Contemporary",
+      "options": [
+        "Equitable",
+        "Illustrious",
+        "Contention",
+        "Exultant",
+        "Contemporary"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Peaceful",
+      "answer": "Halcyon",
+      "options": [
+        "Resplendent",
+        "Magnanimous",
+        "Halcyon",
+        "Vigilant",
+        "Melancholic"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Perfect",
+      "answer": "Flawless",
+      "options": [
+        "Contemporary",
+        "Haughty",
+        "Flawless",
+        "Elementary",
+        "Magnanimous"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Proud",
+      "answer": "Elated",
+      "options": [
+        "Adept",
+        "Elated",
+        "Halcyon",
+        "Benevolent",
+        "Illustrious"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Quick",
+      "answer": "Expeditious",
+      "options": [
+        "Contention",
+        "Expeditious",
+        "Affluent",
+        "Exhaustive",
+        "Illustrious"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Quiet",
+      "answer": "Taciturn",
+      "options": [
+        "Immense",
+        "Enervated",
+        "Providential",
+        "Taciturn",
+        "Vague"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Rare",
+      "answer": "Scarce",
+      "options": [
+        "Scarce",
+        "Rejoinder",
+        "Plentiful",
+        "Meticulous",
+        "Exultant"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Rich",
+      "answer": "Affluent",
+      "options": [
+        "Endorse",
+        "Candid",
+        "Affluent",
+        "Ingenious",
+        "Exhaustive"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Simple",
+      "answer": "Elementary",
+      "options": [
+        "Elementary",
+        "Fragile",
+        "Contention",
+        "Rejoinder",
+        "Irritating"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Skilled",
+      "answer": "Adept",
+      "options": [
+        "Succinct",
+        "Adept",
+        "Enervated",
+        "Pliable",
+        "Intricate"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Strong",
+      "answer": "Stalwart",
+      "options": [
+        "Haughty",
+        "Stalwart",
+        "Pliable",
+        "Vigilant",
+        "Illustrious"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Tired",
+      "answer": "Enervated",
+      "options": [
+        "Peril",
+        "Elementary",
+        "Exhaustive",
+        "Irritating",
+        "Enervated"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Useful",
+      "answer": "Advantageous",
+      "options": [
+        "Advantageous",
+        "Peril",
+        "Expeditious",
+        "Haughty",
+        "Endorse"
+      ]
+    },
+    {
+      "prompt": "Find a synonym for: Wise",
+      "answer": "Sagacious",
+      "options": [
+        "Exhaustive",
+        "Benevolent",
+        "Illustrious",
+        "Sagacious",
+        "Ardent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1658 @@
+{
+  "easy": [
+    {
+      "prompt": "Hidden letters: A P P L E",
+      "answer": "Apple",
+      "options": [
+        "River",
+        "Heart",
+        "Table",
+        "Apple",
+        "Honey"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: B R E A D",
+      "answer": "Bread",
+      "options": [
+        "Bread",
+        "Star",
+        "Light",
+        "Plate",
+        "Train"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: B R U S H",
+      "answer": "Brush",
+      "options": [
+        "Brush",
+        "Button",
+        "Tree",
+        "Pillow",
+        "Green"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C H A I R",
+      "answer": "Chair",
+      "options": [
+        "Knife",
+        "Apple",
+        "River",
+        "Water",
+        "Chair"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C L O U D",
+      "answer": "Cloud",
+      "options": [
+        "Plate",
+        "Glass",
+        "Grape",
+        "Cloud",
+        "Mango"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: D R E A M",
+      "answer": "Dream",
+      "options": [
+        "Ocean",
+        "Dream",
+        "Light",
+        "Robot",
+        "Heart"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: F L O O R",
+      "answer": "Floor",
+      "options": [
+        "Story",
+        "Floor",
+        "Plant",
+        "Yellow",
+        "Garden"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: F R A M E",
+      "answer": "Frame",
+      "options": [
+        "House",
+        "Frame",
+        "Brush",
+        "Bread",
+        "Snake"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: G A R D E N",
+      "answer": "Garden",
+      "options": [
+        "Frame",
+        "Table",
+        "Garden",
+        "Yellow",
+        "Smile"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: G L A S S",
+      "answer": "Glass",
+      "options": [
+        "Snake",
+        "Mango",
+        "Glass",
+        "Button",
+        "Light"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: G R A P E",
+      "answer": "Grape",
+      "options": [
+        "Train",
+        "Grape",
+        "Water",
+        "Paper",
+        "Honey"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: G R E E N",
+      "answer": "Green",
+      "options": [
+        "Peace",
+        "Zebra",
+        "Honey",
+        "Frame",
+        "Green"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: H E A R T",
+      "answer": "Heart",
+      "options": [
+        "Pillow",
+        "Heart",
+        "Queen",
+        "Music",
+        "Cloud"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: H O N E Y",
+      "answer": "Honey",
+      "options": [
+        "Brush",
+        "Cloud",
+        "Honey",
+        "Silver",
+        "Button"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: H O U S E",
+      "answer": "House",
+      "options": [
+        "Star",
+        "House",
+        "Music",
+        "Frame",
+        "Paper"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: J U I C E",
+      "answer": "Juice",
+      "options": [
+        "Water",
+        "Smile",
+        "Juice",
+        "Apple",
+        "Candle"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: K N I F E",
+      "answer": "Knife",
+      "options": [
+        "Stone",
+        "Plate",
+        "Grape",
+        "Knife",
+        "Dream"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: L I G H T",
+      "answer": "Light",
+      "options": [
+        "Light",
+        "Honey",
+        "Pocket",
+        "Spoon",
+        "Story"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M A N G O",
+      "answer": "Mango",
+      "options": [
+        "Dream",
+        "Bread",
+        "House",
+        "Story",
+        "Mango"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M U S I C",
+      "answer": "Music",
+      "options": [
+        "Star",
+        "Apple",
+        "Music",
+        "Spoon",
+        "Snake"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: O C E A N",
+      "answer": "Ocean",
+      "options": [
+        "Peace",
+        "Ocean",
+        "Garden",
+        "Flower",
+        "Yellow"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P A P E R",
+      "answer": "Paper",
+      "options": [
+        "Dream",
+        "Spoon",
+        "Paper",
+        "Sugar",
+        "Apple"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P E A C E",
+      "answer": "Peace",
+      "options": [
+        "Apple",
+        "Peace",
+        "Table",
+        "Green",
+        "Glass"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P I L L O W",
+      "answer": "Pillow",
+      "options": [
+        "Flower",
+        "Bread",
+        "Apple",
+        "Queen",
+        "Pillow"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P L A N T",
+      "answer": "Plant",
+      "options": [
+        "Chair",
+        "Plant",
+        "Heart",
+        "Frame",
+        "Honey"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P L A T E",
+      "answer": "Plate",
+      "options": [
+        "Peace",
+        "Table",
+        "Grape",
+        "Plate",
+        "Tiger"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: Q U E E N",
+      "answer": "Queen",
+      "options": [
+        "Candle",
+        "Stone",
+        "Star",
+        "Pocket",
+        "Queen"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: R I V E R",
+      "answer": "River",
+      "options": [
+        "Bread",
+        "Smile",
+        "River",
+        "Queen",
+        "Light"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: R O B O T",
+      "answer": "Robot",
+      "options": [
+        "Robot",
+        "Pillow",
+        "River",
+        "Chair",
+        "Snake"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S M I L E",
+      "answer": "Smile",
+      "options": [
+        "Smile",
+        "Mango",
+        "Dream",
+        "Peace",
+        "Bread"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S N A K E",
+      "answer": "Snake",
+      "options": [
+        "Zebra",
+        "Flower",
+        "Apple",
+        "Snake",
+        "Cloud"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S P O O N",
+      "answer": "Spoon",
+      "options": [
+        "Floor",
+        "Spoon",
+        "Pocket",
+        "Chair",
+        "Grape"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S T A R",
+      "answer": "Star",
+      "options": [
+        "Star",
+        "Frame",
+        "Paper",
+        "House",
+        "Train"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S T O N E",
+      "answer": "Stone",
+      "options": [
+        "Zebra",
+        "Peace",
+        "Stone",
+        "Tiger",
+        "Smile"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S T O R Y",
+      "answer": "Story",
+      "options": [
+        "Table",
+        "Heart",
+        "Story",
+        "Light",
+        "Glass"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S U G A R",
+      "answer": "Sugar",
+      "options": [
+        "Heart",
+        "Peace",
+        "Spoon",
+        "Sugar",
+        "Smile"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: T A B L E",
+      "answer": "Table",
+      "options": [
+        "Sugar",
+        "Robot",
+        "Table",
+        "Candle",
+        "Button"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: T I G E R",
+      "answer": "Tiger",
+      "options": [
+        "Train",
+        "Pillow",
+        "Glass",
+        "Tiger",
+        "Sugar"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: T R A I N",
+      "answer": "Train",
+      "options": [
+        "Green",
+        "Floor",
+        "Peace",
+        "Music",
+        "Train"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: T R E E",
+      "answer": "Tree",
+      "options": [
+        "Peace",
+        "Candle",
+        "Tree",
+        "Chair",
+        "Light"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: W A T E R",
+      "answer": "Water",
+      "options": [
+        "Flower",
+        "Water",
+        "Grape",
+        "River",
+        "Queen"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: W H E E L",
+      "answer": "Wheel",
+      "options": [
+        "Robot",
+        "Wheel",
+        "Sugar",
+        "Heart",
+        "Story"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: W I N D O W",
+      "answer": "Window",
+      "options": [
+        "Window",
+        "Yellow",
+        "Mango",
+        "Peace",
+        "Stone"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: Y E L L O W",
+      "answer": "Yellow",
+      "options": [
+        "Water",
+        "Peace",
+        "Music",
+        "Brush",
+        "Yellow"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: Z E B R A",
+      "answer": "Zebra",
+      "options": [
+        "Ocean",
+        "Juice",
+        "Plant",
+        "Tree",
+        "Zebra"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: B U T T O N",
+      "answer": "Button",
+      "options": [
+        "Sugar",
+        "Train",
+        "Smile",
+        "Button",
+        "Plant"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C A N D L E",
+      "answer": "Candle",
+      "options": [
+        "Heart",
+        "Robot",
+        "Honey",
+        "Candle",
+        "Juice"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: F L O W E R",
+      "answer": "Flower",
+      "options": [
+        "Cloud",
+        "Music",
+        "Flower",
+        "Zebra",
+        "Stone"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P O C K E T",
+      "answer": "Pocket",
+      "options": [
+        "Dream",
+        "Paper",
+        "Heart",
+        "Pocket",
+        "Juice"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S I L V E R",
+      "answer": "Silver",
+      "options": [
+        "Silver",
+        "Yellow",
+        "Honey",
+        "Plate",
+        "Zebra"
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "prompt": "Hidden letters: B A L A N C E",
+      "answer": "Balance",
+      "options": [
+        "Magnetic",
+        "Telegram",
+        "Natural",
+        "Sailing",
+        "Balance"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C A P T A I N",
+      "answer": "Captain",
+      "options": [
+        "Natural",
+        "Captain",
+        "Lantern",
+        "Windsock",
+        "Railway"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C A R T O O N",
+      "answer": "Cartoon",
+      "options": [
+        "Cartoon",
+        "Mystery",
+        "Gravity",
+        "Thunder",
+        "Sailing"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C R Y S T A L",
+      "answer": "Crystal",
+      "options": [
+        "Pattern",
+        "Triangle",
+        "Mountain",
+        "Crystal",
+        "Journey"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: D O L P H I N",
+      "answer": "Dolphin",
+      "options": [
+        "Miracle",
+        "Elegant",
+        "Sunlight",
+        "Notebook",
+        "Dolphin"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: E L E G A N T",
+      "answer": "Elegant",
+      "options": [
+        "Blossom",
+        "Kingdom",
+        "Elegant",
+        "Windsock",
+        "Shadows"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: F A C T O R Y",
+      "answer": "Factory",
+      "options": [
+        "Factory",
+        "Villager",
+        "Cartoon",
+        "Freedom",
+        "Reflect"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: F R E E D O M",
+      "answer": "Freedom",
+      "options": [
+        "Library",
+        "Sunlight",
+        "Meadows",
+        "Freedom",
+        "Temple"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: G R A V I T Y",
+      "answer": "Gravity",
+      "options": [
+        "Gravity",
+        "Monsoon",
+        "Villager",
+        "Captain",
+        "Passion"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: H A R V E S T",
+      "answer": "Harvest",
+      "options": [
+        "Monsoon",
+        "Umbrella",
+        "Harvest",
+        "Railway",
+        "Captain"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: J O U R N E Y",
+      "answer": "Journey",
+      "options": [
+        "Elegant",
+        "Orchard",
+        "Journey",
+        "Zealous",
+        "Sunlight"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: K I N G D O M",
+      "answer": "Kingdom",
+      "options": [
+        "Kingdom",
+        "Library",
+        "Passion",
+        "Zealous",
+        "Meadows"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: L A N T E R N",
+      "answer": "Lantern",
+      "options": [
+        "Reflect",
+        "Lantern",
+        "Monsoon",
+        "Villager",
+        "Harvest"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: L I B R A R Y",
+      "answer": "Library",
+      "options": [
+        "Freedom",
+        "Notebook",
+        "Library",
+        "Railway",
+        "Orchard"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M A G N E T I C",
+      "answer": "Magnetic",
+      "options": [
+        "Journey",
+        "Magnetic",
+        "Umbrella",
+        "Shadows",
+        "Gravity"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M E A D O W S",
+      "answer": "Meadows",
+      "options": [
+        "Journey",
+        "Station",
+        "Meadows",
+        "Cartoon",
+        "Blossom"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M I R A C L E",
+      "answer": "Miracle",
+      "options": [
+        "Sparkle",
+        "Poetry",
+        "Meadows",
+        "Miracle",
+        "Sailing"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M O N S O O N",
+      "answer": "Monsoon",
+      "options": [
+        "Monsoon",
+        "Lantern",
+        "Journey",
+        "Telegram",
+        "Pattern"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M O U N T A I N",
+      "answer": "Mountain",
+      "options": [
+        "Kingdom",
+        "Zealous",
+        "Station",
+        "Mountain",
+        "Victory"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M Y S T E R Y",
+      "answer": "Mystery",
+      "options": [
+        "Shadows",
+        "Mountain",
+        "Mystery",
+        "Station",
+        "Temple"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: N A T U R A L",
+      "answer": "Natural",
+      "options": [
+        "Natural",
+        "Journey",
+        "Sculptor",
+        "Magnetic",
+        "Seashell"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: N O T E B O O K",
+      "answer": "Notebook",
+      "options": [
+        "Telegram",
+        "Notebook",
+        "Pioneer",
+        "Harvest",
+        "Sunlight"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: O R C H A R D",
+      "answer": "Orchard",
+      "options": [
+        "Natural",
+        "Orchard",
+        "Mountain",
+        "Cartoon",
+        "Seashell"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P A S S I O N",
+      "answer": "Passion",
+      "options": [
+        "Orchard",
+        "Journey",
+        "Passion",
+        "Factory",
+        "Poetry"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P A T T E R N",
+      "answer": "Pattern",
+      "options": [
+        "Captain",
+        "Orchard",
+        "Pattern",
+        "Poetry",
+        "Passion"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P I O N E E R",
+      "answer": "Pioneer",
+      "options": [
+        "Umbrella",
+        "Pioneer",
+        "Seashell",
+        "Sparkle",
+        "Sunlight"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P L A N E T",
+      "answer": "Planet",
+      "options": [
+        "Sunlight",
+        "Natural",
+        "Captain",
+        "Cartoon",
+        "Planet"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P O E T R Y",
+      "answer": "Poetry",
+      "options": [
+        "Mountain",
+        "Umbrella",
+        "Poetry",
+        "Sunlight",
+        "Passion"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: R A I L W A Y",
+      "answer": "Railway",
+      "options": [
+        "Seashell",
+        "Railway",
+        "Shadows",
+        "Reflect",
+        "Miracle"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: R E F L E C T",
+      "answer": "Reflect",
+      "options": [
+        "Library",
+        "Gravity",
+        "Magnetic",
+        "Reflect",
+        "Kingdom"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S A I L I N G",
+      "answer": "Sailing",
+      "options": [
+        "Thunder",
+        "Crystal",
+        "Sailing",
+        "Umbrella",
+        "Pioneer"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S C U L P T O R",
+      "answer": "Sculptor",
+      "options": [
+        "Kingdom",
+        "Sculptor",
+        "Temple",
+        "Sparkle",
+        "Magnetic"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S E A S H E L L",
+      "answer": "Seashell",
+      "options": [
+        "Planet",
+        "Sailing",
+        "Seashell",
+        "Thunder",
+        "Wildlife"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S H A D O W S",
+      "answer": "Shadows",
+      "options": [
+        "Shadows",
+        "Meadows",
+        "Zealous",
+        "Miracle",
+        "Sculptor"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S P A R K L E",
+      "answer": "Sparkle",
+      "options": [
+        "Magnetic",
+        "Natural",
+        "Mystery",
+        "Blossom",
+        "Sparkle"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S T A T I O N",
+      "answer": "Station",
+      "options": [
+        "Kingdom",
+        "Journey",
+        "Station",
+        "Temple",
+        "Miracle"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S U N L I G H T",
+      "answer": "Sunlight",
+      "options": [
+        "Lantern",
+        "Sunlight",
+        "Library",
+        "Meadows",
+        "Sailing"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: T E L E G R A M",
+      "answer": "Telegram",
+      "options": [
+        "Notebook",
+        "Sparkle",
+        "Seashell",
+        "Telegram",
+        "Orchard"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: T E M P L E",
+      "answer": "Temple",
+      "options": [
+        "Freedom",
+        "Temple",
+        "Pattern",
+        "Balance",
+        "Sparkle"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: T H U N D E R",
+      "answer": "Thunder",
+      "options": [
+        "Thunder",
+        "Seashell",
+        "Notebook",
+        "Planet",
+        "Captain"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: T R I A N G L E",
+      "answer": "Triangle",
+      "options": [
+        "Notebook",
+        "Triangle",
+        "Seashell",
+        "Planet",
+        "Library"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: U M B R E L L A",
+      "answer": "Umbrella",
+      "options": [
+        "Mystery",
+        "Station",
+        "Thunder",
+        "Miracle",
+        "Umbrella"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: V I C T O R Y",
+      "answer": "Victory",
+      "options": [
+        "Poetry",
+        "Victory",
+        "Umbrella",
+        "Pioneer",
+        "Orchard"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: V I L L A G E R",
+      "answer": "Villager",
+      "options": [
+        "Wonder",
+        "Magnetic",
+        "Elegant",
+        "Villager",
+        "Pioneer"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: W H I S P E R",
+      "answer": "Whisper",
+      "options": [
+        "Umbrella",
+        "Sailing",
+        "Pattern",
+        "Whisper",
+        "Factory"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: W I L D L I F E",
+      "answer": "Wildlife",
+      "options": [
+        "Wildlife",
+        "Library",
+        "Orchard",
+        "Kingdom",
+        "Shadows"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: W I N D S O C K",
+      "answer": "Windsock",
+      "options": [
+        "Whisper",
+        "Windsock",
+        "Crystal",
+        "Zealous",
+        "Mountain"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: W O N D E R",
+      "answer": "Wonder",
+      "options": [
+        "Freedom",
+        "Wonder",
+        "Orchard",
+        "Thunder",
+        "Sunlight"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: Z E A L O U S",
+      "answer": "Zealous",
+      "options": [
+        "Windsock",
+        "Zealous",
+        "Mystery",
+        "Cartoon",
+        "Planet"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: B L O S S O M",
+      "answer": "Blossom",
+      "options": [
+        "Blossom",
+        "Windsock",
+        "Freedom",
+        "Miracle",
+        "Whisper"
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "prompt": "Hidden letters: A B S T R A C T",
+      "answer": "Abstract",
+      "options": [
+        "Blueprint",
+        "Prediction",
+        "Quantum",
+        "Abstract",
+        "Harmonic"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: A C A D E M I C",
+      "answer": "Academic",
+      "options": [
+        "Abstract",
+        "Resonant",
+        "Formidable",
+        "Academic",
+        "Luminary"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: A C C U R A C Y",
+      "answer": "Accuracy",
+      "options": [
+        "Clarity",
+        "Spectrum",
+        "Momentum",
+        "Sapphire",
+        "Accuracy"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: A L C H E M Y",
+      "answer": "Alchemy",
+      "options": [
+        "Festival",
+        "Prediction",
+        "Alchemy",
+        "Marathon",
+        "Heritage"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: A S T E R O I D",
+      "answer": "Asteroid",
+      "options": [
+        "Fraction",
+        "Galaxies",
+        "Asteroid",
+        "Wilderness",
+        "Meridian"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: B L U E P R I N T",
+      "answer": "Blueprint",
+      "options": [
+        "Blueprint",
+        "Academic",
+        "Tangible",
+        "Luminary",
+        "Delicate"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C A T A L Y S T",
+      "answer": "Catalyst",
+      "options": [
+        "Quantum",
+        "Catalyst",
+        "Prediction",
+        "Momentum",
+        "Infinite"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C H R O N I C L E",
+      "answer": "Chronicle",
+      "options": [
+        "Symphony",
+        "Chronicle",
+        "Equinox",
+        "Elevation",
+        "Delicate"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C L A R I T Y",
+      "answer": "Clarity",
+      "options": [
+        "Symphony",
+        "Paradox",
+        "Zenithal",
+        "Horizons",
+        "Clarity"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C O M P A S S I O N",
+      "answer": "Compassion",
+      "options": [
+        "Pavilion",
+        "Abstract",
+        "Compassion",
+        "Formidable",
+        "Accuracy"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C O N T R A S T",
+      "answer": "Contrast",
+      "options": [
+        "Paradox",
+        "Landscape",
+        "Contrast",
+        "Vanguard",
+        "Prediction"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: C R E S C E N D O",
+      "answer": "Crescendo",
+      "options": [
+        "Equinox",
+        "Elevation",
+        "Crescendo",
+        "Momentum",
+        "Origamis"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: D E L I C A T E",
+      "answer": "Delicate",
+      "options": [
+        "Asteroid",
+        "Prediction",
+        "Elevation",
+        "Sapphire",
+        "Delicate"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: D Y N A M I C S",
+      "answer": "Dynamics",
+      "options": [
+        "Alchemy",
+        "Dynamics",
+        "Crescendo",
+        "Meridian",
+        "Fraction"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: E L E V A T I O N",
+      "answer": "Elevation",
+      "options": [
+        "Symphony",
+        "Academic",
+        "Elevation",
+        "Paradox",
+        "Quantum"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: E Q U I N O X",
+      "answer": "Equinox",
+      "options": [
+        "Pavilion",
+        "Equinox",
+        "Abstract",
+        "Luminary",
+        "Origamis"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: F E S T I V A L",
+      "answer": "Festival",
+      "options": [
+        "Spectrum",
+        "Wilderness",
+        "Radiance",
+        "Paradox",
+        "Festival"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: F O R M I D A B L E",
+      "answer": "Formidable",
+      "options": [
+        "Phoenix",
+        "Crescendo",
+        "Formidable",
+        "Sapphire",
+        "Elevation"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: F R A C T I O N",
+      "answer": "Fraction",
+      "options": [
+        "Contrast",
+        "Fraction",
+        "Zenithal",
+        "Umbrellas",
+        "Heritage"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: G A L A X I E S",
+      "answer": "Galaxies",
+      "options": [
+        "Tangible",
+        "Chronicle",
+        "Wilderness",
+        "Galaxies",
+        "Infinite"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: H A R M O N I C",
+      "answer": "Harmonic",
+      "options": [
+        "Luminary",
+        "Harmonic",
+        "Marathon",
+        "Zenithal",
+        "Pavilion"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: H E R I T A G E",
+      "answer": "Heritage",
+      "options": [
+        "Alchemy",
+        "Vanguard",
+        "Horizons",
+        "Abstract",
+        "Heritage"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: H O R I Z O N S",
+      "answer": "Horizons",
+      "options": [
+        "Horizons",
+        "Academic",
+        "Chronicle",
+        "Delicate",
+        "Vanguard"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: I L L U S I O N",
+      "answer": "Illusion",
+      "options": [
+        "Zenithal",
+        "Tangible",
+        "Horizons",
+        "Illusion",
+        "Spectrum"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: I M M U N I T Y",
+      "answer": "Immunity",
+      "options": [
+        "Accuracy",
+        "Academic",
+        "Immunity",
+        "Vanguard",
+        "Alchemy"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: I N F I N I T E",
+      "answer": "Infinite",
+      "options": [
+        "Infinite",
+        "Dynamics",
+        "Narrative",
+        "Radiance",
+        "Catalyst"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: J U B I L A N T",
+      "answer": "Jubilant",
+      "options": [
+        "Radiance",
+        "Catalyst",
+        "Jubilant",
+        "Equinox",
+        "Festival"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: L A N D S C A P E",
+      "answer": "Landscape",
+      "options": [
+        "Fraction",
+        "Spectrum",
+        "Tangible",
+        "Blueprint",
+        "Landscape"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: L U M I N A R Y",
+      "answer": "Luminary",
+      "options": [
+        "Luminary",
+        "Horizons",
+        "Obsidian",
+        "Tangible",
+        "Paradox"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M A R A T H O N",
+      "answer": "Marathon",
+      "options": [
+        "Jubilant",
+        "Spectrum",
+        "Meridian",
+        "Umbrellas",
+        "Marathon"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M E R I D I A N",
+      "answer": "Meridian",
+      "options": [
+        "Narrative",
+        "Meridian",
+        "Catalyst",
+        "Landscape",
+        "Tangible"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: M O M E N T U M",
+      "answer": "Momentum",
+      "options": [
+        "Contrast",
+        "Equinox",
+        "Academic",
+        "Momentum",
+        "Festival"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: N A R R A T I V E",
+      "answer": "Narrative",
+      "options": [
+        "Obsidian",
+        "Zenithal",
+        "Origamis",
+        "Narrative",
+        "Festival"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: O B S I D I A N",
+      "answer": "Obsidian",
+      "options": [
+        "Landscape",
+        "Alchemy",
+        "Harmonic",
+        "Tangible",
+        "Obsidian"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: O R I G A M I S",
+      "answer": "Origamis",
+      "options": [
+        "Origamis",
+        "Abstract",
+        "Galaxies",
+        "Paradox",
+        "Spectrum"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P A R A D O X",
+      "answer": "Paradox",
+      "options": [
+        "Paradox",
+        "Tangible",
+        "Meridian",
+        "Accuracy",
+        "Narrative"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P A V I L I O N",
+      "answer": "Pavilion",
+      "options": [
+        "Umbrellas",
+        "Infinite",
+        "Origamis",
+        "Luminary",
+        "Pavilion"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P H O E N I X",
+      "answer": "Phoenix",
+      "options": [
+        "Meridian",
+        "Galaxies",
+        "Heritage",
+        "Contrast",
+        "Phoenix"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: P R E D I C T I O N",
+      "answer": "Prediction",
+      "options": [
+        "Wilderness",
+        "Luminary",
+        "Galaxies",
+        "Sapphire",
+        "Prediction"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: Q U A N T U M",
+      "answer": "Quantum",
+      "options": [
+        "Quantum",
+        "Immunity",
+        "Crescendo",
+        "Asteroid",
+        "Phoenix"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: R A D I A N C E",
+      "answer": "Radiance",
+      "options": [
+        "Resonant",
+        "Radiance",
+        "Marathon",
+        "Symphony",
+        "Elevation"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: R E S O N A N T",
+      "answer": "Resonant",
+      "options": [
+        "Galaxies",
+        "Radiance",
+        "Harmonic",
+        "Resonant",
+        "Alchemy"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S A P P H I R E",
+      "answer": "Sapphire",
+      "options": [
+        "Sapphire",
+        "Fraction",
+        "Alchemy",
+        "Infinite",
+        "Symphony"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S P E C T R U M",
+      "answer": "Spectrum",
+      "options": [
+        "Luminary",
+        "Equinox",
+        "Origamis",
+        "Spectrum",
+        "Fraction"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: S Y M P H O N Y",
+      "answer": "Symphony",
+      "options": [
+        "Symphony",
+        "Formidable",
+        "Radiance",
+        "Landscape",
+        "Phoenix"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: T A N G I B L E",
+      "answer": "Tangible",
+      "options": [
+        "Academic",
+        "Galaxies",
+        "Alchemy",
+        "Elevation",
+        "Tangible"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: U M B R E L L A S",
+      "answer": "Umbrellas",
+      "options": [
+        "Marathon",
+        "Resonant",
+        "Equinox",
+        "Umbrellas",
+        "Vanguard"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: V A N G U A R D",
+      "answer": "Vanguard",
+      "options": [
+        "Phoenix",
+        "Academic",
+        "Obsidian",
+        "Clarity",
+        "Vanguard"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: W I L D E R N E S S",
+      "answer": "Wilderness",
+      "options": [
+        "Wilderness",
+        "Blueprint",
+        "Heritage",
+        "Elevation",
+        "Jubilant"
+      ]
+    },
+    {
+      "prompt": "Hidden letters: Z E N I T H A L",
+      "answer": "Zenithal",
+      "options": [
+        "Catalyst",
+        "Academic",
+        "Vanguard",
+        "Quantum",
+        "Zenithal"
+      ]
+    }
+  ]
+}

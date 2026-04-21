@@ -1,0 +1,1658 @@
+{
+  "easy": [
+    {
+      "prompt": "Swipe: A -> P -> P -> L -> E",
+      "answer": "Apple",
+      "options": [
+        "Smile",
+        "Spoon",
+        "Star",
+        "Sugar",
+        "Apple"
+      ]
+    },
+    {
+      "prompt": "Swipe: B -> R -> E -> A -> D",
+      "answer": "Bread",
+      "options": [
+        "Robot",
+        "Star",
+        "Silver",
+        "Yellow",
+        "Bread"
+      ]
+    },
+    {
+      "prompt": "Swipe: B -> R -> U -> S -> H",
+      "answer": "Brush",
+      "options": [
+        "Story",
+        "Grape",
+        "Paper",
+        "Music",
+        "Brush"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> H -> A -> I -> R",
+      "answer": "Chair",
+      "options": [
+        "Mango",
+        "Chair",
+        "Story",
+        "Brush",
+        "Queen"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> L -> O -> U -> D",
+      "answer": "Cloud",
+      "options": [
+        "Cloud",
+        "Peace",
+        "Honey",
+        "Light",
+        "Smile"
+      ]
+    },
+    {
+      "prompt": "Swipe: D -> R -> E -> A -> M",
+      "answer": "Dream",
+      "options": [
+        "Train",
+        "Chair",
+        "Bread",
+        "Stone",
+        "Dream"
+      ]
+    },
+    {
+      "prompt": "Swipe: F -> L -> O -> O -> R",
+      "answer": "Floor",
+      "options": [
+        "Candle",
+        "Star",
+        "Floor",
+        "Bread",
+        "Heart"
+      ]
+    },
+    {
+      "prompt": "Swipe: F -> R -> A -> M -> E",
+      "answer": "Frame",
+      "options": [
+        "Candle",
+        "Garden",
+        "Frame",
+        "Button",
+        "Silver"
+      ]
+    },
+    {
+      "prompt": "Swipe: G -> A -> R -> D -> E -> N",
+      "answer": "Garden",
+      "options": [
+        "Green",
+        "Chair",
+        "Smile",
+        "Garden",
+        "Plant"
+      ]
+    },
+    {
+      "prompt": "Swipe: G -> L -> A -> S -> S",
+      "answer": "Glass",
+      "options": [
+        "Silver",
+        "Glass",
+        "Chair",
+        "Button",
+        "Pocket"
+      ]
+    },
+    {
+      "prompt": "Swipe: G -> R -> A -> P -> E",
+      "answer": "Grape",
+      "options": [
+        "Paper",
+        "Garden",
+        "Grape",
+        "Robot",
+        "Water"
+      ]
+    },
+    {
+      "prompt": "Swipe: G -> R -> E -> E -> N",
+      "answer": "Green",
+      "options": [
+        "Train",
+        "Tiger",
+        "Green",
+        "Sugar",
+        "House"
+      ]
+    },
+    {
+      "prompt": "Swipe: H -> E -> A -> R -> T",
+      "answer": "Heart",
+      "options": [
+        "Peace",
+        "Heart",
+        "Water",
+        "Grape",
+        "Spoon"
+      ]
+    },
+    {
+      "prompt": "Swipe: H -> O -> N -> E -> Y",
+      "answer": "Honey",
+      "options": [
+        "Chair",
+        "Honey",
+        "Stone",
+        "Paper",
+        "Glass"
+      ]
+    },
+    {
+      "prompt": "Swipe: H -> O -> U -> S -> E",
+      "answer": "House",
+      "options": [
+        "Juice",
+        "House",
+        "Star",
+        "Plate",
+        "Button"
+      ]
+    },
+    {
+      "prompt": "Swipe: J -> U -> I -> C -> E",
+      "answer": "Juice",
+      "options": [
+        "Star",
+        "Green",
+        "Sugar",
+        "Apple",
+        "Juice"
+      ]
+    },
+    {
+      "prompt": "Swipe: K -> N -> I -> F -> E",
+      "answer": "Knife",
+      "options": [
+        "Yellow",
+        "Glass",
+        "Zebra",
+        "Knife",
+        "Paper"
+      ]
+    },
+    {
+      "prompt": "Swipe: L -> I -> G -> H -> T",
+      "answer": "Light",
+      "options": [
+        "Light",
+        "Juice",
+        "Garden",
+        "Zebra",
+        "Grape"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> A -> N -> G -> O",
+      "answer": "Mango",
+      "options": [
+        "Mango",
+        "Robot",
+        "Spoon",
+        "Light",
+        "Train"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> U -> S -> I -> C",
+      "answer": "Music",
+      "options": [
+        "Music",
+        "Yellow",
+        "Spoon",
+        "Table",
+        "Floor"
+      ]
+    },
+    {
+      "prompt": "Swipe: O -> C -> E -> A -> N",
+      "answer": "Ocean",
+      "options": [
+        "Candle",
+        "Zebra",
+        "Tiger",
+        "Grape",
+        "Ocean"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> A -> P -> E -> R",
+      "answer": "Paper",
+      "options": [
+        "Chair",
+        "Peace",
+        "Pocket",
+        "Paper",
+        "Green"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> E -> A -> C -> E",
+      "answer": "Peace",
+      "options": [
+        "Wheel",
+        "Peace",
+        "Cloud",
+        "Glass",
+        "Paper"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> I -> L -> L -> O -> W",
+      "answer": "Pillow",
+      "options": [
+        "Plant",
+        "River",
+        "Cloud",
+        "Pillow",
+        "Stone"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> L -> A -> N -> T",
+      "answer": "Plant",
+      "options": [
+        "Plant",
+        "Green",
+        "Mango",
+        "Brush",
+        "Star"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> L -> A -> T -> E",
+      "answer": "Plate",
+      "options": [
+        "Button",
+        "Plate",
+        "Zebra",
+        "Mango",
+        "Pillow"
+      ]
+    },
+    {
+      "prompt": "Swipe: Q -> U -> E -> E -> N",
+      "answer": "Queen",
+      "options": [
+        "Queen",
+        "Candle",
+        "Dream",
+        "Robot",
+        "Story"
+      ]
+    },
+    {
+      "prompt": "Swipe: R -> I -> V -> E -> R",
+      "answer": "River",
+      "options": [
+        "Music",
+        "Heart",
+        "House",
+        "River",
+        "Apple"
+      ]
+    },
+    {
+      "prompt": "Swipe: R -> O -> B -> O -> T",
+      "answer": "Robot",
+      "options": [
+        "Robot",
+        "Queen",
+        "Button",
+        "River",
+        "Brush"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> M -> I -> L -> E",
+      "answer": "Smile",
+      "options": [
+        "Smile",
+        "Knife",
+        "Snake",
+        "Brush",
+        "Heart"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> N -> A -> K -> E",
+      "answer": "Snake",
+      "options": [
+        "Snake",
+        "Honey",
+        "Candle",
+        "Light",
+        "Tiger"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> P -> O -> O -> N",
+      "answer": "Spoon",
+      "options": [
+        "Light",
+        "House",
+        "Wheel",
+        "Ocean",
+        "Spoon"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> T -> A -> R",
+      "answer": "Star",
+      "options": [
+        "Ocean",
+        "Star",
+        "Train",
+        "House",
+        "Story"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> T -> O -> N -> E",
+      "answer": "Stone",
+      "options": [
+        "Stone",
+        "Grape",
+        "Train",
+        "Paper",
+        "Brush"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> T -> O -> R -> Y",
+      "answer": "Story",
+      "options": [
+        "Story",
+        "Chair",
+        "Window",
+        "Pillow",
+        "Frame"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> U -> G -> A -> R",
+      "answer": "Sugar",
+      "options": [
+        "Sugar",
+        "Pillow",
+        "Tree",
+        "Glass",
+        "Tiger"
+      ]
+    },
+    {
+      "prompt": "Swipe: T -> A -> B -> L -> E",
+      "answer": "Table",
+      "options": [
+        "Pocket",
+        "Green",
+        "Frame",
+        "Table",
+        "Train"
+      ]
+    },
+    {
+      "prompt": "Swipe: T -> I -> G -> E -> R",
+      "answer": "Tiger",
+      "options": [
+        "Tiger",
+        "Zebra",
+        "Pocket",
+        "Flower",
+        "Plate"
+      ]
+    },
+    {
+      "prompt": "Swipe: T -> R -> A -> I -> N",
+      "answer": "Train",
+      "options": [
+        "Spoon",
+        "Heart",
+        "Dream",
+        "Train",
+        "Zebra"
+      ]
+    },
+    {
+      "prompt": "Swipe: T -> R -> E -> E",
+      "answer": "Tree",
+      "options": [
+        "Tree",
+        "Light",
+        "Pocket",
+        "Ocean",
+        "Paper"
+      ]
+    },
+    {
+      "prompt": "Swipe: W -> A -> T -> E -> R",
+      "answer": "Water",
+      "options": [
+        "Glass",
+        "Juice",
+        "Water",
+        "Yellow",
+        "Plate"
+      ]
+    },
+    {
+      "prompt": "Swipe: W -> H -> E -> E -> L",
+      "answer": "Wheel",
+      "options": [
+        "Water",
+        "Wheel",
+        "Window",
+        "Honey",
+        "Juice"
+      ]
+    },
+    {
+      "prompt": "Swipe: W -> I -> N -> D -> O -> W",
+      "answer": "Window",
+      "options": [
+        "Tiger",
+        "Flower",
+        "Green",
+        "Window",
+        "Yellow"
+      ]
+    },
+    {
+      "prompt": "Swipe: Y -> E -> L -> L -> O -> W",
+      "answer": "Yellow",
+      "options": [
+        "Water",
+        "Yellow",
+        "House",
+        "Floor",
+        "Stone"
+      ]
+    },
+    {
+      "prompt": "Swipe: Z -> E -> B -> R -> A",
+      "answer": "Zebra",
+      "options": [
+        "Zebra",
+        "Floor",
+        "Spoon",
+        "Smile",
+        "House"
+      ]
+    },
+    {
+      "prompt": "Swipe: B -> U -> T -> T -> O -> N",
+      "answer": "Button",
+      "options": [
+        "Snake",
+        "Peace",
+        "Stone",
+        "Train",
+        "Button"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> A -> N -> D -> L -> E",
+      "answer": "Candle",
+      "options": [
+        "Table",
+        "Candle",
+        "Silver",
+        "Cloud",
+        "Chair"
+      ]
+    },
+    {
+      "prompt": "Swipe: F -> L -> O -> W -> E -> R",
+      "answer": "Flower",
+      "options": [
+        "Garden",
+        "Snake",
+        "Plate",
+        "Flower",
+        "Chair"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> O -> C -> K -> E -> T",
+      "answer": "Pocket",
+      "options": [
+        "Pocket",
+        "Spoon",
+        "Floor",
+        "Chair",
+        "Cloud"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> I -> L -> V -> E -> R",
+      "answer": "Silver",
+      "options": [
+        "Window",
+        "River",
+        "Wheel",
+        "Silver",
+        "Bread"
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "prompt": "Swipe: B -> A -> L -> A -> N -> C -> E",
+      "answer": "Balance",
+      "options": [
+        "Magnetic",
+        "Pioneer",
+        "Thunder",
+        "Windsock",
+        "Balance"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> A -> P -> T -> A -> I -> N",
+      "answer": "Captain",
+      "options": [
+        "Freedom",
+        "Pattern",
+        "Captain",
+        "Seashell",
+        "Temple"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> A -> R -> T -> O -> O -> N",
+      "answer": "Cartoon",
+      "options": [
+        "Sailing",
+        "Sparkle",
+        "Gravity",
+        "Cartoon",
+        "Temple"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> R -> Y -> S -> T -> A -> L",
+      "answer": "Crystal",
+      "options": [
+        "Reflect",
+        "Windsock",
+        "Poetry",
+        "Notebook",
+        "Crystal"
+      ]
+    },
+    {
+      "prompt": "Swipe: D -> O -> L -> P -> H -> I -> N",
+      "answer": "Dolphin",
+      "options": [
+        "Harvest",
+        "Freedom",
+        "Sculptor",
+        "Dolphin",
+        "Notebook"
+      ]
+    },
+    {
+      "prompt": "Swipe: E -> L -> E -> G -> A -> N -> T",
+      "answer": "Elegant",
+      "options": [
+        "Elegant",
+        "Crystal",
+        "Umbrella",
+        "Mountain",
+        "Railway"
+      ]
+    },
+    {
+      "prompt": "Swipe: F -> A -> C -> T -> O -> R -> Y",
+      "answer": "Factory",
+      "options": [
+        "Library",
+        "Factory",
+        "Temple",
+        "Umbrella",
+        "Wonder"
+      ]
+    },
+    {
+      "prompt": "Swipe: F -> R -> E -> E -> D -> O -> M",
+      "answer": "Freedom",
+      "options": [
+        "Crystal",
+        "Balance",
+        "Thunder",
+        "Dolphin",
+        "Freedom"
+      ]
+    },
+    {
+      "prompt": "Swipe: G -> R -> A -> V -> I -> T -> Y",
+      "answer": "Gravity",
+      "options": [
+        "Sparkle",
+        "Meadows",
+        "Crystal",
+        "Gravity",
+        "Factory"
+      ]
+    },
+    {
+      "prompt": "Swipe: H -> A -> R -> V -> E -> S -> T",
+      "answer": "Harvest",
+      "options": [
+        "Journey",
+        "Sculptor",
+        "Windsock",
+        "Harvest",
+        "Zealous"
+      ]
+    },
+    {
+      "prompt": "Swipe: J -> O -> U -> R -> N -> E -> Y",
+      "answer": "Journey",
+      "options": [
+        "Journey",
+        "Orchard",
+        "Pioneer",
+        "Sailing",
+        "Windsock"
+      ]
+    },
+    {
+      "prompt": "Swipe: K -> I -> N -> G -> D -> O -> M",
+      "answer": "Kingdom",
+      "options": [
+        "Triangle",
+        "Kingdom",
+        "Lantern",
+        "Sailing",
+        "Freedom"
+      ]
+    },
+    {
+      "prompt": "Swipe: L -> A -> N -> T -> E -> R -> N",
+      "answer": "Lantern",
+      "options": [
+        "Temple",
+        "Wonder",
+        "Lantern",
+        "Whisper",
+        "Monsoon"
+      ]
+    },
+    {
+      "prompt": "Swipe: L -> I -> B -> R -> A -> R -> Y",
+      "answer": "Library",
+      "options": [
+        "Library",
+        "Blossom",
+        "Poetry",
+        "Planet",
+        "Harvest"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> A -> G -> N -> E -> T -> I -> C",
+      "answer": "Magnetic",
+      "options": [
+        "Magnetic",
+        "Sparkle",
+        "Harvest",
+        "Shadows",
+        "Windsock"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> E -> A -> D -> O -> W -> S",
+      "answer": "Meadows",
+      "options": [
+        "Railway",
+        "Magnetic",
+        "Monsoon",
+        "Captain",
+        "Meadows"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> I -> R -> A -> C -> L -> E",
+      "answer": "Miracle",
+      "options": [
+        "Cartoon",
+        "Miracle",
+        "Passion",
+        "Villager",
+        "Kingdom"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> O -> N -> S -> O -> O -> N",
+      "answer": "Monsoon",
+      "options": [
+        "Monsoon",
+        "Pioneer",
+        "Railway",
+        "Whisper",
+        "Passion"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> O -> U -> N -> T -> A -> I -> N",
+      "answer": "Mountain",
+      "options": [
+        "Station",
+        "Railway",
+        "Mountain",
+        "Magnetic",
+        "Natural"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> Y -> S -> T -> E -> R -> Y",
+      "answer": "Mystery",
+      "options": [
+        "Crystal",
+        "Sculptor",
+        "Mystery",
+        "Triangle",
+        "Sparkle"
+      ]
+    },
+    {
+      "prompt": "Swipe: N -> A -> T -> U -> R -> A -> L",
+      "answer": "Natural",
+      "options": [
+        "Villager",
+        "Sculptor",
+        "Lantern",
+        "Balance",
+        "Natural"
+      ]
+    },
+    {
+      "prompt": "Swipe: N -> O -> T -> E -> B -> O -> O -> K",
+      "answer": "Notebook",
+      "options": [
+        "Journey",
+        "Sculptor",
+        "Sunlight",
+        "Notebook",
+        "Triangle"
+      ]
+    },
+    {
+      "prompt": "Swipe: O -> R -> C -> H -> A -> R -> D",
+      "answer": "Orchard",
+      "options": [
+        "Orchard",
+        "Journey",
+        "Library",
+        "Whisper",
+        "Railway"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> A -> S -> S -> I -> O -> N",
+      "answer": "Passion",
+      "options": [
+        "Whisper",
+        "Wonder",
+        "Passion",
+        "Sculptor",
+        "Captain"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> A -> T -> T -> E -> R -> N",
+      "answer": "Pattern",
+      "options": [
+        "Railway",
+        "Harvest",
+        "Windsock",
+        "Zealous",
+        "Pattern"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> I -> O -> N -> E -> E -> R",
+      "answer": "Pioneer",
+      "options": [
+        "Triangle",
+        "Shadows",
+        "Pioneer",
+        "Passion",
+        "Victory"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> L -> A -> N -> E -> T",
+      "answer": "Planet",
+      "options": [
+        "Victory",
+        "Freedom",
+        "Magnetic",
+        "Planet",
+        "Orchard"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> O -> E -> T -> R -> Y",
+      "answer": "Poetry",
+      "options": [
+        "Poetry",
+        "Umbrella",
+        "Planet",
+        "Shadows",
+        "Zealous"
+      ]
+    },
+    {
+      "prompt": "Swipe: R -> A -> I -> L -> W -> A -> Y",
+      "answer": "Railway",
+      "options": [
+        "Railway",
+        "Sparkle",
+        "Balance",
+        "Sailing",
+        "Telegram"
+      ]
+    },
+    {
+      "prompt": "Swipe: R -> E -> F -> L -> E -> C -> T",
+      "answer": "Reflect",
+      "options": [
+        "Lantern",
+        "Orchard",
+        "Balance",
+        "Telegram",
+        "Reflect"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> A -> I -> L -> I -> N -> G",
+      "answer": "Sailing",
+      "options": [
+        "Triangle",
+        "Mountain",
+        "Sailing",
+        "Reflect",
+        "Notebook"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> C -> U -> L -> P -> T -> O -> R",
+      "answer": "Sculptor",
+      "options": [
+        "Elegant",
+        "Wildlife",
+        "Crystal",
+        "Harvest",
+        "Sculptor"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> E -> A -> S -> H -> E -> L -> L",
+      "answer": "Seashell",
+      "options": [
+        "Thunder",
+        "Factory",
+        "Cartoon",
+        "Seashell",
+        "Telegram"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> H -> A -> D -> O -> W -> S",
+      "answer": "Shadows",
+      "options": [
+        "Cartoon",
+        "Shadows",
+        "Seashell",
+        "Passion",
+        "Monsoon"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> P -> A -> R -> K -> L -> E",
+      "answer": "Sparkle",
+      "options": [
+        "Gravity",
+        "Planet",
+        "Sparkle",
+        "Reflect",
+        "Crystal"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> T -> A -> T -> I -> O -> N",
+      "answer": "Station",
+      "options": [
+        "Seashell",
+        "Kingdom",
+        "Miracle",
+        "Natural",
+        "Station"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> U -> N -> L -> I -> G -> H -> T",
+      "answer": "Sunlight",
+      "options": [
+        "Sunlight",
+        "Balance",
+        "Temple",
+        "Railway",
+        "Freedom"
+      ]
+    },
+    {
+      "prompt": "Swipe: T -> E -> L -> E -> G -> R -> A -> M",
+      "answer": "Telegram",
+      "options": [
+        "Whisper",
+        "Telegram",
+        "Wonder",
+        "Villager",
+        "Pioneer"
+      ]
+    },
+    {
+      "prompt": "Swipe: T -> E -> M -> P -> L -> E",
+      "answer": "Temple",
+      "options": [
+        "Meadows",
+        "Mountain",
+        "Harvest",
+        "Temple",
+        "Notebook"
+      ]
+    },
+    {
+      "prompt": "Swipe: T -> H -> U -> N -> D -> E -> R",
+      "answer": "Thunder",
+      "options": [
+        "Thunder",
+        "Notebook",
+        "Railway",
+        "Telegram",
+        "Cartoon"
+      ]
+    },
+    {
+      "prompt": "Swipe: T -> R -> I -> A -> N -> G -> L -> E",
+      "answer": "Triangle",
+      "options": [
+        "Natural",
+        "Mystery",
+        "Sunlight",
+        "Triangle",
+        "Thunder"
+      ]
+    },
+    {
+      "prompt": "Swipe: U -> M -> B -> R -> E -> L -> L -> A",
+      "answer": "Umbrella",
+      "options": [
+        "Pioneer",
+        "Natural",
+        "Meadows",
+        "Whisper",
+        "Umbrella"
+      ]
+    },
+    {
+      "prompt": "Swipe: V -> I -> C -> T -> O -> R -> Y",
+      "answer": "Victory",
+      "options": [
+        "Shadows",
+        "Crystal",
+        "Cartoon",
+        "Victory",
+        "Factory"
+      ]
+    },
+    {
+      "prompt": "Swipe: V -> I -> L -> L -> A -> G -> E -> R",
+      "answer": "Villager",
+      "options": [
+        "Blossom",
+        "Miracle",
+        "Villager",
+        "Captain",
+        "Pattern"
+      ]
+    },
+    {
+      "prompt": "Swipe: W -> H -> I -> S -> P -> E -> R",
+      "answer": "Whisper",
+      "options": [
+        "Railway",
+        "Whisper",
+        "Mystery",
+        "Crystal",
+        "Notebook"
+      ]
+    },
+    {
+      "prompt": "Swipe: W -> I -> L -> D -> L -> I -> F -> E",
+      "answer": "Wildlife",
+      "options": [
+        "Lantern",
+        "Whisper",
+        "Windsock",
+        "Notebook",
+        "Wildlife"
+      ]
+    },
+    {
+      "prompt": "Swipe: W -> I -> N -> D -> S -> O -> C -> K",
+      "answer": "Windsock",
+      "options": [
+        "Pattern",
+        "Passion",
+        "Windsock",
+        "Sunlight",
+        "Planet"
+      ]
+    },
+    {
+      "prompt": "Swipe: W -> O -> N -> D -> E -> R",
+      "answer": "Wonder",
+      "options": [
+        "Pioneer",
+        "Wonder",
+        "Zealous",
+        "Cartoon",
+        "Temple"
+      ]
+    },
+    {
+      "prompt": "Swipe: Z -> E -> A -> L -> O -> U -> S",
+      "answer": "Zealous",
+      "options": [
+        "Kingdom",
+        "Mountain",
+        "Wildlife",
+        "Zealous",
+        "Sparkle"
+      ]
+    },
+    {
+      "prompt": "Swipe: B -> L -> O -> S -> S -> O -> M",
+      "answer": "Blossom",
+      "options": [
+        "Shadows",
+        "Whisper",
+        "Railway",
+        "Blossom",
+        "Sunlight"
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "prompt": "Swipe: A -> B -> S -> T -> R -> A -> C -> T",
+      "answer": "Abstract",
+      "options": [
+        "Equinox",
+        "Galaxies",
+        "Zenithal",
+        "Obsidian",
+        "Abstract"
+      ]
+    },
+    {
+      "prompt": "Swipe: A -> C -> A -> D -> E -> M -> I -> C",
+      "answer": "Academic",
+      "options": [
+        "Wilderness",
+        "Academic",
+        "Asteroid",
+        "Sapphire",
+        "Immunity"
+      ]
+    },
+    {
+      "prompt": "Swipe: A -> C -> C -> U -> R -> A -> C -> Y",
+      "answer": "Accuracy",
+      "options": [
+        "Delicate",
+        "Wilderness",
+        "Accuracy",
+        "Immunity",
+        "Origamis"
+      ]
+    },
+    {
+      "prompt": "Swipe: A -> L -> C -> H -> E -> M -> Y",
+      "answer": "Alchemy",
+      "options": [
+        "Alchemy",
+        "Contrast",
+        "Illusion",
+        "Chronicle",
+        "Wilderness"
+      ]
+    },
+    {
+      "prompt": "Swipe: A -> S -> T -> E -> R -> O -> I -> D",
+      "answer": "Asteroid",
+      "options": [
+        "Asteroid",
+        "Momentum",
+        "Symphony",
+        "Alchemy",
+        "Horizons"
+      ]
+    },
+    {
+      "prompt": "Swipe: B -> L -> U -> E -> P -> R -> I -> N -> T",
+      "answer": "Blueprint",
+      "options": [
+        "Origamis",
+        "Luminary",
+        "Delicate",
+        "Blueprint",
+        "Momentum"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> A -> T -> A -> L -> Y -> S -> T",
+      "answer": "Catalyst",
+      "options": [
+        "Symphony",
+        "Momentum",
+        "Origamis",
+        "Catalyst",
+        "Sapphire"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> H -> R -> O -> N -> I -> C -> L -> E",
+      "answer": "Chronicle",
+      "options": [
+        "Narrative",
+        "Umbrellas",
+        "Prediction",
+        "Abstract",
+        "Chronicle"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> L -> A -> R -> I -> T -> Y",
+      "answer": "Clarity",
+      "options": [
+        "Clarity",
+        "Abstract",
+        "Tangible",
+        "Momentum",
+        "Meridian"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> O -> M -> P -> A -> S -> S -> I -> O -> N",
+      "answer": "Compassion",
+      "options": [
+        "Catalyst",
+        "Meridian",
+        "Abstract",
+        "Compassion",
+        "Quantum"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> O -> N -> T -> R -> A -> S -> T",
+      "answer": "Contrast",
+      "options": [
+        "Umbrellas",
+        "Jubilant",
+        "Elevation",
+        "Paradox",
+        "Contrast"
+      ]
+    },
+    {
+      "prompt": "Swipe: C -> R -> E -> S -> C -> E -> N -> D -> O",
+      "answer": "Crescendo",
+      "options": [
+        "Fraction",
+        "Crescendo",
+        "Zenithal",
+        "Spectrum",
+        "Dynamics"
+      ]
+    },
+    {
+      "prompt": "Swipe: D -> E -> L -> I -> C -> A -> T -> E",
+      "answer": "Delicate",
+      "options": [
+        "Elevation",
+        "Sapphire",
+        "Delicate",
+        "Narrative",
+        "Contrast"
+      ]
+    },
+    {
+      "prompt": "Swipe: D -> Y -> N -> A -> M -> I -> C -> S",
+      "answer": "Dynamics",
+      "options": [
+        "Pavilion",
+        "Dynamics",
+        "Chronicle",
+        "Radiance",
+        "Accuracy"
+      ]
+    },
+    {
+      "prompt": "Swipe: E -> L -> E -> V -> A -> T -> I -> O -> N",
+      "answer": "Elevation",
+      "options": [
+        "Elevation",
+        "Zenithal",
+        "Equinox",
+        "Vanguard",
+        "Immunity"
+      ]
+    },
+    {
+      "prompt": "Swipe: E -> Q -> U -> I -> N -> O -> X",
+      "answer": "Equinox",
+      "options": [
+        "Abstract",
+        "Luminary",
+        "Clarity",
+        "Equinox",
+        "Alchemy"
+      ]
+    },
+    {
+      "prompt": "Swipe: F -> E -> S -> T -> I -> V -> A -> L",
+      "answer": "Festival",
+      "options": [
+        "Quantum",
+        "Dynamics",
+        "Paradox",
+        "Festival",
+        "Resonant"
+      ]
+    },
+    {
+      "prompt": "Swipe: F -> O -> R -> M -> I -> D -> A -> B -> L -> E",
+      "answer": "Formidable",
+      "options": [
+        "Elevation",
+        "Luminary",
+        "Fraction",
+        "Formidable",
+        "Tangible"
+      ]
+    },
+    {
+      "prompt": "Swipe: F -> R -> A -> C -> T -> I -> O -> N",
+      "answer": "Fraction",
+      "options": [
+        "Fraction",
+        "Horizons",
+        "Catalyst",
+        "Galaxies",
+        "Marathon"
+      ]
+    },
+    {
+      "prompt": "Swipe: G -> A -> L -> A -> X -> I -> E -> S",
+      "answer": "Galaxies",
+      "options": [
+        "Galaxies",
+        "Catalyst",
+        "Formidable",
+        "Accuracy",
+        "Momentum"
+      ]
+    },
+    {
+      "prompt": "Swipe: H -> A -> R -> M -> O -> N -> I -> C",
+      "answer": "Harmonic",
+      "options": [
+        "Horizons",
+        "Chronicle",
+        "Harmonic",
+        "Abstract",
+        "Delicate"
+      ]
+    },
+    {
+      "prompt": "Swipe: H -> E -> R -> I -> T -> A -> G -> E",
+      "answer": "Heritage",
+      "options": [
+        "Obsidian",
+        "Prediction",
+        "Catalyst",
+        "Fraction",
+        "Heritage"
+      ]
+    },
+    {
+      "prompt": "Swipe: H -> O -> R -> I -> Z -> O -> N -> S",
+      "answer": "Horizons",
+      "options": [
+        "Horizons",
+        "Radiance",
+        "Meridian",
+        "Fraction",
+        "Chronicle"
+      ]
+    },
+    {
+      "prompt": "Swipe: I -> L -> L -> U -> S -> I -> O -> N",
+      "answer": "Illusion",
+      "options": [
+        "Illusion",
+        "Meridian",
+        "Delicate",
+        "Jubilant",
+        "Obsidian"
+      ]
+    },
+    {
+      "prompt": "Swipe: I -> M -> M -> U -> N -> I -> T -> Y",
+      "answer": "Immunity",
+      "options": [
+        "Prediction",
+        "Symphony",
+        "Immunity",
+        "Jubilant",
+        "Formidable"
+      ]
+    },
+    {
+      "prompt": "Swipe: I -> N -> F -> I -> N -> I -> T -> E",
+      "answer": "Infinite",
+      "options": [
+        "Infinite",
+        "Clarity",
+        "Momentum",
+        "Fraction",
+        "Formidable"
+      ]
+    },
+    {
+      "prompt": "Swipe: J -> U -> B -> I -> L -> A -> N -> T",
+      "answer": "Jubilant",
+      "options": [
+        "Immunity",
+        "Jubilant",
+        "Prediction",
+        "Illusion",
+        "Paradox"
+      ]
+    },
+    {
+      "prompt": "Swipe: L -> A -> N -> D -> S -> C -> A -> P -> E",
+      "answer": "Landscape",
+      "options": [
+        "Infinite",
+        "Landscape",
+        "Accuracy",
+        "Festival",
+        "Momentum"
+      ]
+    },
+    {
+      "prompt": "Swipe: L -> U -> M -> I -> N -> A -> R -> Y",
+      "answer": "Luminary",
+      "options": [
+        "Umbrellas",
+        "Jubilant",
+        "Momentum",
+        "Luminary",
+        "Spectrum"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> A -> R -> A -> T -> H -> O -> N",
+      "answer": "Marathon",
+      "options": [
+        "Resonant",
+        "Clarity",
+        "Origamis",
+        "Marathon",
+        "Zenithal"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> E -> R -> I -> D -> I -> A -> N",
+      "answer": "Meridian",
+      "options": [
+        "Festival",
+        "Sapphire",
+        "Horizons",
+        "Radiance",
+        "Meridian"
+      ]
+    },
+    {
+      "prompt": "Swipe: M -> O -> M -> E -> N -> T -> U -> M",
+      "answer": "Momentum",
+      "options": [
+        "Momentum",
+        "Alchemy",
+        "Obsidian",
+        "Zenithal",
+        "Pavilion"
+      ]
+    },
+    {
+      "prompt": "Swipe: N -> A -> R -> R -> A -> T -> I -> V -> E",
+      "answer": "Narrative",
+      "options": [
+        "Narrative",
+        "Infinite",
+        "Resonant",
+        "Quantum",
+        "Dynamics"
+      ]
+    },
+    {
+      "prompt": "Swipe: O -> B -> S -> I -> D -> I -> A -> N",
+      "answer": "Obsidian",
+      "options": [
+        "Vanguard",
+        "Obsidian",
+        "Quantum",
+        "Contrast",
+        "Umbrellas"
+      ]
+    },
+    {
+      "prompt": "Swipe: O -> R -> I -> G -> A -> M -> I -> S",
+      "answer": "Origamis",
+      "options": [
+        "Radiance",
+        "Crescendo",
+        "Origamis",
+        "Zenithal",
+        "Spectrum"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> A -> R -> A -> D -> O -> X",
+      "answer": "Paradox",
+      "options": [
+        "Paradox",
+        "Delicate",
+        "Tangible",
+        "Spectrum",
+        "Dynamics"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> A -> V -> I -> L -> I -> O -> N",
+      "answer": "Pavilion",
+      "options": [
+        "Pavilion",
+        "Paradox",
+        "Clarity",
+        "Accuracy",
+        "Abstract"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> H -> O -> E -> N -> I -> X",
+      "answer": "Phoenix",
+      "options": [
+        "Umbrellas",
+        "Resonant",
+        "Zenithal",
+        "Fraction",
+        "Phoenix"
+      ]
+    },
+    {
+      "prompt": "Swipe: P -> R -> E -> D -> I -> C -> T -> I -> O -> N",
+      "answer": "Prediction",
+      "options": [
+        "Paradox",
+        "Prediction",
+        "Radiance",
+        "Academic",
+        "Jubilant"
+      ]
+    },
+    {
+      "prompt": "Swipe: Q -> U -> A -> N -> T -> U -> M",
+      "answer": "Quantum",
+      "options": [
+        "Quantum",
+        "Catalyst",
+        "Immunity",
+        "Momentum",
+        "Dynamics"
+      ]
+    },
+    {
+      "prompt": "Swipe: R -> A -> D -> I -> A -> N -> C -> E",
+      "answer": "Radiance",
+      "options": [
+        "Radiance",
+        "Equinox",
+        "Compassion",
+        "Fraction",
+        "Wilderness"
+      ]
+    },
+    {
+      "prompt": "Swipe: R -> E -> S -> O -> N -> A -> N -> T",
+      "answer": "Resonant",
+      "options": [
+        "Prediction",
+        "Crescendo",
+        "Resonant",
+        "Landscape",
+        "Heritage"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> A -> P -> P -> H -> I -> R -> E",
+      "answer": "Sapphire",
+      "options": [
+        "Jubilant",
+        "Sapphire",
+        "Equinox",
+        "Crescendo",
+        "Spectrum"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> P -> E -> C -> T -> R -> U -> M",
+      "answer": "Spectrum",
+      "options": [
+        "Quantum",
+        "Spectrum",
+        "Zenithal",
+        "Illusion",
+        "Chronicle"
+      ]
+    },
+    {
+      "prompt": "Swipe: S -> Y -> M -> P -> H -> O -> N -> Y",
+      "answer": "Symphony",
+      "options": [
+        "Resonant",
+        "Academic",
+        "Symphony",
+        "Catalyst",
+        "Narrative"
+      ]
+    },
+    {
+      "prompt": "Swipe: T -> A -> N -> G -> I -> B -> L -> E",
+      "answer": "Tangible",
+      "options": [
+        "Abstract",
+        "Heritage",
+        "Tangible",
+        "Quantum",
+        "Infinite"
+      ]
+    },
+    {
+      "prompt": "Swipe: U -> M -> B -> R -> E -> L -> L -> A -> S",
+      "answer": "Umbrellas",
+      "options": [
+        "Prediction",
+        "Crescendo",
+        "Infinite",
+        "Meridian",
+        "Umbrellas"
+      ]
+    },
+    {
+      "prompt": "Swipe: V -> A -> N -> G -> U -> A -> R -> D",
+      "answer": "Vanguard",
+      "options": [
+        "Luminary",
+        "Vanguard",
+        "Zenithal",
+        "Crescendo",
+        "Contrast"
+      ]
+    },
+    {
+      "prompt": "Swipe: W -> I -> L -> D -> E -> R -> N -> E -> S -> S",
+      "answer": "Wilderness",
+      "options": [
+        "Spectrum",
+        "Tangible",
+        "Wilderness",
+        "Blueprint",
+        "Momentum"
+      ]
+    },
+    {
+      "prompt": "Swipe: Z -> E -> N -> I -> T -> H -> A -> L",
+      "answer": "Zenithal",
+      "options": [
+        "Contrast",
+        "Abstract",
+        "Vanguard",
+        "Zenithal",
+        "Umbrellas"
+      ]
+    }
+  ]
+}

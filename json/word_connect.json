@@ -1,0 +1,1658 @@
+{
+  "easy": [
+    {
+      "prompt": "A P P L E",
+      "answer": "Apple",
+      "options": [
+        "Plant",
+        "Train",
+        "Apple",
+        "Water",
+        "Snake"
+      ]
+    },
+    {
+      "prompt": "B R E A D",
+      "answer": "Bread",
+      "options": [
+        "Pillow",
+        "Juice",
+        "Bread",
+        "Plant",
+        "Knife"
+      ]
+    },
+    {
+      "prompt": "B R U S H",
+      "answer": "Brush",
+      "options": [
+        "Brush",
+        "Cloud",
+        "Sugar",
+        "Window",
+        "Apple"
+      ]
+    },
+    {
+      "prompt": "C H A I R",
+      "answer": "Chair",
+      "options": [
+        "Dream",
+        "Button",
+        "Train",
+        "Juice",
+        "Chair"
+      ]
+    },
+    {
+      "prompt": "C L O U D",
+      "answer": "Cloud",
+      "options": [
+        "Dream",
+        "Sugar",
+        "Ocean",
+        "Cloud",
+        "Button"
+      ]
+    },
+    {
+      "prompt": "D R E A M",
+      "answer": "Dream",
+      "options": [
+        "Table",
+        "Ocean",
+        "Water",
+        "Story",
+        "Dream"
+      ]
+    },
+    {
+      "prompt": "F L O O R",
+      "answer": "Floor",
+      "options": [
+        "Table",
+        "Floor",
+        "Grape",
+        "Pocket",
+        "Story"
+      ]
+    },
+    {
+      "prompt": "F R A M E",
+      "answer": "Frame",
+      "options": [
+        "Smile",
+        "Story",
+        "Zebra",
+        "Frame",
+        "Heart"
+      ]
+    },
+    {
+      "prompt": "G A R D E N",
+      "answer": "Garden",
+      "options": [
+        "Star",
+        "Garden",
+        "Frame",
+        "Snake",
+        "River"
+      ]
+    },
+    {
+      "prompt": "G L A S S",
+      "answer": "Glass",
+      "options": [
+        "Heart",
+        "Glass",
+        "Plant",
+        "Honey",
+        "Music"
+      ]
+    },
+    {
+      "prompt": "G R A P E",
+      "answer": "Grape",
+      "options": [
+        "Grape",
+        "River",
+        "Juice",
+        "Cloud",
+        "Table"
+      ]
+    },
+    {
+      "prompt": "G R E E N",
+      "answer": "Green",
+      "options": [
+        "Water",
+        "Juice",
+        "Peace",
+        "Music",
+        "Green"
+      ]
+    },
+    {
+      "prompt": "H E A R T",
+      "answer": "Heart",
+      "options": [
+        "Pillow",
+        "Light",
+        "Honey",
+        "Tree",
+        "Heart"
+      ]
+    },
+    {
+      "prompt": "H O N E Y",
+      "answer": "Honey",
+      "options": [
+        "Grape",
+        "Tiger",
+        "Honey",
+        "Candle",
+        "Garden"
+      ]
+    },
+    {
+      "prompt": "H O U S E",
+      "answer": "House",
+      "options": [
+        "House",
+        "Knife",
+        "Pillow",
+        "Frame",
+        "Stone"
+      ]
+    },
+    {
+      "prompt": "J U I C E",
+      "answer": "Juice",
+      "options": [
+        "Button",
+        "Juice",
+        "Tiger",
+        "Garden",
+        "Smile"
+      ]
+    },
+    {
+      "prompt": "K N I F E",
+      "answer": "Knife",
+      "options": [
+        "Wheel",
+        "Brush",
+        "Apple",
+        "Stone",
+        "Knife"
+      ]
+    },
+    {
+      "prompt": "L I G H T",
+      "answer": "Light",
+      "options": [
+        "Wheel",
+        "Glass",
+        "Garden",
+        "Cloud",
+        "Light"
+      ]
+    },
+    {
+      "prompt": "M A N G O",
+      "answer": "Mango",
+      "options": [
+        "Heart",
+        "Mango",
+        "Bread",
+        "Dream",
+        "Star"
+      ]
+    },
+    {
+      "prompt": "M U S I C",
+      "answer": "Music",
+      "options": [
+        "Peace",
+        "Window",
+        "Music",
+        "Tree",
+        "Table"
+      ]
+    },
+    {
+      "prompt": "O C E A N",
+      "answer": "Ocean",
+      "options": [
+        "Knife",
+        "Ocean",
+        "Paper",
+        "Mango",
+        "Light"
+      ]
+    },
+    {
+      "prompt": "P A P E R",
+      "answer": "Paper",
+      "options": [
+        "Juice",
+        "Smile",
+        "Paper",
+        "Pocket",
+        "Heart"
+      ]
+    },
+    {
+      "prompt": "P E A C E",
+      "answer": "Peace",
+      "options": [
+        "River",
+        "Apple",
+        "Pillow",
+        "Tree",
+        "Peace"
+      ]
+    },
+    {
+      "prompt": "P I L L O W",
+      "answer": "Pillow",
+      "options": [
+        "Spoon",
+        "Pillow",
+        "Plant",
+        "Grape",
+        "Flower"
+      ]
+    },
+    {
+      "prompt": "P L A N T",
+      "answer": "Plant",
+      "options": [
+        "Robot",
+        "Plate",
+        "Plant",
+        "Water",
+        "Brush"
+      ]
+    },
+    {
+      "prompt": "P L A T E",
+      "answer": "Plate",
+      "options": [
+        "Green",
+        "Juice",
+        "Glass",
+        "Grape",
+        "Plate"
+      ]
+    },
+    {
+      "prompt": "Q U E E N",
+      "answer": "Queen",
+      "options": [
+        "Music",
+        "Dream",
+        "River",
+        "Window",
+        "Queen"
+      ]
+    },
+    {
+      "prompt": "R I V E R",
+      "answer": "River",
+      "options": [
+        "River",
+        "Tree",
+        "Glass",
+        "Spoon",
+        "Pocket"
+      ]
+    },
+    {
+      "prompt": "R O B O T",
+      "answer": "Robot",
+      "options": [
+        "Train",
+        "Robot",
+        "House",
+        "Silver",
+        "Green"
+      ]
+    },
+    {
+      "prompt": "S M I L E",
+      "answer": "Smile",
+      "options": [
+        "Honey",
+        "Smile",
+        "Candle",
+        "Bread",
+        "Dream"
+      ]
+    },
+    {
+      "prompt": "S N A K E",
+      "answer": "Snake",
+      "options": [
+        "Stone",
+        "Paper",
+        "Bread",
+        "Water",
+        "Snake"
+      ]
+    },
+    {
+      "prompt": "S P O O N",
+      "answer": "Spoon",
+      "options": [
+        "Mango",
+        "Spoon",
+        "Light",
+        "Chair",
+        "Window"
+      ]
+    },
+    {
+      "prompt": "S T A R",
+      "answer": "Star",
+      "options": [
+        "Queen",
+        "Star",
+        "Knife",
+        "Music",
+        "Floor"
+      ]
+    },
+    {
+      "prompt": "S T O N E",
+      "answer": "Stone",
+      "options": [
+        "Wheel",
+        "Pocket",
+        "Stone",
+        "Floor",
+        "Plate"
+      ]
+    },
+    {
+      "prompt": "S T O R Y",
+      "answer": "Story",
+      "options": [
+        "Floor",
+        "Train",
+        "Story",
+        "Snake",
+        "Silver"
+      ]
+    },
+    {
+      "prompt": "S U G A R",
+      "answer": "Sugar",
+      "options": [
+        "Button",
+        "Window",
+        "Snake",
+        "Sugar",
+        "Spoon"
+      ]
+    },
+    {
+      "prompt": "T A B L E",
+      "answer": "Table",
+      "options": [
+        "Knife",
+        "Button",
+        "Candle",
+        "Table",
+        "Light"
+      ]
+    },
+    {
+      "prompt": "T I G E R",
+      "answer": "Tiger",
+      "options": [
+        "Floor",
+        "Tiger",
+        "Stone",
+        "Window",
+        "House"
+      ]
+    },
+    {
+      "prompt": "T R A I N",
+      "answer": "Train",
+      "options": [
+        "River",
+        "Music",
+        "Train",
+        "Grape",
+        "Chair"
+      ]
+    },
+    {
+      "prompt": "T R E E",
+      "answer": "Tree",
+      "options": [
+        "Music",
+        "Tree",
+        "Table",
+        "Light",
+        "Dream"
+      ]
+    },
+    {
+      "prompt": "W A T E R",
+      "answer": "Water",
+      "options": [
+        "Queen",
+        "Water",
+        "Paper",
+        "Window",
+        "Plant"
+      ]
+    },
+    {
+      "prompt": "W H E E L",
+      "answer": "Wheel",
+      "options": [
+        "Sugar",
+        "Smile",
+        "Mango",
+        "Chair",
+        "Wheel"
+      ]
+    },
+    {
+      "prompt": "W I N D O W",
+      "answer": "Window",
+      "options": [
+        "Tiger",
+        "Table",
+        "Brush",
+        "Window",
+        "River"
+      ]
+    },
+    {
+      "prompt": "Y E L L O W",
+      "answer": "Yellow",
+      "options": [
+        "Button",
+        "Zebra",
+        "Water",
+        "House",
+        "Yellow"
+      ]
+    },
+    {
+      "prompt": "Z E B R A",
+      "answer": "Zebra",
+      "options": [
+        "Brush",
+        "Zebra",
+        "Train",
+        "Chair",
+        "Apple"
+      ]
+    },
+    {
+      "prompt": "B U T T O N",
+      "answer": "Button",
+      "options": [
+        "Pillow",
+        "Button",
+        "Table",
+        "Mango",
+        "Cloud"
+      ]
+    },
+    {
+      "prompt": "C A N D L E",
+      "answer": "Candle",
+      "options": [
+        "Queen",
+        "Candle",
+        "Smile",
+        "Dream",
+        "Peace"
+      ]
+    },
+    {
+      "prompt": "F L O W E R",
+      "answer": "Flower",
+      "options": [
+        "Flower",
+        "Green",
+        "Story",
+        "Apple",
+        "Pocket"
+      ]
+    },
+    {
+      "prompt": "P O C K E T",
+      "answer": "Pocket",
+      "options": [
+        "Wheel",
+        "Pocket",
+        "Mango",
+        "Train",
+        "Paper"
+      ]
+    },
+    {
+      "prompt": "S I L V E R",
+      "answer": "Silver",
+      "options": [
+        "Button",
+        "Garden",
+        "Zebra",
+        "Silver",
+        "Cloud"
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "prompt": "B A L A N C E",
+      "answer": "Balance",
+      "options": [
+        "Windsock",
+        "Factory",
+        "Sailing",
+        "Umbrella",
+        "Balance"
+      ]
+    },
+    {
+      "prompt": "C A P T A I N",
+      "answer": "Captain",
+      "options": [
+        "Pattern",
+        "Captain",
+        "Journey",
+        "Miracle",
+        "Victory"
+      ]
+    },
+    {
+      "prompt": "C A R T O O N",
+      "answer": "Cartoon",
+      "options": [
+        "Gravity",
+        "Dolphin",
+        "Cartoon",
+        "Crystal",
+        "Balance"
+      ]
+    },
+    {
+      "prompt": "C R Y S T A L",
+      "answer": "Crystal",
+      "options": [
+        "Crystal",
+        "Pattern",
+        "Seashell",
+        "Meadows",
+        "Notebook"
+      ]
+    },
+    {
+      "prompt": "D O L P H I N",
+      "answer": "Dolphin",
+      "options": [
+        "Dolphin",
+        "Mountain",
+        "Gravity",
+        "Planet",
+        "Lantern"
+      ]
+    },
+    {
+      "prompt": "E L E G A N T",
+      "answer": "Elegant",
+      "options": [
+        "Library",
+        "Blossom",
+        "Reflect",
+        "Whisper",
+        "Elegant"
+      ]
+    },
+    {
+      "prompt": "F A C T O R Y",
+      "answer": "Factory",
+      "options": [
+        "Notebook",
+        "Station",
+        "Mystery",
+        "Windsock",
+        "Factory"
+      ]
+    },
+    {
+      "prompt": "F R E E D O M",
+      "answer": "Freedom",
+      "options": [
+        "Freedom",
+        "Blossom",
+        "Zealous",
+        "Gravity",
+        "Kingdom"
+      ]
+    },
+    {
+      "prompt": "G R A V I T Y",
+      "answer": "Gravity",
+      "options": [
+        "Library",
+        "Factory",
+        "Gravity",
+        "Pattern",
+        "Sculptor"
+      ]
+    },
+    {
+      "prompt": "H A R V E S T",
+      "answer": "Harvest",
+      "options": [
+        "Harvest",
+        "Seashell",
+        "Pioneer",
+        "Passion",
+        "Captain"
+      ]
+    },
+    {
+      "prompt": "J O U R N E Y",
+      "answer": "Journey",
+      "options": [
+        "Monsoon",
+        "Elegant",
+        "Journey",
+        "Orchard",
+        "Kingdom"
+      ]
+    },
+    {
+      "prompt": "K I N G D O M",
+      "answer": "Kingdom",
+      "options": [
+        "Seashell",
+        "Natural",
+        "Umbrella",
+        "Telegram",
+        "Kingdom"
+      ]
+    },
+    {
+      "prompt": "L A N T E R N",
+      "answer": "Lantern",
+      "options": [
+        "Seashell",
+        "Villager",
+        "Elegant",
+        "Lantern",
+        "Crystal"
+      ]
+    },
+    {
+      "prompt": "L I B R A R Y",
+      "answer": "Library",
+      "options": [
+        "Freedom",
+        "Monsoon",
+        "Wildlife",
+        "Umbrella",
+        "Library"
+      ]
+    },
+    {
+      "prompt": "M A G N E T I C",
+      "answer": "Magnetic",
+      "options": [
+        "Planet",
+        "Crystal",
+        "Sunlight",
+        "Magnetic",
+        "Mystery"
+      ]
+    },
+    {
+      "prompt": "M E A D O W S",
+      "answer": "Meadows",
+      "options": [
+        "Blossom",
+        "Zealous",
+        "Factory",
+        "Meadows",
+        "Notebook"
+      ]
+    },
+    {
+      "prompt": "M I R A C L E",
+      "answer": "Miracle",
+      "options": [
+        "Wonder",
+        "Planet",
+        "Factory",
+        "Miracle",
+        "Poetry"
+      ]
+    },
+    {
+      "prompt": "M O N S O O N",
+      "answer": "Monsoon",
+      "options": [
+        "Monsoon",
+        "Lantern",
+        "Cartoon",
+        "Miracle",
+        "Balance"
+      ]
+    },
+    {
+      "prompt": "M O U N T A I N",
+      "answer": "Mountain",
+      "options": [
+        "Planet",
+        "Elegant",
+        "Mountain",
+        "Umbrella",
+        "Passion"
+      ]
+    },
+    {
+      "prompt": "M Y S T E R Y",
+      "answer": "Mystery",
+      "options": [
+        "Elegant",
+        "Mystery",
+        "Pattern",
+        "Telegram",
+        "Blossom"
+      ]
+    },
+    {
+      "prompt": "N A T U R A L",
+      "answer": "Natural",
+      "options": [
+        "Factory",
+        "Natural",
+        "Miracle",
+        "Freedom",
+        "Gravity"
+      ]
+    },
+    {
+      "prompt": "N O T E B O O K",
+      "answer": "Notebook",
+      "options": [
+        "Shadows",
+        "Zealous",
+        "Dolphin",
+        "Sailing",
+        "Notebook"
+      ]
+    },
+    {
+      "prompt": "O R C H A R D",
+      "answer": "Orchard",
+      "options": [
+        "Library",
+        "Seashell",
+        "Natural",
+        "Poetry",
+        "Orchard"
+      ]
+    },
+    {
+      "prompt": "P A S S I O N",
+      "answer": "Passion",
+      "options": [
+        "Freedom",
+        "Lantern",
+        "Telegram",
+        "Passion",
+        "Reflect"
+      ]
+    },
+    {
+      "prompt": "P A T T E R N",
+      "answer": "Pattern",
+      "options": [
+        "Shadows",
+        "Wildlife",
+        "Elegant",
+        "Journey",
+        "Pattern"
+      ]
+    },
+    {
+      "prompt": "P I O N E E R",
+      "answer": "Pioneer",
+      "options": [
+        "Factory",
+        "Magnetic",
+        "Pioneer",
+        "Wildlife",
+        "Passion"
+      ]
+    },
+    {
+      "prompt": "P L A N E T",
+      "answer": "Planet",
+      "options": [
+        "Balance",
+        "Planet",
+        "Dolphin",
+        "Harvest",
+        "Triangle"
+      ]
+    },
+    {
+      "prompt": "P O E T R Y",
+      "answer": "Poetry",
+      "options": [
+        "Blossom",
+        "Miracle",
+        "Wonder",
+        "Monsoon",
+        "Poetry"
+      ]
+    },
+    {
+      "prompt": "R A I L W A Y",
+      "answer": "Railway",
+      "options": [
+        "Sparkle",
+        "Pattern",
+        "Railway",
+        "Sailing",
+        "Elegant"
+      ]
+    },
+    {
+      "prompt": "R E F L E C T",
+      "answer": "Reflect",
+      "options": [
+        "Blossom",
+        "Sunlight",
+        "Triangle",
+        "Mountain",
+        "Reflect"
+      ]
+    },
+    {
+      "prompt": "S A I L I N G",
+      "answer": "Sailing",
+      "options": [
+        "Sailing",
+        "Villager",
+        "Crystal",
+        "Passion",
+        "Wildlife"
+      ]
+    },
+    {
+      "prompt": "S C U L P T O R",
+      "answer": "Sculptor",
+      "options": [
+        "Sculptor",
+        "Triangle",
+        "Orchard",
+        "Whisper",
+        "Miracle"
+      ]
+    },
+    {
+      "prompt": "S E A S H E L L",
+      "answer": "Seashell",
+      "options": [
+        "Wonder",
+        "Railway",
+        "Captain",
+        "Whisper",
+        "Seashell"
+      ]
+    },
+    {
+      "prompt": "S H A D O W S",
+      "answer": "Shadows",
+      "options": [
+        "Elegant",
+        "Umbrella",
+        "Cartoon",
+        "Shadows",
+        "Blossom"
+      ]
+    },
+    {
+      "prompt": "S P A R K L E",
+      "answer": "Sparkle",
+      "options": [
+        "Mystery",
+        "Blossom",
+        "Sparkle",
+        "Mountain",
+        "Planet"
+      ]
+    },
+    {
+      "prompt": "S T A T I O N",
+      "answer": "Station",
+      "options": [
+        "Station",
+        "Pioneer",
+        "Planet",
+        "Meadows",
+        "Passion"
+      ]
+    },
+    {
+      "prompt": "S U N L I G H T",
+      "answer": "Sunlight",
+      "options": [
+        "Sunlight",
+        "Temple",
+        "Zealous",
+        "Villager",
+        "Miracle"
+      ]
+    },
+    {
+      "prompt": "T E L E G R A M",
+      "answer": "Telegram",
+      "options": [
+        "Zealous",
+        "Planet",
+        "Telegram",
+        "Captain",
+        "Pioneer"
+      ]
+    },
+    {
+      "prompt": "T E M P L E",
+      "answer": "Temple",
+      "options": [
+        "Triangle",
+        "Sunlight",
+        "Railway",
+        "Temple",
+        "Zealous"
+      ]
+    },
+    {
+      "prompt": "T H U N D E R",
+      "answer": "Thunder",
+      "options": [
+        "Elegant",
+        "Monsoon",
+        "Mountain",
+        "Thunder",
+        "Dolphin"
+      ]
+    },
+    {
+      "prompt": "T R I A N G L E",
+      "answer": "Triangle",
+      "options": [
+        "Pioneer",
+        "Villager",
+        "Triangle",
+        "Monsoon",
+        "Kingdom"
+      ]
+    },
+    {
+      "prompt": "U M B R E L L A",
+      "answer": "Umbrella",
+      "options": [
+        "Station",
+        "Umbrella",
+        "Notebook",
+        "Sailing",
+        "Railway"
+      ]
+    },
+    {
+      "prompt": "V I C T O R Y",
+      "answer": "Victory",
+      "options": [
+        "Gravity",
+        "Victory",
+        "Sparkle",
+        "Whisper",
+        "Notebook"
+      ]
+    },
+    {
+      "prompt": "V I L L A G E R",
+      "answer": "Villager",
+      "options": [
+        "Planet",
+        "Miracle",
+        "Villager",
+        "Station",
+        "Notebook"
+      ]
+    },
+    {
+      "prompt": "W H I S P E R",
+      "answer": "Whisper",
+      "options": [
+        "Freedom",
+        "Victory",
+        "Crystal",
+        "Seashell",
+        "Whisper"
+      ]
+    },
+    {
+      "prompt": "W I L D L I F E",
+      "answer": "Wildlife",
+      "options": [
+        "Mountain",
+        "Umbrella",
+        "Telegram",
+        "Wildlife",
+        "Elegant"
+      ]
+    },
+    {
+      "prompt": "W I N D S O C K",
+      "answer": "Windsock",
+      "options": [
+        "Poetry",
+        "Natural",
+        "Railway",
+        "Windsock",
+        "Wonder"
+      ]
+    },
+    {
+      "prompt": "W O N D E R",
+      "answer": "Wonder",
+      "options": [
+        "Crystal",
+        "Temple",
+        "Shadows",
+        "Gravity",
+        "Wonder"
+      ]
+    },
+    {
+      "prompt": "Z E A L O U S",
+      "answer": "Zealous",
+      "options": [
+        "Temple",
+        "Captain",
+        "Sunlight",
+        "Notebook",
+        "Zealous"
+      ]
+    },
+    {
+      "prompt": "B L O S S O M",
+      "answer": "Blossom",
+      "options": [
+        "Sailing",
+        "Wonder",
+        "Villager",
+        "Orchard",
+        "Blossom"
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "prompt": "A B S T R A C T",
+      "answer": "Abstract",
+      "options": [
+        "Formidable",
+        "Elevation",
+        "Contrast",
+        "Abstract",
+        "Alchemy"
+      ]
+    },
+    {
+      "prompt": "A C A D E M I C",
+      "answer": "Academic",
+      "options": [
+        "Delicate",
+        "Infinite",
+        "Radiance",
+        "Luminary",
+        "Academic"
+      ]
+    },
+    {
+      "prompt": "A C C U R A C Y",
+      "answer": "Accuracy",
+      "options": [
+        "Blueprint",
+        "Accuracy",
+        "Compassion",
+        "Harmonic",
+        "Paradox"
+      ]
+    },
+    {
+      "prompt": "A L C H E M Y",
+      "answer": "Alchemy",
+      "options": [
+        "Compassion",
+        "Pavilion",
+        "Alchemy",
+        "Delicate",
+        "Meridian"
+      ]
+    },
+    {
+      "prompt": "A S T E R O I D",
+      "answer": "Asteroid",
+      "options": [
+        "Abstract",
+        "Umbrellas",
+        "Paradox",
+        "Pavilion",
+        "Asteroid"
+      ]
+    },
+    {
+      "prompt": "B L U E P R I N T",
+      "answer": "Blueprint",
+      "options": [
+        "Quantum",
+        "Fraction",
+        "Blueprint",
+        "Obsidian",
+        "Accuracy"
+      ]
+    },
+    {
+      "prompt": "C A T A L Y S T",
+      "answer": "Catalyst",
+      "options": [
+        "Umbrellas",
+        "Catalyst",
+        "Galaxies",
+        "Obsidian",
+        "Clarity"
+      ]
+    },
+    {
+      "prompt": "C H R O N I C L E",
+      "answer": "Chronicle",
+      "options": [
+        "Illusion",
+        "Vanguard",
+        "Catalyst",
+        "Wilderness",
+        "Chronicle"
+      ]
+    },
+    {
+      "prompt": "C L A R I T Y",
+      "answer": "Clarity",
+      "options": [
+        "Catalyst",
+        "Horizons",
+        "Sapphire",
+        "Symphony",
+        "Clarity"
+      ]
+    },
+    {
+      "prompt": "C O M P A S S I O N",
+      "answer": "Compassion",
+      "options": [
+        "Compassion",
+        "Prediction",
+        "Crescendo",
+        "Delicate",
+        "Infinite"
+      ]
+    },
+    {
+      "prompt": "C O N T R A S T",
+      "answer": "Contrast",
+      "options": [
+        "Umbrellas",
+        "Marathon",
+        "Alchemy",
+        "Contrast",
+        "Blueprint"
+      ]
+    },
+    {
+      "prompt": "C R E S C E N D O",
+      "answer": "Crescendo",
+      "options": [
+        "Clarity",
+        "Zenithal",
+        "Sapphire",
+        "Catalyst",
+        "Crescendo"
+      ]
+    },
+    {
+      "prompt": "D E L I C A T E",
+      "answer": "Delicate",
+      "options": [
+        "Delicate",
+        "Narrative",
+        "Spectrum",
+        "Elevation",
+        "Obsidian"
+      ]
+    },
+    {
+      "prompt": "D Y N A M I C S",
+      "answer": "Dynamics",
+      "options": [
+        "Festival",
+        "Radiance",
+        "Equinox",
+        "Dynamics",
+        "Resonant"
+      ]
+    },
+    {
+      "prompt": "E L E V A T I O N",
+      "answer": "Elevation",
+      "options": [
+        "Quantum",
+        "Equinox",
+        "Elevation",
+        "Galaxies",
+        "Tangible"
+      ]
+    },
+    {
+      "prompt": "E Q U I N O X",
+      "answer": "Equinox",
+      "options": [
+        "Dynamics",
+        "Wilderness",
+        "Resonant",
+        "Equinox",
+        "Luminary"
+      ]
+    },
+    {
+      "prompt": "F E S T I V A L",
+      "answer": "Festival",
+      "options": [
+        "Harmonic",
+        "Equinox",
+        "Landscape",
+        "Festival",
+        "Phoenix"
+      ]
+    },
+    {
+      "prompt": "F O R M I D A B L E",
+      "answer": "Formidable",
+      "options": [
+        "Compassion",
+        "Heritage",
+        "Blueprint",
+        "Formidable",
+        "Zenithal"
+      ]
+    },
+    {
+      "prompt": "F R A C T I O N",
+      "answer": "Fraction",
+      "options": [
+        "Umbrellas",
+        "Spectrum",
+        "Chronicle",
+        "Horizons",
+        "Fraction"
+      ]
+    },
+    {
+      "prompt": "G A L A X I E S",
+      "answer": "Galaxies",
+      "options": [
+        "Galaxies",
+        "Meridian",
+        "Festival",
+        "Spectrum",
+        "Delicate"
+      ]
+    },
+    {
+      "prompt": "H A R M O N I C",
+      "answer": "Harmonic",
+      "options": [
+        "Harmonic",
+        "Asteroid",
+        "Spectrum",
+        "Resonant",
+        "Fraction"
+      ]
+    },
+    {
+      "prompt": "H E R I T A G E",
+      "answer": "Heritage",
+      "options": [
+        "Heritage",
+        "Blueprint",
+        "Crescendo",
+        "Spectrum",
+        "Abstract"
+      ]
+    },
+    {
+      "prompt": "H O R I Z O N S",
+      "answer": "Horizons",
+      "options": [
+        "Sapphire",
+        "Delicate",
+        "Accuracy",
+        "Horizons",
+        "Compassion"
+      ]
+    },
+    {
+      "prompt": "I L L U S I O N",
+      "answer": "Illusion",
+      "options": [
+        "Illusion",
+        "Festival",
+        "Fraction",
+        "Heritage",
+        "Marathon"
+      ]
+    },
+    {
+      "prompt": "I M M U N I T Y",
+      "answer": "Immunity",
+      "options": [
+        "Abstract",
+        "Catalyst",
+        "Zenithal",
+        "Jubilant",
+        "Immunity"
+      ]
+    },
+    {
+      "prompt": "I N F I N I T E",
+      "answer": "Infinite",
+      "options": [
+        "Infinite",
+        "Quantum",
+        "Resonant",
+        "Spectrum",
+        "Elevation"
+      ]
+    },
+    {
+      "prompt": "J U B I L A N T",
+      "answer": "Jubilant",
+      "options": [
+        "Narrative",
+        "Tangible",
+        "Jubilant",
+        "Meridian",
+        "Heritage"
+      ]
+    },
+    {
+      "prompt": "L A N D S C A P E",
+      "answer": "Landscape",
+      "options": [
+        "Paradox",
+        "Equinox",
+        "Jubilant",
+        "Landscape",
+        "Luminary"
+      ]
+    },
+    {
+      "prompt": "L U M I N A R Y",
+      "answer": "Luminary",
+      "options": [
+        "Asteroid",
+        "Alchemy",
+        "Luminary",
+        "Paradox",
+        "Compassion"
+      ]
+    },
+    {
+      "prompt": "M A R A T H O N",
+      "answer": "Marathon",
+      "options": [
+        "Equinox",
+        "Catalyst",
+        "Jubilant",
+        "Momentum",
+        "Marathon"
+      ]
+    },
+    {
+      "prompt": "M E R I D I A N",
+      "answer": "Meridian",
+      "options": [
+        "Marathon",
+        "Meridian",
+        "Accuracy",
+        "Compassion",
+        "Sapphire"
+      ]
+    },
+    {
+      "prompt": "M O M E N T U M",
+      "answer": "Momentum",
+      "options": [
+        "Vanguard",
+        "Fraction",
+        "Elevation",
+        "Horizons",
+        "Momentum"
+      ]
+    },
+    {
+      "prompt": "N A R R A T I V E",
+      "answer": "Narrative",
+      "options": [
+        "Harmonic",
+        "Narrative",
+        "Momentum",
+        "Prediction",
+        "Phoenix"
+      ]
+    },
+    {
+      "prompt": "O B S I D I A N",
+      "answer": "Obsidian",
+      "options": [
+        "Quantum",
+        "Blueprint",
+        "Umbrellas",
+        "Meridian",
+        "Obsidian"
+      ]
+    },
+    {
+      "prompt": "O R I G A M I S",
+      "answer": "Origamis",
+      "options": [
+        "Momentum",
+        "Origamis",
+        "Vanguard",
+        "Radiance",
+        "Horizons"
+      ]
+    },
+    {
+      "prompt": "P A R A D O X",
+      "answer": "Paradox",
+      "options": [
+        "Umbrellas",
+        "Compassion",
+        "Paradox",
+        "Zenithal",
+        "Radiance"
+      ]
+    },
+    {
+      "prompt": "P A V I L I O N",
+      "answer": "Pavilion",
+      "options": [
+        "Jubilant",
+        "Umbrellas",
+        "Pavilion",
+        "Luminary",
+        "Clarity"
+      ]
+    },
+    {
+      "prompt": "P H O E N I X",
+      "answer": "Phoenix",
+      "options": [
+        "Quantum",
+        "Accuracy",
+        "Phoenix",
+        "Meridian",
+        "Delicate"
+      ]
+    },
+    {
+      "prompt": "P R E D I C T I O N",
+      "answer": "Prediction",
+      "options": [
+        "Asteroid",
+        "Landscape",
+        "Chronicle",
+        "Prediction",
+        "Galaxies"
+      ]
+    },
+    {
+      "prompt": "Q U A N T U M",
+      "answer": "Quantum",
+      "options": [
+        "Abstract",
+        "Symphony",
+        "Quantum",
+        "Clarity",
+        "Harmonic"
+      ]
+    },
+    {
+      "prompt": "R A D I A N C E",
+      "answer": "Radiance",
+      "options": [
+        "Immunity",
+        "Resonant",
+        "Radiance",
+        "Harmonic",
+        "Prediction"
+      ]
+    },
+    {
+      "prompt": "R E S O N A N T",
+      "answer": "Resonant",
+      "options": [
+        "Prediction",
+        "Abstract",
+        "Immunity",
+        "Compassion",
+        "Resonant"
+      ]
+    },
+    {
+      "prompt": "S A P P H I R E",
+      "answer": "Sapphire",
+      "options": [
+        "Elevation",
+        "Asteroid",
+        "Radiance",
+        "Quantum",
+        "Sapphire"
+      ]
+    },
+    {
+      "prompt": "S P E C T R U M",
+      "answer": "Spectrum",
+      "options": [
+        "Heritage",
+        "Spectrum",
+        "Chronicle",
+        "Landscape",
+        "Wilderness"
+      ]
+    },
+    {
+      "prompt": "S Y M P H O N Y",
+      "answer": "Symphony",
+      "options": [
+        "Accuracy",
+        "Alchemy",
+        "Marathon",
+        "Obsidian",
+        "Symphony"
+      ]
+    },
+    {
+      "prompt": "T A N G I B L E",
+      "answer": "Tangible",
+      "options": [
+        "Paradox",
+        "Accuracy",
+        "Momentum",
+        "Tangible",
+        "Prediction"
+      ]
+    },
+    {
+      "prompt": "U M B R E L L A S",
+      "answer": "Umbrellas",
+      "options": [
+        "Umbrellas",
+        "Illusion",
+        "Blueprint",
+        "Asteroid",
+        "Harmonic"
+      ]
+    },
+    {
+      "prompt": "V A N G U A R D",
+      "answer": "Vanguard",
+      "options": [
+        "Vanguard",
+        "Festival",
+        "Resonant",
+        "Wilderness",
+        "Asteroid"
+      ]
+    },
+    {
+      "prompt": "W I L D E R N E S S",
+      "answer": "Wilderness",
+      "options": [
+        "Momentum",
+        "Meridian",
+        "Spectrum",
+        "Wilderness",
+        "Abstract"
+      ]
+    },
+    {
+      "prompt": "Z E N I T H A L",
+      "answer": "Zenithal",
+      "options": [
+        "Zenithal",
+        "Resonant",
+        "Blueprint",
+        "Chronicle",
+        "Vanguard"
+      ]
+    }
+  ]
+}

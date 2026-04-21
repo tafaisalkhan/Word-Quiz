@@ -1,0 +1,1658 @@
+{
+  "easy": [
+    {
+      "prompt": "Hot",
+      "answer": "Cold",
+      "options": [
+        "Short",
+        "Cold",
+        "Expensive",
+        "Back",
+        "Take"
+      ]
+    },
+    {
+      "prompt": "Big",
+      "answer": "Small",
+      "options": [
+        "False",
+        "Small",
+        "Far",
+        "Dim",
+        "Dangerous"
+      ]
+    },
+    {
+      "prompt": "Early",
+      "answer": "Late",
+      "options": [
+        "Sad",
+        "Dim",
+        "Rough",
+        "False",
+        "Late"
+      ]
+    },
+    {
+      "prompt": "Up",
+      "answer": "Down",
+      "options": [
+        "Down",
+        "Dead",
+        "Cold",
+        "Far",
+        "Sad"
+      ]
+    },
+    {
+      "prompt": "Open",
+      "answer": "Closed",
+      "options": [
+        "Slow",
+        "Quiet",
+        "Cool",
+        "Closed",
+        "Weak"
+      ]
+    },
+    {
+      "prompt": "Happy",
+      "answer": "Sad",
+      "options": [
+        "Sad",
+        "Quiet",
+        "Slow",
+        "Below",
+        "Cool"
+      ]
+    },
+    {
+      "prompt": "Full",
+      "answer": "Empty",
+      "options": [
+        "Dirty",
+        "Expensive",
+        "Dry",
+        "Empty",
+        "Enemy"
+      ]
+    },
+    {
+      "prompt": "Fast",
+      "answer": "Slow",
+      "options": [
+        "Cry",
+        "Short",
+        "Idle",
+        "Slow",
+        "Lose"
+      ]
+    },
+    {
+      "prompt": "Clean",
+      "answer": "Dirty",
+      "options": [
+        "Dirty",
+        "Afraid",
+        "Delayed",
+        "Quiet",
+        "Late"
+      ]
+    },
+    {
+      "prompt": "Near",
+      "answer": "Far",
+      "options": [
+        "Weak",
+        "Idle",
+        "Cold",
+        "Far",
+        "False"
+      ]
+    },
+    {
+      "prompt": "Old",
+      "answer": "Young",
+      "options": [
+        "Closed",
+        "Dim",
+        "Outside",
+        "Young",
+        "Weak"
+      ]
+    },
+    {
+      "prompt": "Rich",
+      "answer": "Poor",
+      "options": [
+        "Young",
+        "Right",
+        "Hard",
+        "Small",
+        "Poor"
+      ]
+    },
+    {
+      "prompt": "Soft",
+      "answer": "Hard",
+      "options": [
+        "Cold",
+        "Weak",
+        "Hard",
+        "Below",
+        "Dirty"
+      ]
+    },
+    {
+      "prompt": "Light",
+      "answer": "Dark",
+      "options": [
+        "Dangerous",
+        "Expensive",
+        "Right",
+        "Dark",
+        "Rough"
+      ]
+    },
+    {
+      "prompt": "Brave",
+      "answer": "Afraid",
+      "options": [
+        "Mean",
+        "Dim",
+        "Far",
+        "Hard",
+        "Afraid"
+      ]
+    },
+    {
+      "prompt": "Strong",
+      "answer": "Weak",
+      "options": [
+        "Weak",
+        "Sad",
+        "Cold",
+        "Dull",
+        "Wrong"
+      ]
+    },
+    {
+      "prompt": "Right",
+      "answer": "Wrong",
+      "options": [
+        "Wrong",
+        "Idle",
+        "Hard",
+        "Dull",
+        "Take"
+      ]
+    },
+    {
+      "prompt": "Day",
+      "answer": "Night",
+      "options": [
+        "Dry",
+        "Dirty",
+        "Outside",
+        "Night",
+        "Fragile"
+      ]
+    },
+    {
+      "prompt": "Win",
+      "answer": "Lose",
+      "options": [
+        "Rough",
+        "Mean",
+        "Lose",
+        "Late",
+        "Down"
+      ]
+    },
+    {
+      "prompt": "Laugh",
+      "answer": "Cry",
+      "options": [
+        "Stop",
+        "Right",
+        "Empty",
+        "Cry",
+        "Quiet"
+      ]
+    },
+    {
+      "prompt": "Start",
+      "answer": "Stop",
+      "options": [
+        "Stop",
+        "Cool",
+        "Quiet",
+        "Outside",
+        "Young"
+      ]
+    },
+    {
+      "prompt": "Push",
+      "answer": "Pull",
+      "options": [
+        "Outside",
+        "Fragile",
+        "Pull",
+        "Dirty",
+        "Exit"
+      ]
+    },
+    {
+      "prompt": "Give",
+      "answer": "Take",
+      "options": [
+        "Take",
+        "Night",
+        "Expensive",
+        "Idle",
+        "False"
+      ]
+    },
+    {
+      "prompt": "Buy",
+      "answer": "Sell",
+      "options": [
+        "Sell",
+        "Night",
+        "Cool",
+        "Dirty",
+        "Back"
+      ]
+    },
+    {
+      "prompt": "Tall",
+      "answer": "Short",
+      "options": [
+        "Short",
+        "Dark",
+        "Far",
+        "Poor",
+        "Sell"
+      ]
+    },
+    {
+      "prompt": "Above",
+      "answer": "Below",
+      "options": [
+        "Thin",
+        "Below",
+        "Sad",
+        "Small",
+        "Quiet"
+      ]
+    },
+    {
+      "prompt": "Inside",
+      "answer": "Outside",
+      "options": [
+        "Empty",
+        "Dry",
+        "Dim",
+        "Outside",
+        "Take"
+      ]
+    },
+    {
+      "prompt": "Safe",
+      "answer": "Dangerous",
+      "options": [
+        "Sell",
+        "Late",
+        "Fragile",
+        "Dangerous",
+        "Poor"
+      ]
+    },
+    {
+      "prompt": "Early",
+      "answer": "Delayed",
+      "options": [
+        "Fragile",
+        "Delayed",
+        "Closed",
+        "Late",
+        "Dry"
+      ]
+    },
+    {
+      "prompt": "Kind",
+      "answer": "Mean",
+      "options": [
+        "Idle",
+        "Dull",
+        "Dry",
+        "Back",
+        "Mean"
+      ]
+    },
+    {
+      "prompt": "Noisy",
+      "answer": "Quiet",
+      "options": [
+        "Bitter",
+        "Quiet",
+        "Exit",
+        "Lose",
+        "Dim"
+      ]
+    },
+    {
+      "prompt": "Busy",
+      "answer": "Idle",
+      "options": [
+        "Idle",
+        "Down",
+        "Dim",
+        "Dry",
+        "Short"
+      ]
+    },
+    {
+      "prompt": "Sharp",
+      "answer": "Dull",
+      "options": [
+        "False",
+        "Down",
+        "Slow",
+        "Dull",
+        "Hard"
+      ]
+    },
+    {
+      "prompt": "Sweet",
+      "answer": "Bitter",
+      "options": [
+        "Poor",
+        "Dim",
+        "Sad",
+        "Dirty",
+        "Bitter"
+      ]
+    },
+    {
+      "prompt": "Wet",
+      "answer": "Dry",
+      "options": [
+        "False",
+        "Despair",
+        "Dry",
+        "Empty",
+        "Young"
+      ]
+    },
+    {
+      "prompt": "Alive",
+      "answer": "Dead",
+      "options": [
+        "Young",
+        "Slow",
+        "Dead",
+        "Dangerous",
+        "Despair"
+      ]
+    },
+    {
+      "prompt": "Easy",
+      "answer": "Hard",
+      "options": [
+        "False",
+        "Far",
+        "Outside",
+        "Hard",
+        "Dark"
+      ]
+    },
+    {
+      "prompt": "True",
+      "answer": "False",
+      "options": [
+        "Idle",
+        "False",
+        "Dark",
+        "Weak",
+        "Pull"
+      ]
+    },
+    {
+      "prompt": "Thick",
+      "answer": "Thin",
+      "options": [
+        "Lose",
+        "Delayed",
+        "Night",
+        "Thin",
+        "Sad"
+      ]
+    },
+    {
+      "prompt": "Smooth",
+      "answer": "Rough",
+      "options": [
+        "Cold",
+        "Rough",
+        "Poor",
+        "Small",
+        "Outside"
+      ]
+    },
+    {
+      "prompt": "Front",
+      "answer": "Back",
+      "options": [
+        "Back",
+        "False",
+        "Take",
+        "Down",
+        "Late"
+      ]
+    },
+    {
+      "prompt": "Left",
+      "answer": "Right",
+      "options": [
+        "False",
+        "Bitter",
+        "Right",
+        "Delayed",
+        "Wrong"
+      ]
+    },
+    {
+      "prompt": "Cheap",
+      "answer": "Expensive",
+      "options": [
+        "Expensive",
+        "False",
+        "Take",
+        "Tight",
+        "Dull"
+      ]
+    },
+    {
+      "prompt": "Strong",
+      "answer": "Fragile",
+      "options": [
+        "Fragile",
+        "Tight",
+        "Exit",
+        "False",
+        "Night"
+      ]
+    },
+    {
+      "prompt": "Warm",
+      "answer": "Cool",
+      "options": [
+        "Slow",
+        "Poor",
+        "Cool",
+        "Weak",
+        "Idle"
+      ]
+    },
+    {
+      "prompt": "Bright",
+      "answer": "Dim",
+      "options": [
+        "Quiet",
+        "Exit",
+        "Afraid",
+        "Dim",
+        "Outside"
+      ]
+    },
+    {
+      "prompt": "Loose",
+      "answer": "Tight",
+      "options": [
+        "False",
+        "Despair",
+        "Tight",
+        "Sell",
+        "Delayed"
+      ]
+    },
+    {
+      "prompt": "Friend",
+      "answer": "Enemy",
+      "options": [
+        "Enemy",
+        "Dull",
+        "Fragile",
+        "Hard",
+        "Pull"
+      ]
+    },
+    {
+      "prompt": "Enter",
+      "answer": "Exit",
+      "options": [
+        "Exit",
+        "Sad",
+        "Poor",
+        "Back",
+        "Dark"
+      ]
+    },
+    {
+      "prompt": "Hope",
+      "answer": "Despair",
+      "options": [
+        "Take",
+        "Hard",
+        "Cool",
+        "Despair",
+        "Small"
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "prompt": "Ancient",
+      "answer": "Modern",
+      "options": [
+        "Modern",
+        "Obscure",
+        "Punish",
+        "Public",
+        "Current"
+      ]
+    },
+    {
+      "prompt": "Calm",
+      "answer": "Agitated",
+      "options": [
+        "Imbalance",
+        "Damage",
+        "Deceitful",
+        "Agitated",
+        "Reject"
+      ]
+    },
+    {
+      "prompt": "Expand",
+      "answer": "Shrink",
+      "options": [
+        "Shrink",
+        "Complex",
+        "Expose",
+        "Imbalance",
+        "Current"
+      ]
+    },
+    {
+      "prompt": "Victory",
+      "answer": "Defeat",
+      "options": [
+        "Demote",
+        "Loud",
+        "Defeat",
+        "Public",
+        "Vague"
+      ]
+    },
+    {
+      "prompt": "Silent",
+      "answer": "Loud",
+      "options": [
+        "Scatter",
+        "Loud",
+        "Immature",
+        "Defeat",
+        "Complex"
+      ]
+    },
+    {
+      "prompt": "Generous",
+      "answer": "Stingy",
+      "options": [
+        "Vulnerable",
+        "Sluggish",
+        "Stingy",
+        "Doubtful",
+        "Complex"
+      ]
+    },
+    {
+      "prompt": "Simple",
+      "answer": "Complex",
+      "options": [
+        "Injustice",
+        "Demote",
+        "Rigid",
+        "Disrespect",
+        "Complex"
+      ]
+    },
+    {
+      "prompt": "Arrive",
+      "answer": "Depart",
+      "options": [
+        "Hidden",
+        "Conflict",
+        "Current",
+        "Demote",
+        "Depart"
+      ]
+    },
+    {
+      "prompt": "Accept",
+      "answer": "Reject",
+      "options": [
+        "Boisterous",
+        "Foolish",
+        "Reject",
+        "Hidden",
+        "Careless"
+      ]
+    },
+    {
+      "prompt": "Increase",
+      "answer": "Reduce",
+      "options": [
+        "Immature",
+        "Unlikely",
+        "Separate",
+        "Conflict",
+        "Reduce"
+      ]
+    },
+    {
+      "prompt": "Advance",
+      "answer": "Retreat",
+      "options": [
+        "Sparse",
+        "Retreat",
+        "Sluggish",
+        "Immature",
+        "Passive"
+      ]
+    },
+    {
+      "prompt": "Create",
+      "answer": "Destroy",
+      "options": [
+        "Conflict",
+        "Destroy",
+        "Sluggish",
+        "Artificial",
+        "Reduce"
+      ]
+    },
+    {
+      "prompt": "Visible",
+      "answer": "Hidden",
+      "options": [
+        "Sparse",
+        "Hidden",
+        "Stingy",
+        "Irregular",
+        "Destroy"
+      ]
+    },
+    {
+      "prompt": "Honest",
+      "answer": "Deceitful",
+      "options": [
+        "Demote",
+        "Irregular",
+        "Deceitful",
+        "Rude",
+        "Stingy"
+      ]
+    },
+    {
+      "prompt": "Polite",
+      "answer": "Rude",
+      "options": [
+        "Exclude",
+        "Rude",
+        "Rigid",
+        "Stingy",
+        "Doubtful"
+      ]
+    },
+    {
+      "prompt": "Flexible",
+      "answer": "Rigid",
+      "options": [
+        "Rude",
+        "Retreat",
+        "Unlikely",
+        "Sparse",
+        "Rigid"
+      ]
+    },
+    {
+      "prompt": "Temporary",
+      "answer": "Permanent",
+      "options": [
+        "Boisterous",
+        "Useless",
+        "Public",
+        "Obscure",
+        "Permanent"
+      ]
+    },
+    {
+      "prompt": "Private",
+      "answer": "Public",
+      "options": [
+        "Boisterous",
+        "Pessimistic",
+        "Public",
+        "Sluggish",
+        "Artificial"
+      ]
+    },
+    {
+      "prompt": "Ancient",
+      "answer": "Current",
+      "options": [
+        "Scatter",
+        "Public",
+        "Immature",
+        "Reduce",
+        "Current"
+      ]
+    },
+    {
+      "prompt": "Optimistic",
+      "answer": "Pessimistic",
+      "options": [
+        "Deceitful",
+        "Destroy",
+        "Rude",
+        "Pessimistic",
+        "Foolish"
+      ]
+    },
+    {
+      "prompt": "Regular",
+      "answer": "Irregular",
+      "options": [
+        "Pessimistic",
+        "Expose",
+        "Exclude",
+        "Current",
+        "Irregular"
+      ]
+    },
+    {
+      "prompt": "Natural",
+      "answer": "Artificial",
+      "options": [
+        "Sparse",
+        "Agitated",
+        "Artificial",
+        "Retreat",
+        "Careless"
+      ]
+    },
+    {
+      "prompt": "Hopeful",
+      "answer": "Doubtful",
+      "options": [
+        "Unlikely",
+        "Pessimistic",
+        "Loud",
+        "Doubtful",
+        "Boisterous"
+      ]
+    },
+    {
+      "prompt": "Brisk",
+      "answer": "Sluggish",
+      "options": [
+        "Loud",
+        "Disrespect",
+        "Sluggish",
+        "Boisterous",
+        "Discourage"
+      ]
+    },
+    {
+      "prompt": "Careful",
+      "answer": "Careless",
+      "options": [
+        "Careless",
+        "Disrespect",
+        "Unlikely",
+        "Useless",
+        "Foolish"
+      ]
+    },
+    {
+      "prompt": "Useful",
+      "answer": "Useless",
+      "options": [
+        "Pessimistic",
+        "Expose",
+        "Exclude",
+        "Useless",
+        "Irregular"
+      ]
+    },
+    {
+      "prompt": "Bold",
+      "answer": "Timid",
+      "options": [
+        "Depart",
+        "Timid",
+        "Doubtful",
+        "Imbalance",
+        "Hidden"
+      ]
+    },
+    {
+      "prompt": "Expand",
+      "answer": "Contract",
+      "options": [
+        "Permanent",
+        "Contract",
+        "Retreat",
+        "Boisterous",
+        "Expose"
+      ]
+    },
+    {
+      "prompt": "Protect",
+      "answer": "Expose",
+      "options": [
+        "Separate",
+        "Expose",
+        "Scatter",
+        "Vague",
+        "Sparse"
+      ]
+    },
+    {
+      "prompt": "Gather",
+      "answer": "Scatter",
+      "options": [
+        "Discourage",
+        "Vague",
+        "Depart",
+        "Agitated",
+        "Scatter"
+      ]
+    },
+    {
+      "prompt": "Combine",
+      "answer": "Separate",
+      "options": [
+        "Destroy",
+        "Separate",
+        "Rude",
+        "Disrespect",
+        "Fleeting"
+      ]
+    },
+    {
+      "prompt": "Encourage",
+      "answer": "Discourage",
+      "options": [
+        "Separate",
+        "Loud",
+        "Careless",
+        "Reduce",
+        "Discourage"
+      ]
+    },
+    {
+      "prompt": "Include",
+      "answer": "Exclude",
+      "options": [
+        "Useless",
+        "Passive",
+        "Immature",
+        "Permanent",
+        "Exclude"
+      ]
+    },
+    {
+      "prompt": "Justice",
+      "answer": "Injustice",
+      "options": [
+        "Shrink",
+        "Injustice",
+        "Boisterous",
+        "Rude",
+        "Immature"
+      ]
+    },
+    {
+      "prompt": "Repair",
+      "answer": "Damage",
+      "options": [
+        "Passive",
+        "Damage",
+        "Reduce",
+        "Exclude",
+        "Reject"
+      ]
+    },
+    {
+      "prompt": "Respect",
+      "answer": "Disrespect",
+      "options": [
+        "Defeat",
+        "Complex",
+        "Hidden",
+        "Demote",
+        "Disrespect"
+      ]
+    },
+    {
+      "prompt": "Visible",
+      "answer": "Obscure",
+      "options": [
+        "Irregular",
+        "Shrink",
+        "Sluggish",
+        "Obscure",
+        "Rude"
+      ]
+    },
+    {
+      "prompt": "Likely",
+      "answer": "Unlikely",
+      "options": [
+        "Unlikely",
+        "Modern",
+        "Expose",
+        "Discourage",
+        "Deceitful"
+      ]
+    },
+    {
+      "prompt": "Permanent",
+      "answer": "Fleeting",
+      "options": [
+        "Scatter",
+        "Fleeting",
+        "Stingy",
+        "Shrink",
+        "Depart"
+      ]
+    },
+    {
+      "prompt": "Abundant",
+      "answer": "Sparse",
+      "options": [
+        "Passive",
+        "Sparse",
+        "Contract",
+        "Reject",
+        "Artificial"
+      ]
+    },
+    {
+      "prompt": "Precise",
+      "answer": "Vague",
+      "options": [
+        "Complex",
+        "Vague",
+        "Scatter",
+        "Shrink",
+        "Boisterous"
+      ]
+    },
+    {
+      "prompt": "Harmony",
+      "answer": "Conflict",
+      "options": [
+        "Conflict",
+        "Timid",
+        "Careless",
+        "Irregular",
+        "Fleeting"
+      ]
+    },
+    {
+      "prompt": "Active",
+      "answer": "Passive",
+      "options": [
+        "Passive",
+        "Rigid",
+        "Sparse",
+        "Permanent",
+        "Vague"
+      ]
+    },
+    {
+      "prompt": "Promote",
+      "answer": "Demote",
+      "options": [
+        "Complex",
+        "Foolish",
+        "Demote",
+        "Deceitful",
+        "Useless"
+      ]
+    },
+    {
+      "prompt": "Reward",
+      "answer": "Punish",
+      "options": [
+        "Boisterous",
+        "Punish",
+        "Disrespect",
+        "Stingy",
+        "Scatter"
+      ]
+    },
+    {
+      "prompt": "Silent",
+      "answer": "Boisterous",
+      "options": [
+        "Agitated",
+        "Boisterous",
+        "Stingy",
+        "Sparse",
+        "Reduce"
+      ]
+    },
+    {
+      "prompt": "Secure",
+      "answer": "Vulnerable",
+      "options": [
+        "Demote",
+        "Loud",
+        "Conflict",
+        "Reject",
+        "Vulnerable"
+      ]
+    },
+    {
+      "prompt": "Clever",
+      "answer": "Foolish",
+      "options": [
+        "Expose",
+        "Reject",
+        "Foolish",
+        "Conflict",
+        "Permanent"
+      ]
+    },
+    {
+      "prompt": "Balance",
+      "answer": "Imbalance",
+      "options": [
+        "Agitated",
+        "Fleeting",
+        "Imbalance",
+        "Demote",
+        "Sluggish"
+      ]
+    },
+    {
+      "prompt": "Mature",
+      "answer": "Immature",
+      "options": [
+        "Vague",
+        "Demote",
+        "Immature",
+        "Retreat",
+        "Artificial"
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "prompt": "Abundant",
+      "answer": "Scarce",
+      "options": [
+        "Discord",
+        "Supple",
+        "Negligent",
+        "Compress",
+        "Scarce"
+      ]
+    },
+    {
+      "prompt": "Accurate",
+      "answer": "Inexact",
+      "options": [
+        "Trivial",
+        "Inaudible",
+        "Inexact",
+        "Guarded",
+        "Descend"
+      ]
+    },
+    {
+      "prompt": "Admire",
+      "answer": "Despise",
+      "options": [
+        "Despise",
+        "Inflexible",
+        "Compress",
+        "Expert",
+        "Reveal"
+      ]
+    },
+    {
+      "prompt": "Aggressive",
+      "answer": "Meek",
+      "options": [
+        "Elementary",
+        "Turbulent",
+        "Obscure",
+        "Meek",
+        "Minify"
+      ]
+    },
+    {
+      "prompt": "Ambiguous",
+      "answer": "Explicit",
+      "options": [
+        "Compress",
+        "Sparse",
+        "Explicit",
+        "Inarticulate",
+        "Weaken"
+      ]
+    },
+    {
+      "prompt": "Amateur",
+      "answer": "Expert",
+      "options": [
+        "Plain",
+        "Expert",
+        "Amplify",
+        "Disjointed",
+        "Authentic"
+      ]
+    },
+    {
+      "prompt": "Ancient",
+      "answer": "Nascent",
+      "options": [
+        "Obscure",
+        "Opaque",
+        "Turbulent",
+        "Nascent",
+        "Amplify"
+      ]
+    },
+    {
+      "prompt": "Approve",
+      "answer": "Condemn",
+      "options": [
+        "Obscure",
+        "Opaque",
+        "Unorthodox",
+        "Condemn",
+        "Drab"
+      ]
+    },
+    {
+      "prompt": "Artificial",
+      "answer": "Authentic",
+      "options": [
+        "Cowardly",
+        "Discord",
+        "Authentic",
+        "Counterfeit",
+        "Drab"
+      ]
+    },
+    {
+      "prompt": "Ascend",
+      "answer": "Descend",
+      "options": [
+        "Inarticulate",
+        "Despondent",
+        "Minute",
+        "Descend",
+        "Elementary"
+      ]
+    },
+    {
+      "prompt": "Audible",
+      "answer": "Inaudible",
+      "options": [
+        "Despise",
+        "Meek",
+        "Inaudible",
+        "Reveal",
+        "Authentic"
+      ]
+    },
+    {
+      "prompt": "Benevolent",
+      "answer": "Malevolent",
+      "options": [
+        "Malevolent",
+        "Nascent",
+        "Treacherous",
+        "Miserly",
+        "Turbulent"
+      ]
+    },
+    {
+      "prompt": "Brief",
+      "answer": "Prolonged",
+      "options": [
+        "Prolonged",
+        "Inexact",
+        "Malevolent",
+        "Discord",
+        "Compress"
+      ]
+    },
+    {
+      "prompt": "Candid",
+      "answer": "Guarded",
+      "options": [
+        "Inexact",
+        "Unorthodox",
+        "Guarded",
+        "Waste",
+        "Impulsive"
+      ]
+    },
+    {
+      "prompt": "Coherent",
+      "answer": "Disjointed",
+      "options": [
+        "Discord",
+        "Disjointed",
+        "Biased",
+        "Assail",
+        "Amicable"
+      ]
+    },
+    {
+      "prompt": "Complex",
+      "answer": "Elementary",
+      "options": [
+        "Turbulent",
+        "Meek",
+        "Expert",
+        "Biased",
+        "Elementary"
+      ]
+    },
+    {
+      "prompt": "Conceal",
+      "answer": "Reveal",
+      "options": [
+        "Inflexible",
+        "Malevolent",
+        "Negligent",
+        "Plain",
+        "Reveal"
+      ]
+    },
+    {
+      "prompt": "Conserve",
+      "answer": "Waste",
+      "options": [
+        "Meek",
+        "Despondent",
+        "Authentic",
+        "Drab",
+        "Waste"
+      ]
+    },
+    {
+      "prompt": "Conventional",
+      "answer": "Unorthodox",
+      "options": [
+        "Assail",
+        "Opaque",
+        "Biased",
+        "Unorthodox",
+        "Discord"
+      ]
+    },
+    {
+      "prompt": "Courageous",
+      "answer": "Cowardly",
+      "options": [
+        "Inflexible",
+        "Negligent",
+        "Amplify",
+        "Disjointed",
+        "Cowardly"
+      ]
+    },
+    {
+      "prompt": "Defend",
+      "answer": "Assail",
+      "options": [
+        "Assail",
+        "Elementary",
+        "Expert",
+        "Insincere",
+        "Reveal"
+      ]
+    },
+    {
+      "prompt": "Deliberate",
+      "answer": "Impulsive",
+      "options": [
+        "Despondent",
+        "Elementary",
+        "Impulsive",
+        "Inarticulate",
+        "Drab"
+      ]
+    },
+    {
+      "prompt": "Dense",
+      "answer": "Sparse",
+      "options": [
+        "Weaken",
+        "Meek",
+        "Despondent",
+        "Plain",
+        "Sparse"
+      ]
+    },
+    {
+      "prompt": "Diminish",
+      "answer": "Amplify",
+      "options": [
+        "Discord",
+        "Impulsive",
+        "Amplify",
+        "Opaque",
+        "Inflexible"
+      ]
+    },
+    {
+      "prompt": "Eloquent",
+      "answer": "Inarticulate",
+      "options": [
+        "Inarticulate",
+        "Authentic",
+        "Elementary",
+        "Opaque",
+        "Descend"
+      ]
+    },
+    {
+      "prompt": "Essential",
+      "answer": "Trivial",
+      "options": [
+        "Trivial",
+        "Obscure",
+        "Malevolent",
+        "Inaudible",
+        "Meek"
+      ]
+    },
+    {
+      "prompt": "Expand",
+      "answer": "Compress",
+      "options": [
+        "Malevolent",
+        "Abate",
+        "Compress",
+        "Authentic",
+        "Amicable"
+      ]
+    },
+    {
+      "prompt": "Flexible",
+      "answer": "Inflexible",
+      "options": [
+        "Inflexible",
+        "Sparse",
+        "Authentic",
+        "Despondent",
+        "Supple"
+      ]
+    },
+    {
+      "prompt": "Fortify",
+      "answer": "Weaken",
+      "options": [
+        "Authentic",
+        "Inflexible",
+        "Prolonged",
+        "Weaken",
+        "Despondent"
+      ]
+    },
+    {
+      "prompt": "Generous",
+      "answer": "Miserly",
+      "options": [
+        "Reveal",
+        "Miserly",
+        "Meek",
+        "Expert",
+        "Weaken"
+      ]
+    },
+    {
+      "prompt": "Genuine",
+      "answer": "Counterfeit",
+      "options": [
+        "Transient",
+        "Minify",
+        "Counterfeit",
+        "Condemn",
+        "Weaken"
+      ]
+    },
+    {
+      "prompt": "Harmony",
+      "answer": "Discord",
+      "options": [
+        "Malevolent",
+        "Assail",
+        "Inflexible",
+        "Discord",
+        "Opaque"
+      ]
+    },
+    {
+      "prompt": "Hostile",
+      "answer": "Amicable",
+      "options": [
+        "Elementary",
+        "Impulsive",
+        "Obscure",
+        "Amicable",
+        "Transient"
+      ]
+    },
+    {
+      "prompt": "Illuminate",
+      "answer": "Obscure",
+      "options": [
+        "Compress",
+        "Meek",
+        "Despondent",
+        "Obscure",
+        "Malevolent"
+      ]
+    },
+    {
+      "prompt": "Immense",
+      "answer": "Minute",
+      "options": [
+        "Supple",
+        "Condemn",
+        "Opaque",
+        "Minute",
+        "Prolonged"
+      ]
+    },
+    {
+      "prompt": "Impartial",
+      "answer": "Biased",
+      "options": [
+        "Miserly",
+        "Inexact",
+        "Negligent",
+        "Minify",
+        "Biased"
+      ]
+    },
+    {
+      "prompt": "Increase",
+      "answer": "Abate",
+      "options": [
+        "Weaken",
+        "Obscure",
+        "Abate",
+        "Disjointed",
+        "Guarded"
+      ]
+    },
+    {
+      "prompt": "Intricate",
+      "answer": "Plain",
+      "options": [
+        "Despise",
+        "Transient",
+        "Plain",
+        "Scarce",
+        "Trivial"
+      ]
+    },
+    {
+      "prompt": "Loyal",
+      "answer": "Treacherous",
+      "options": [
+        "Descend",
+        "Scarce",
+        "Treacherous",
+        "Turbulent",
+        "Condemn"
+      ]
+    },
+    {
+      "prompt": "Magnify",
+      "answer": "Minify",
+      "options": [
+        "Weaken",
+        "Nascent",
+        "Minify",
+        "Assail",
+        "Counterfeit"
+      ]
+    },
+    {
+      "prompt": "Meticulous",
+      "answer": "Negligent",
+      "options": [
+        "Sparse",
+        "Negligent",
+        "Obscure",
+        "Scarce",
+        "Insincere"
+      ]
+    },
+    {
+      "prompt": "Optimistic",
+      "answer": "Despondent",
+      "options": [
+        "Amicable",
+        "Despondent",
+        "Amplify",
+        "Nascent",
+        "Condemn"
+      ]
+    },
+    {
+      "prompt": "Permanent",
+      "answer": "Transient",
+      "options": [
+        "Impulsive",
+        "Inarticulate",
+        "Transient",
+        "Minify",
+        "Biased"
+      ]
+    },
+    {
+      "prompt": "Rigid",
+      "answer": "Supple",
+      "options": [
+        "Supple",
+        "Assail",
+        "Guarded",
+        "Descend",
+        "Inaudible"
+      ]
+    },
+    {
+      "prompt": "Sincere",
+      "answer": "Insincere",
+      "options": [
+        "Inflexible",
+        "Plain",
+        "Amplify",
+        "Insincere",
+        "Condemn"
+      ]
+    },
+    {
+      "prompt": "Sturdy",
+      "answer": "Fragile",
+      "options": [
+        "Treacherous",
+        "Authentic",
+        "Fragile",
+        "Meek",
+        "Turbulent"
+      ]
+    },
+    {
+      "prompt": "Tranquil",
+      "answer": "Turbulent",
+      "options": [
+        "Fragile",
+        "Cowardly",
+        "Disjointed",
+        "Turbulent",
+        "Descend"
+      ]
+    },
+    {
+      "prompt": "Transparent",
+      "answer": "Opaque",
+      "options": [
+        "Refute",
+        "Amicable",
+        "Minute",
+        "Opaque",
+        "Waste"
+      ]
+    },
+    {
+      "prompt": "Validate",
+      "answer": "Refute",
+      "options": [
+        "Fragile",
+        "Minute",
+        "Refute",
+        "Plain",
+        "Discord"
+      ]
+    },
+    {
+      "prompt": "Vivid",
+      "answer": "Drab",
+      "options": [
+        "Drab",
+        "Counterfeit",
+        "Refute",
+        "Negligent",
+        "Trivial"
+      ]
+    }
+  ]
+}

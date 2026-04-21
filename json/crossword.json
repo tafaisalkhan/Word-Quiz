@@ -1,0 +1,758 @@
+{
+  "easy": [
+    {
+      "prompt": "Fill the missing word: Another word for \"Happy\" is ___",
+      "answer": "GLAD",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Big\" is ___",
+      "answer": "LARGE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Small\" is ___",
+      "answer": "TINY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Fast\" is ___",
+      "answer": "QUICK",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Smart\" is ___",
+      "answer": "CLEVER",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Quiet\" is ___",
+      "answer": "SILENT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Brave\" is ___",
+      "answer": "BOLD",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Angry\" is ___",
+      "answer": "MAD",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Begin\" is ___",
+      "answer": "START",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"End\" is ___",
+      "answer": "FINISH",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Job\" is ___",
+      "answer": "TASK",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Gift\" is ___",
+      "answer": "PRESENT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Child\" is ___",
+      "answer": "KID",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Home\" is ___",
+      "answer": "HOUSE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Idea\" is ___",
+      "answer": "THOUGHT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Answer\" is ___",
+      "answer": "REPLY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Story\" is ___",
+      "answer": "TALE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Rich\" is ___",
+      "answer": "WEALTHY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Clean\" is ___",
+      "answer": "TIDY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Help\" is ___",
+      "answer": "ASSIST",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Buy\" is ___",
+      "answer": "PURCHASE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Look\" is ___",
+      "answer": "SEE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Near\" is ___",
+      "answer": "CLOSE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Error\" is ___",
+      "answer": "MISTAKE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Road\" is ___",
+      "answer": "STREET",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Jump\" is ___",
+      "answer": "LEAP",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Safe\" is ___",
+      "answer": "SECURE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Funny\" is ___",
+      "answer": "HUMOROUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Easy\" is ___",
+      "answer": "SIMPLE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Hard\" is ___",
+      "answer": "DIFFICULT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Pretty\" is ___",
+      "answer": "LOVELY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Old\" is ___",
+      "answer": "ANCIENT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Young\" is ___",
+      "answer": "YOUTHFUL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Strong\" is ___",
+      "answer": "POWERFUL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Weak\" is ___",
+      "answer": "FRAIL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Friend\" is ___",
+      "answer": "PAL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Talk\" is ___",
+      "answer": "SPEAK",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Walk\" is ___",
+      "answer": "STROLL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Beginner\" is ___",
+      "answer": "NOVICE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Picture\" is ___",
+      "answer": "IMAGE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Buyable\" is ___",
+      "answer": "AFFORDABLE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Shiny\" is ___",
+      "answer": "BRIGHT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Calm\" is ___",
+      "answer": "PEACEFUL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Choose\" is ___",
+      "answer": "SELECT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Quickly\" is ___",
+      "answer": "RAPIDLY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Leave\" is ___",
+      "answer": "DEPART",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Fix\" is ___",
+      "answer": "REPAIR",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Keep\" is ___",
+      "answer": "HOLD",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Tiny bit\" is ___",
+      "answer": "SPECK",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Real\" is ___",
+      "answer": "TRUE",
+      "options": []
+    }
+  ],
+  "medium": [
+    {
+      "prompt": "Fill the missing word: Another word for \"Radiant\" is ___",
+      "answer": "LUMINOUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Rapid\" is ___",
+      "answer": "SWIFT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Tiny\" is ___",
+      "answer": "MINUTE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Calm\" is ___",
+      "answer": "SERENE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Ancient\" is ___",
+      "answer": "ARCHAIC",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Brave\" is ___",
+      "answer": "COURAGEOUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Careful\" is ___",
+      "answer": "CAUTIOUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Clear\" is ___",
+      "answer": "OBVIOUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Lucky\" is ___",
+      "answer": "FORTUNATE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Honest\" is ___",
+      "answer": "TRUTHFUL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Funny\" is ___",
+      "answer": "AMUSING",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Neat\" is ___",
+      "answer": "ORDERLY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Strong\" is ___",
+      "answer": "ROBUST",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Weak\" is ___",
+      "answer": "FRAGILE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Empty\" is ___",
+      "answer": "VACANT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Famous\" is ___",
+      "answer": "RENOWNED",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Quiet\" is ___",
+      "answer": "TRANQUIL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Busy\" is ___",
+      "answer": "OCCUPIED",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Friendly\" is ___",
+      "answer": "AFFABLE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Bright\" is ___",
+      "answer": "VIVID",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Dark\" is ___",
+      "answer": "DIM",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Dangerous\" is ___",
+      "answer": "RISKY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Change\" is ___",
+      "answer": "ALTER",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Help\" is ___",
+      "answer": "SUPPORT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Think\" is ___",
+      "answer": "PONDER",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Speak\" is ___",
+      "answer": "UTTER",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Choose\" is ___",
+      "answer": "OPT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Mix\" is ___",
+      "answer": "BLEND",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Build\" is ___",
+      "answer": "CONSTRUCT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Use\" is ___",
+      "answer": "EMPLOY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Show\" is ___",
+      "answer": "DISPLAY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Need\" is ___",
+      "answer": "REQUIRE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Lazy\" is ___",
+      "answer": "IDLE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Simple\" is ___",
+      "answer": "PLAIN",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Tired\" is ___",
+      "answer": "WEARY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Clean\" is ___",
+      "answer": "PRISTINE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Messy\" is ___",
+      "answer": "CHAOTIC",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Honorable\" is ___",
+      "answer": "NOBLE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Odd\" is ___",
+      "answer": "PECULIAR",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Quick\" is ___",
+      "answer": "PROMPT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Sad\" is ___",
+      "answer": "GLOOMY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Happy\" is ___",
+      "answer": "CHEERFUL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Useful\" is ___",
+      "answer": "PRACTICAL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Realistic\" is ___",
+      "answer": "PLAUSIBLE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Costly\" is ___",
+      "answer": "EXPENSIVE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Silent\" is ___",
+      "answer": "MUTED",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Sharp\" is ___",
+      "answer": "KEEN",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Faint\" is ___",
+      "answer": "SUBTLE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Common\" is ___",
+      "answer": "TYPICAL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Brief\" is ___",
+      "answer": "CONCISE",
+      "options": []
+    }
+  ],
+  "hard": [
+    {
+      "prompt": "Fill the missing word: Another word for \"Abundant\" is ___",
+      "answer": "PLENTIFUL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Accurate\" is ___",
+      "answer": "PRECISE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Adaptable\" is ___",
+      "answer": "VERSATILE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Alert\" is ___",
+      "answer": "VIGILANT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Ambiguous\" is ___",
+      "answer": "VAGUE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Ancient\" is ___",
+      "answer": "PRIMEVAL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Annoying\" is ___",
+      "answer": "IRRITATING",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Answer\" is ___",
+      "answer": "REJOINDER",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Approve\" is ___",
+      "answer": "ENDORSE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Argument\" is ___",
+      "answer": "CONTENTION",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Arrogant\" is ___",
+      "answer": "HAUGHTY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Artful\" is ___",
+      "answer": "INGENIOUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Balanced\" is ___",
+      "answer": "EQUITABLE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Brief\" is ___",
+      "answer": "SUCCINCT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Bright\" is ___",
+      "answer": "RESPLENDENT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Careful\" is ___",
+      "answer": "METICULOUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Complex\" is ___",
+      "answer": "INTRICATE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Confused\" is ___",
+      "answer": "PERPLEXED",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Danger\" is ___",
+      "answer": "PERIL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Decrease\" is ___",
+      "answer": "DIMINISH",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Delicate\" is ___",
+      "answer": "FRAGILE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Detailed\" is ___",
+      "answer": "EXHAUSTIVE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Eager\" is ___",
+      "answer": "ARDENT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Famous\" is ___",
+      "answer": "ILLUSTRIOUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Flexible\" is ___",
+      "answer": "PLIABLE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Generous\" is ___",
+      "answer": "MAGNANIMOUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Gentle\" is ___",
+      "answer": "LENIENT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Gloomy\" is ___",
+      "answer": "MELANCHOLIC",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Honest\" is ___",
+      "answer": "CANDID",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Hostile\" is ___",
+      "answer": "ANTAGONISTIC",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Important\" is ___",
+      "answer": "PARAMOUNT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Inventive\" is ___",
+      "answer": "INNOVATIVE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Joyful\" is ___",
+      "answer": "EXULTANT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Kind\" is ___",
+      "answer": "BENEVOLENT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Large\" is ___",
+      "answer": "IMMENSE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Lucky\" is ___",
+      "answer": "PROVIDENTIAL",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Modern\" is ___",
+      "answer": "CONTEMPORARY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Peaceful\" is ___",
+      "answer": "HALCYON",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Perfect\" is ___",
+      "answer": "FLAWLESS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Proud\" is ___",
+      "answer": "ELATED",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Quick\" is ___",
+      "answer": "EXPEDITIOUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Quiet\" is ___",
+      "answer": "TACITURN",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Rare\" is ___",
+      "answer": "SCARCE",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Rich\" is ___",
+      "answer": "AFFLUENT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Simple\" is ___",
+      "answer": "ELEMENTARY",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Skilled\" is ___",
+      "answer": "ADEPT",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Strong\" is ___",
+      "answer": "STALWART",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Tired\" is ___",
+      "answer": "ENERVATED",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Useful\" is ___",
+      "answer": "ADVANTAGEOUS",
+      "options": []
+    },
+    {
+      "prompt": "Fill the missing word: Another word for \"Wise\" is ___",
+      "answer": "SAGACIOUS",
+      "options": []
+    }
+  ]
+}

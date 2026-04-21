@@ -1,0 +1,1658 @@
+{
+  "easy": [
+    {
+      "prompt": "Today's Word: Happy",
+      "answer": "Glad",
+      "options": [
+        "Large",
+        "Youthful",
+        "Select",
+        "Tidy",
+        "Glad"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Big",
+      "answer": "Large",
+      "options": [
+        "Pal",
+        "True",
+        "Leap",
+        "Purchase",
+        "Large"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Small",
+      "answer": "Tiny",
+      "options": [
+        "Lovely",
+        "Mistake",
+        "Present",
+        "Tale",
+        "Tiny"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Fast",
+      "answer": "Quick",
+      "options": [
+        "Assist",
+        "Glad",
+        "Close",
+        "Quick",
+        "Bold"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Smart",
+      "answer": "Clever",
+      "options": [
+        "Humorous",
+        "True",
+        "Large",
+        "Clever",
+        "Leap"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Quiet",
+      "answer": "Silent",
+      "options": [
+        "Peaceful",
+        "Depart",
+        "Bright",
+        "Silent",
+        "Bold"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Brave",
+      "answer": "Bold",
+      "options": [
+        "Tale",
+        "Depart",
+        "Simple",
+        "Bold",
+        "Start"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Angry",
+      "answer": "Mad",
+      "options": [
+        "Street",
+        "Youthful",
+        "Peaceful",
+        "Mad",
+        "Image"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Begin",
+      "answer": "Start",
+      "options": [
+        "Lovely",
+        "Start",
+        "Select",
+        "Youthful",
+        "Repair"
+      ]
+    },
+    {
+      "prompt": "Today's Word: End",
+      "answer": "Finish",
+      "options": [
+        "Tiny",
+        "Difficult",
+        "Finish",
+        "Speak",
+        "Hold"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Job",
+      "answer": "Task",
+      "options": [
+        "Finish",
+        "Street",
+        "Glad",
+        "Speak",
+        "Task"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Gift",
+      "answer": "Present",
+      "options": [
+        "Ancient",
+        "Finish",
+        "Image",
+        "Stroll",
+        "Present"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Child",
+      "answer": "Kid",
+      "options": [
+        "Select",
+        "Lovely",
+        "Youthful",
+        "Wealthy",
+        "Kid"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Home",
+      "answer": "House",
+      "options": [
+        "House",
+        "Large",
+        "Tiny",
+        "Select",
+        "Start"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Idea",
+      "answer": "Thought",
+      "options": [
+        "Thought",
+        "Frail",
+        "House",
+        "Mad",
+        "Finish"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Answer",
+      "answer": "Reply",
+      "options": [
+        "Glad",
+        "Reply",
+        "Rapidly",
+        "Close",
+        "Novice"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Story",
+      "answer": "Tale",
+      "options": [
+        "Mistake",
+        "Present",
+        "Peaceful",
+        "Speak",
+        "Tale"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Rich",
+      "answer": "Wealthy",
+      "options": [
+        "Ancient",
+        "Tale",
+        "Rapidly",
+        "Wealthy",
+        "Large"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Clean",
+      "answer": "Tidy",
+      "options": [
+        "Kid",
+        "Leap",
+        "Tidy",
+        "Difficult",
+        "True"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Help",
+      "answer": "Assist",
+      "options": [
+        "Start",
+        "Powerful",
+        "Affordable",
+        "Tale",
+        "Assist"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Buy",
+      "answer": "Purchase",
+      "options": [
+        "Affordable",
+        "Purchase",
+        "Image",
+        "Clever",
+        "True"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Look",
+      "answer": "See",
+      "options": [
+        "Mistake",
+        "Speak",
+        "Kid",
+        "Tale",
+        "See"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Near",
+      "answer": "Close",
+      "options": [
+        "Depart",
+        "Leap",
+        "Kid",
+        "Start",
+        "Close"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Error",
+      "answer": "Mistake",
+      "options": [
+        "Ancient",
+        "Mad",
+        "Wealthy",
+        "Mistake",
+        "Novice"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Road",
+      "answer": "Street",
+      "options": [
+        "Quick",
+        "Thought",
+        "Mistake",
+        "Reply",
+        "Street"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Jump",
+      "answer": "Leap",
+      "options": [
+        "Leap",
+        "Glad",
+        "Powerful",
+        "Secure",
+        "Finish"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Safe",
+      "answer": "Secure",
+      "options": [
+        "Difficult",
+        "Kid",
+        "Wealthy",
+        "Purchase",
+        "Secure"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Funny",
+      "answer": "Humorous",
+      "options": [
+        "Bold",
+        "Humorous",
+        "Pal",
+        "Quick",
+        "Purchase"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Easy",
+      "answer": "Simple",
+      "options": [
+        "True",
+        "Assist",
+        "Simple",
+        "Peaceful",
+        "Stroll"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Hard",
+      "answer": "Difficult",
+      "options": [
+        "Repair",
+        "Close",
+        "Difficult",
+        "Present",
+        "Ancient"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Pretty",
+      "answer": "Lovely",
+      "options": [
+        "Pal",
+        "Novice",
+        "Secure",
+        "Rapidly",
+        "Lovely"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Old",
+      "answer": "Ancient",
+      "options": [
+        "House",
+        "Reply",
+        "Finish",
+        "Ancient",
+        "Start"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Young",
+      "answer": "Youthful",
+      "options": [
+        "Finish",
+        "Large",
+        "Peaceful",
+        "Youthful",
+        "Quick"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Strong",
+      "answer": "Powerful",
+      "options": [
+        "Repair",
+        "Speak",
+        "Present",
+        "Powerful",
+        "Depart"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Weak",
+      "answer": "Frail",
+      "options": [
+        "Frail",
+        "True",
+        "Tale",
+        "Stroll",
+        "Powerful"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Friend",
+      "answer": "Pal",
+      "options": [
+        "Pal",
+        "Purchase",
+        "Street",
+        "Secure",
+        "Peaceful"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Talk",
+      "answer": "Speak",
+      "options": [
+        "Pal",
+        "Tidy",
+        "Speak",
+        "Close",
+        "Assist"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Walk",
+      "answer": "Stroll",
+      "options": [
+        "True",
+        "Purchase",
+        "Ancient",
+        "Stroll",
+        "Thought"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Beginner",
+      "answer": "Novice",
+      "options": [
+        "Novice",
+        "Street",
+        "Bright",
+        "Tale",
+        "Close"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Picture",
+      "answer": "Image",
+      "options": [
+        "Speck",
+        "Image",
+        "Mad",
+        "Secure",
+        "Powerful"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Buyable",
+      "answer": "Affordable",
+      "options": [
+        "Tiny",
+        "Affordable",
+        "Speak",
+        "Repair",
+        "Quick"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Shiny",
+      "answer": "Bright",
+      "options": [
+        "Bright",
+        "Clever",
+        "Speck",
+        "Start",
+        "Mistake"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Calm",
+      "answer": "Peaceful",
+      "options": [
+        "Start",
+        "Peaceful",
+        "Pal",
+        "Affordable",
+        "True"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Choose",
+      "answer": "Select",
+      "options": [
+        "Quick",
+        "Select",
+        "True",
+        "Wealthy",
+        "Leap"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Quickly",
+      "answer": "Rapidly",
+      "options": [
+        "Hold",
+        "Rapidly",
+        "Peaceful",
+        "Youthful",
+        "Tiny"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Leave",
+      "answer": "Depart",
+      "options": [
+        "Start",
+        "Tidy",
+        "Bright",
+        "Depart",
+        "Assist"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Fix",
+      "answer": "Repair",
+      "options": [
+        "Depart",
+        "Task",
+        "Reply",
+        "Repair",
+        "Wealthy"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Keep",
+      "answer": "Hold",
+      "options": [
+        "Ancient",
+        "Hold",
+        "Stroll",
+        "Assist",
+        "Finish"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Tiny bit",
+      "answer": "Speck",
+      "options": [
+        "Speck",
+        "Peaceful",
+        "Pal",
+        "Rapidly",
+        "House"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Real",
+      "answer": "True",
+      "options": [
+        "Peaceful",
+        "Quick",
+        "Start",
+        "Bold",
+        "True"
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "prompt": "Today's Word: Radiant",
+      "answer": "Luminous",
+      "options": [
+        "Display",
+        "Gloomy",
+        "Luminous",
+        "Practical",
+        "Affable"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Rapid",
+      "answer": "Swift",
+      "options": [
+        "Cheerful",
+        "Plausible",
+        "Swift",
+        "Weary",
+        "Opt"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Tiny",
+      "answer": "Minute",
+      "options": [
+        "Courageous",
+        "Require",
+        "Peculiar",
+        "Minute",
+        "Serene"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Calm",
+      "answer": "Serene",
+      "options": [
+        "Vivid",
+        "Luminous",
+        "Support",
+        "Serene",
+        "Occupied"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Ancient",
+      "answer": "Archaic",
+      "options": [
+        "Employ",
+        "Archaic",
+        "Cheerful",
+        "Obvious",
+        "Amusing"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Brave",
+      "answer": "Courageous",
+      "options": [
+        "Cheerful",
+        "Courageous",
+        "Pristine",
+        "Chaotic",
+        "Truthful"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Careful",
+      "answer": "Cautious",
+      "options": [
+        "Muted",
+        "Renowned",
+        "Dim",
+        "Blend",
+        "Cautious"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Clear",
+      "answer": "Obvious",
+      "options": [
+        "Fortunate",
+        "Obvious",
+        "Chaotic",
+        "Tranquil",
+        "Cheerful"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Lucky",
+      "answer": "Fortunate",
+      "options": [
+        "Orderly",
+        "Fortunate",
+        "Construct",
+        "Subtle",
+        "Luminous"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Honest",
+      "answer": "Truthful",
+      "options": [
+        "Employ",
+        "Renowned",
+        "Truthful",
+        "Courageous",
+        "Tranquil"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Funny",
+      "answer": "Amusing",
+      "options": [
+        "Tranquil",
+        "Amusing",
+        "Keen",
+        "Practical",
+        "Weary"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Neat",
+      "answer": "Orderly",
+      "options": [
+        "Concise",
+        "Renowned",
+        "Orderly",
+        "Employ",
+        "Risky"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Strong",
+      "answer": "Robust",
+      "options": [
+        "Archaic",
+        "Fragile",
+        "Risky",
+        "Robust",
+        "Subtle"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Weak",
+      "answer": "Fragile",
+      "options": [
+        "Minute",
+        "Subtle",
+        "Risky",
+        "Fragile",
+        "Idle"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Empty",
+      "answer": "Vacant",
+      "options": [
+        "Amusing",
+        "Opt",
+        "Weary",
+        "Vacant",
+        "Peculiar"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Famous",
+      "answer": "Renowned",
+      "options": [
+        "Cautious",
+        "Renowned",
+        "Muted",
+        "Occupied",
+        "Minute"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Quiet",
+      "answer": "Tranquil",
+      "options": [
+        "Occupied",
+        "Tranquil",
+        "Pristine",
+        "Plain",
+        "Typical"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Busy",
+      "answer": "Occupied",
+      "options": [
+        "Chaotic",
+        "Support",
+        "Occupied",
+        "Practical",
+        "Concise"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Friendly",
+      "answer": "Affable",
+      "options": [
+        "Idle",
+        "Concise",
+        "Affable",
+        "Blend",
+        "Typical"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Bright",
+      "answer": "Vivid",
+      "options": [
+        "Occupied",
+        "Plain",
+        "Vivid",
+        "Risky",
+        "Renowned"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Dark",
+      "answer": "Dim",
+      "options": [
+        "Orderly",
+        "Plausible",
+        "Utter",
+        "Idle",
+        "Dim"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Dangerous",
+      "answer": "Risky",
+      "options": [
+        "Swift",
+        "Fragile",
+        "Keen",
+        "Risky",
+        "Dim"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Change",
+      "answer": "Alter",
+      "options": [
+        "Plain",
+        "Amusing",
+        "Occupied",
+        "Alter",
+        "Archaic"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Help",
+      "answer": "Support",
+      "options": [
+        "Vivid",
+        "Gloomy",
+        "Cheerful",
+        "Fortunate",
+        "Support"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Think",
+      "answer": "Ponder",
+      "options": [
+        "Obvious",
+        "Pristine",
+        "Affable",
+        "Ponder",
+        "Concise"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Speak",
+      "answer": "Utter",
+      "options": [
+        "Plausible",
+        "Opt",
+        "Obvious",
+        "Utter",
+        "Concise"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Choose",
+      "answer": "Opt",
+      "options": [
+        "Occupied",
+        "Opt",
+        "Subtle",
+        "Tranquil",
+        "Courageous"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Mix",
+      "answer": "Blend",
+      "options": [
+        "Plain",
+        "Renowned",
+        "Weary",
+        "Blend",
+        "Courageous"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Build",
+      "answer": "Construct",
+      "options": [
+        "Plain",
+        "Weary",
+        "Minute",
+        "Subtle",
+        "Construct"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Use",
+      "answer": "Employ",
+      "options": [
+        "Support",
+        "Employ",
+        "Fortunate",
+        "Obvious",
+        "Archaic"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Show",
+      "answer": "Display",
+      "options": [
+        "Display",
+        "Chaotic",
+        "Weary",
+        "Archaic",
+        "Noble"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Need",
+      "answer": "Require",
+      "options": [
+        "Utter",
+        "Peculiar",
+        "Display",
+        "Require",
+        "Employ"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Lazy",
+      "answer": "Idle",
+      "options": [
+        "Orderly",
+        "Typical",
+        "Subtle",
+        "Employ",
+        "Idle"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Simple",
+      "answer": "Plain",
+      "options": [
+        "Idle",
+        "Occupied",
+        "Plausible",
+        "Fragile",
+        "Plain"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Tired",
+      "answer": "Weary",
+      "options": [
+        "Weary",
+        "Fragile",
+        "Gloomy",
+        "Truthful",
+        "Renowned"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Clean",
+      "answer": "Pristine",
+      "options": [
+        "Plausible",
+        "Display",
+        "Pristine",
+        "Idle",
+        "Dim"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Messy",
+      "answer": "Chaotic",
+      "options": [
+        "Courageous",
+        "Idle",
+        "Chaotic",
+        "Pristine",
+        "Swift"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Honorable",
+      "answer": "Noble",
+      "options": [
+        "Require",
+        "Serene",
+        "Noble",
+        "Pristine",
+        "Peculiar"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Odd",
+      "answer": "Peculiar",
+      "options": [
+        "Pristine",
+        "Orderly",
+        "Truthful",
+        "Peculiar",
+        "Require"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Quick",
+      "answer": "Prompt",
+      "options": [
+        "Alter",
+        "Utter",
+        "Prompt",
+        "Construct",
+        "Peculiar"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Sad",
+      "answer": "Gloomy",
+      "options": [
+        "Expensive",
+        "Archaic",
+        "Display",
+        "Gloomy",
+        "Minute"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Happy",
+      "answer": "Cheerful",
+      "options": [
+        "Archaic",
+        "Ponder",
+        "Serene",
+        "Cheerful",
+        "Robust"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Useful",
+      "answer": "Practical",
+      "options": [
+        "Weary",
+        "Practical",
+        "Robust",
+        "Alter",
+        "Prompt"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Realistic",
+      "answer": "Plausible",
+      "options": [
+        "Concise",
+        "Renowned",
+        "Require",
+        "Idle",
+        "Plausible"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Costly",
+      "answer": "Expensive",
+      "options": [
+        "Courageous",
+        "Expensive",
+        "Prompt",
+        "Keen",
+        "Chaotic"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Silent",
+      "answer": "Muted",
+      "options": [
+        "Renowned",
+        "Muted",
+        "Plain",
+        "Require",
+        "Support"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Sharp",
+      "answer": "Keen",
+      "options": [
+        "Robust",
+        "Subtle",
+        "Fortunate",
+        "Expensive",
+        "Keen"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Faint",
+      "answer": "Subtle",
+      "options": [
+        "Courageous",
+        "Archaic",
+        "Muted",
+        "Fragile",
+        "Subtle"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Common",
+      "answer": "Typical",
+      "options": [
+        "Practical",
+        "Cautious",
+        "Serene",
+        "Opt",
+        "Typical"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Brief",
+      "answer": "Concise",
+      "options": [
+        "Fragile",
+        "Risky",
+        "Concise",
+        "Occupied",
+        "Peculiar"
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "prompt": "Today's Word: Abundant",
+      "answer": "Plentiful",
+      "options": [
+        "Plentiful",
+        "Irritating",
+        "Haughty",
+        "Magnanimous",
+        "Ingenious"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Accurate",
+      "answer": "Precise",
+      "options": [
+        "Elated",
+        "Precise",
+        "Taciturn",
+        "Candid",
+        "Elementary"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Adaptable",
+      "answer": "Versatile",
+      "options": [
+        "Elementary",
+        "Advantageous",
+        "Pliable",
+        "Endorse",
+        "Versatile"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Alert",
+      "answer": "Vigilant",
+      "options": [
+        "Immense",
+        "Succinct",
+        "Vigilant",
+        "Vague",
+        "Fragile"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Ambiguous",
+      "answer": "Vague",
+      "options": [
+        "Flawless",
+        "Elated",
+        "Advantageous",
+        "Vague",
+        "Equitable"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Ancient",
+      "answer": "Primeval",
+      "options": [
+        "Illustrious",
+        "Primeval",
+        "Ardent",
+        "Resplendent",
+        "Pliable"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Annoying",
+      "answer": "Irritating",
+      "options": [
+        "Irritating",
+        "Versatile",
+        "Illustrious",
+        "Immense",
+        "Fragile"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Answer",
+      "answer": "Rejoinder",
+      "options": [
+        "Peril",
+        "Meticulous",
+        "Intricate",
+        "Rejoinder",
+        "Magnanimous"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Approve",
+      "answer": "Endorse",
+      "options": [
+        "Precise",
+        "Endorse",
+        "Ingenious",
+        "Fragile",
+        "Plentiful"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Argument",
+      "answer": "Contention",
+      "options": [
+        "Lenient",
+        "Contention",
+        "Flawless",
+        "Ardent",
+        "Providential"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Arrogant",
+      "answer": "Haughty",
+      "options": [
+        "Exultant",
+        "Fragile",
+        "Haughty",
+        "Endorse",
+        "Elated"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Artful",
+      "answer": "Ingenious",
+      "options": [
+        "Succinct",
+        "Vigilant",
+        "Endorse",
+        "Ingenious",
+        "Primeval"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Balanced",
+      "answer": "Equitable",
+      "options": [
+        "Intricate",
+        "Lenient",
+        "Stalwart",
+        "Perplexed",
+        "Equitable"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Brief",
+      "answer": "Succinct",
+      "options": [
+        "Succinct",
+        "Elementary",
+        "Pliable",
+        "Candid",
+        "Vague"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Bright",
+      "answer": "Resplendent",
+      "options": [
+        "Vague",
+        "Sagacious",
+        "Expeditious",
+        "Resplendent",
+        "Fragile"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Careful",
+      "answer": "Meticulous",
+      "options": [
+        "Contemporary",
+        "Endorse",
+        "Antagonistic",
+        "Scarce",
+        "Meticulous"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Complex",
+      "answer": "Intricate",
+      "options": [
+        "Vague",
+        "Scarce",
+        "Intricate",
+        "Taciturn",
+        "Ardent"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Confused",
+      "answer": "Perplexed",
+      "options": [
+        "Ingenious",
+        "Versatile",
+        "Candid",
+        "Perplexed",
+        "Elated"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Danger",
+      "answer": "Peril",
+      "options": [
+        "Elated",
+        "Resplendent",
+        "Magnanimous",
+        "Meticulous",
+        "Peril"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Decrease",
+      "answer": "Diminish",
+      "options": [
+        "Primeval",
+        "Pliable",
+        "Diminish",
+        "Intricate",
+        "Taciturn"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Delicate",
+      "answer": "Fragile",
+      "options": [
+        "Fragile",
+        "Precise",
+        "Adept",
+        "Lenient",
+        "Contemporary"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Detailed",
+      "answer": "Exhaustive",
+      "options": [
+        "Rejoinder",
+        "Versatile",
+        "Melancholic",
+        "Exhaustive",
+        "Perplexed"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Eager",
+      "answer": "Ardent",
+      "options": [
+        "Magnanimous",
+        "Flawless",
+        "Enervated",
+        "Ardent",
+        "Meticulous"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Famous",
+      "answer": "Illustrious",
+      "options": [
+        "Endorse",
+        "Illustrious",
+        "Innovative",
+        "Taciturn",
+        "Vigilant"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Flexible",
+      "answer": "Pliable",
+      "options": [
+        "Ingenious",
+        "Meticulous",
+        "Equitable",
+        "Pliable",
+        "Primeval"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Generous",
+      "answer": "Magnanimous",
+      "options": [
+        "Primeval",
+        "Magnanimous",
+        "Pliable",
+        "Perplexed",
+        "Versatile"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Gentle",
+      "answer": "Lenient",
+      "options": [
+        "Lenient",
+        "Peril",
+        "Enervated",
+        "Pliable",
+        "Intricate"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Gloomy",
+      "answer": "Melancholic",
+      "options": [
+        "Succinct",
+        "Taciturn",
+        "Melancholic",
+        "Advantageous",
+        "Antagonistic"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Honest",
+      "answer": "Candid",
+      "options": [
+        "Vague",
+        "Lenient",
+        "Candid",
+        "Advantageous",
+        "Elated"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Hostile",
+      "answer": "Antagonistic",
+      "options": [
+        "Innovative",
+        "Vague",
+        "Lenient",
+        "Immense",
+        "Antagonistic"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Important",
+      "answer": "Paramount",
+      "options": [
+        "Ardent",
+        "Lenient",
+        "Haughty",
+        "Paramount",
+        "Vigilant"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Inventive",
+      "answer": "Innovative",
+      "options": [
+        "Innovative",
+        "Succinct",
+        "Versatile",
+        "Endorse",
+        "Vigilant"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Joyful",
+      "answer": "Exultant",
+      "options": [
+        "Exultant",
+        "Rejoinder",
+        "Adept",
+        "Intricate",
+        "Plentiful"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Kind",
+      "answer": "Benevolent",
+      "options": [
+        "Melancholic",
+        "Benevolent",
+        "Ardent",
+        "Paramount",
+        "Innovative"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Large",
+      "answer": "Immense",
+      "options": [
+        "Immense",
+        "Irritating",
+        "Diminish",
+        "Enervated",
+        "Lenient"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Lucky",
+      "answer": "Providential",
+      "options": [
+        "Providential",
+        "Vigilant",
+        "Primeval",
+        "Taciturn",
+        "Exultant"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Modern",
+      "answer": "Contemporary",
+      "options": [
+        "Providential",
+        "Ardent",
+        "Contemporary",
+        "Exultant",
+        "Exhaustive"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Peaceful",
+      "answer": "Halcyon",
+      "options": [
+        "Lenient",
+        "Succinct",
+        "Adept",
+        "Primeval",
+        "Halcyon"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Perfect",
+      "answer": "Flawless",
+      "options": [
+        "Flawless",
+        "Primeval",
+        "Ardent",
+        "Precise",
+        "Sagacious"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Proud",
+      "answer": "Elated",
+      "options": [
+        "Illustrious",
+        "Expeditious",
+        "Elated",
+        "Lenient",
+        "Stalwart"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Quick",
+      "answer": "Expeditious",
+      "options": [
+        "Expeditious",
+        "Melancholic",
+        "Meticulous",
+        "Irritating",
+        "Endorse"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Quiet",
+      "answer": "Taciturn",
+      "options": [
+        "Taciturn",
+        "Plentiful",
+        "Lenient",
+        "Flawless",
+        "Exhaustive"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Rare",
+      "answer": "Scarce",
+      "options": [
+        "Rejoinder",
+        "Intricate",
+        "Haughty",
+        "Advantageous",
+        "Scarce"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Rich",
+      "answer": "Affluent",
+      "options": [
+        "Lenient",
+        "Advantageous",
+        "Affluent",
+        "Halcyon",
+        "Ingenious"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Simple",
+      "answer": "Elementary",
+      "options": [
+        "Halcyon",
+        "Exultant",
+        "Affluent",
+        "Lenient",
+        "Elementary"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Skilled",
+      "answer": "Adept",
+      "options": [
+        "Ardent",
+        "Perplexed",
+        "Exhaustive",
+        "Peril",
+        "Adept"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Strong",
+      "answer": "Stalwart",
+      "options": [
+        "Candid",
+        "Vigilant",
+        "Primeval",
+        "Intricate",
+        "Stalwart"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Tired",
+      "answer": "Enervated",
+      "options": [
+        "Halcyon",
+        "Scarce",
+        "Affluent",
+        "Enervated",
+        "Peril"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Useful",
+      "answer": "Advantageous",
+      "options": [
+        "Scarce",
+        "Antagonistic",
+        "Adept",
+        "Affluent",
+        "Advantageous"
+      ]
+    },
+    {
+      "prompt": "Today's Word: Wise",
+      "answer": "Sagacious",
+      "options": [
+        "Meticulous",
+        "Affluent",
+        "Succinct",
+        "Antagonistic",
+        "Sagacious"
+      ]
+    }
+  ]
+}

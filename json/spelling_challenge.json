@@ -1,0 +1,1658 @@
+{
+  "easy": [
+    {
+      "prompt": "Correct spelling of \"Epple\"?",
+      "answer": "Apple",
+      "options": [
+        "Appla",
+        "Appl",
+        "Epple",
+        "Aple",
+        "Apple"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Braad\"?",
+      "answer": "Bread",
+      "options": [
+        "Breadd",
+        "Bead",
+        "Breed",
+        "Bread",
+        "Braad"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Brushh\"?",
+      "answer": "Brush",
+      "options": [
+        "Brusd",
+        "Brushh",
+        "Bush",
+        "Brush",
+        "Brus"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Cheir\"?",
+      "answer": "Chair",
+      "options": [
+        "Cheir",
+        "Chai",
+        "Chair",
+        "Cair",
+        "Chairr"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Clou\"?",
+      "answer": "Cloud",
+      "options": [
+        "Coud",
+        "Clou",
+        "Cloudd",
+        "Claud",
+        "Cloud"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Drea\"?",
+      "answer": "Dream",
+      "options": [
+        "Deam",
+        "Drea",
+        "Draam",
+        "Dream",
+        "Dreamm"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Floorr\"?",
+      "answer": "Floor",
+      "options": [
+        "Floorr",
+        "Flaor",
+        "Floo",
+        "Floor",
+        "Foor"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Fame\"?",
+      "answer": "Frame",
+      "options": [
+        "Fame",
+        "Frame",
+        "Framee",
+        "Frama",
+        "Fram"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Grden\"?",
+      "answer": "Garden",
+      "options": [
+        "Garde",
+        "Grden",
+        "Gardenn",
+        "Gerden",
+        "Garden"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Glas\"?",
+      "answer": "Glass",
+      "options": [
+        "Gless",
+        "Gass",
+        "Glass",
+        "Glas",
+        "Glasss"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Grepe\"?",
+      "answer": "Grape",
+      "options": [
+        "Grapee",
+        "Grap",
+        "Grepe",
+        "Grapa",
+        "Grape"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Geen\"?",
+      "answer": "Green",
+      "options": [
+        "Gree",
+        "Geen",
+        "Graen",
+        "Greenn",
+        "Green"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Hart\"?",
+      "answer": "Heart",
+      "options": [
+        "Heert",
+        "Hart",
+        "Hear",
+        "Heartt",
+        "Heart"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Hone\"?",
+      "answer": "Honey",
+      "options": [
+        "Haney",
+        "Honeyy",
+        "Hney",
+        "Hone",
+        "Honey"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Housee\"?",
+      "answer": "House",
+      "options": [
+        "Hous",
+        "Housee",
+        "House",
+        "Housa",
+        "Huse"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Juicee\"?",
+      "answer": "Juice",
+      "options": [
+        "Juic",
+        "Juice",
+        "Jice",
+        "Juicee",
+        "Juica"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Knif\"?",
+      "answer": "Knife",
+      "options": [
+        "Kife",
+        "Knife",
+        "Knifa",
+        "Knif",
+        "Knifee"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Ligh\"?",
+      "answer": "Light",
+      "options": [
+        "Light",
+        "Lightt",
+        "Lighd",
+        "Lght",
+        "Ligh"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Mngo\"?",
+      "answer": "Mango",
+      "options": [
+        "Mngo",
+        "Mango",
+        "Mang",
+        "Manga",
+        "Mengo"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Msic\"?",
+      "answer": "Music",
+      "options": [
+        "Musi",
+        "Msic",
+        "Musicc",
+        "Musid",
+        "Music"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Ocaan\"?",
+      "answer": "Ocean",
+      "options": [
+        "Oean",
+        "Ocean",
+        "Ocaan",
+        "Acean",
+        "Oceen"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Paperr\"?",
+      "answer": "Paper",
+      "options": [
+        "Pape",
+        "Pper",
+        "Paperr",
+        "Peper",
+        "Paper"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Peac\"?",
+      "answer": "Peace",
+      "options": [
+        "Peece",
+        "Peace",
+        "Pace",
+        "Paace",
+        "Peac"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Pllow\"?",
+      "answer": "Pillow",
+      "options": [
+        "Pillo",
+        "Pillaw",
+        "Pilloww",
+        "Pillow",
+        "Pllow"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Plantt\"?",
+      "answer": "Plant",
+      "options": [
+        "Pant",
+        "Plan",
+        "Plant",
+        "Plent",
+        "Plantt"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Plat\"?",
+      "answer": "Plate",
+      "options": [
+        "Plata",
+        "Plete",
+        "Plat",
+        "Pate",
+        "Plate"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Quee\"?",
+      "answer": "Queen",
+      "options": [
+        "Queen",
+        "Queenn",
+        "Quaen",
+        "Quee",
+        "Qeen"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Riverr\"?",
+      "answer": "River",
+      "options": [
+        "Rivar",
+        "River",
+        "Rive",
+        "Riverr",
+        "Rver"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Rbot\"?",
+      "answer": "Robot",
+      "options": [
+        "Rbot",
+        "Robott",
+        "Robot",
+        "Rabot",
+        "Robo"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Smilee\"?",
+      "answer": "Smile",
+      "options": [
+        "Smilee",
+        "Smila",
+        "Smile",
+        "Sile",
+        "Smil"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Snakee\"?",
+      "answer": "Snake",
+      "options": [
+        "Snake",
+        "Sake",
+        "Snakee",
+        "Snaka",
+        "Snak"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Spoonn\"?",
+      "answer": "Spoon",
+      "options": [
+        "Spaon",
+        "Soon",
+        "Spoonn",
+        "Spoon",
+        "Spoo"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Stare\"?",
+      "answer": "Star",
+      "options": [
+        "Sta",
+        "Ster",
+        "Starr",
+        "Stare",
+        "Star"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Stane\"?",
+      "answer": "Stone",
+      "options": [
+        "Stonee",
+        "Stona",
+        "Ston",
+        "Stane",
+        "Stone"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Storyy\"?",
+      "answer": "Story",
+      "options": [
+        "Storyy",
+        "Stary",
+        "Story",
+        "Stor",
+        "Sory"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Suger\"?",
+      "answer": "Sugar",
+      "options": [
+        "Sugar",
+        "Sugarr",
+        "Suger",
+        "Suga",
+        "Sgar"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Tble\"?",
+      "answer": "Table",
+      "options": [
+        "Tablee",
+        "Table",
+        "Teble",
+        "Tble",
+        "Tabl"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Tigerr\"?",
+      "answer": "Tiger",
+      "options": [
+        "Tige",
+        "Tigerr",
+        "Tiger",
+        "Tigar",
+        "Tger"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Trai\"?",
+      "answer": "Train",
+      "options": [
+        "Trein",
+        "Trai",
+        "Train",
+        "Tain",
+        "Trainn"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Trae\"?",
+      "answer": "Tree",
+      "options": [
+        "Trae",
+        "Tred",
+        "Treee",
+        "Tree",
+        "Tre"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Waterr\"?",
+      "answer": "Water",
+      "options": [
+        "Wter",
+        "Weter",
+        "Watar",
+        "Waterr",
+        "Water"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Whee\"?",
+      "answer": "Wheel",
+      "options": [
+        "Weel",
+        "Whee",
+        "Wheel",
+        "Whael",
+        "Wheell"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Wndow\"?",
+      "answer": "Window",
+      "options": [
+        "Windaw",
+        "Wndow",
+        "Windo",
+        "Windoww",
+        "Window"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Yelloww\"?",
+      "answer": "Yellow",
+      "options": [
+        "Yllow",
+        "Yello",
+        "Yellow",
+        "Yallow",
+        "Yelloww"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Zebr\"?",
+      "answer": "Zebra",
+      "options": [
+        "Zbra",
+        "Zebre",
+        "Zabra",
+        "Zebr",
+        "Zebra"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Butto\"?",
+      "answer": "Button",
+      "options": [
+        "Butto",
+        "Button",
+        "Buttan",
+        "Buttonn",
+        "Btton"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Candl\"?",
+      "answer": "Candle",
+      "options": [
+        "Cndle",
+        "Cendle",
+        "Candl",
+        "Candlee",
+        "Candle"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Flawer\"?",
+      "answer": "Flower",
+      "options": [
+        "Fower",
+        "Flawer",
+        "Flowe",
+        "Flowar",
+        "Flower"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Packet\"?",
+      "answer": "Pocket",
+      "options": [
+        "Pocket",
+        "Packet",
+        "Pcket",
+        "Pockat",
+        "Pocke"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Silverr\"?",
+      "answer": "Silver",
+      "options": [
+        "Silver",
+        "Silvar",
+        "Slver",
+        "Silverr",
+        "Silve"
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "prompt": "Correct spelling of \"Balanca\"?",
+      "answer": "Balance",
+      "options": [
+        "Balancee",
+        "Balance",
+        "Balanca",
+        "Balanc",
+        "Belance"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Cptain\"?",
+      "answer": "Captain",
+      "options": [
+        "Captai",
+        "Ceptain",
+        "Cptain",
+        "Captain",
+        "Captainn"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Cartoo\"?",
+      "answer": "Cartoon",
+      "options": [
+        "Cartoo",
+        "Cartoonn",
+        "Cartoon",
+        "Certoon",
+        "Crtoon"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Crystall\"?",
+      "answer": "Crystal",
+      "options": [
+        "Crystall",
+        "Crysta",
+        "Cystal",
+        "Crystal",
+        "Crystel"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Dolphi\"?",
+      "answer": "Dolphin",
+      "options": [
+        "Dolphinn",
+        "Dolphi",
+        "Dalphin",
+        "Dolphin",
+        "Dlphin"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Alegant\"?",
+      "answer": "Elegant",
+      "options": [
+        "Eegant",
+        "Elegant",
+        "Elegan",
+        "Elegantt",
+        "Alegant"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Fectory\"?",
+      "answer": "Factory",
+      "options": [
+        "Factary",
+        "Fctory",
+        "Factory",
+        "Fectory",
+        "Factoryy"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Freedomm\"?",
+      "answer": "Freedom",
+      "options": [
+        "Freedomm",
+        "Freedam",
+        "Feedom",
+        "Freedom",
+        "Fraedom"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Gravit\"?",
+      "answer": "Gravity",
+      "options": [
+        "Grevity",
+        "Gravity",
+        "Gravityy",
+        "Gavity",
+        "Gravit"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Harvestt\"?",
+      "answer": "Harvest",
+      "options": [
+        "Hervest",
+        "Harves",
+        "Harvestt",
+        "Harvast",
+        "Harvest"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Jurney\"?",
+      "answer": "Journey",
+      "options": [
+        "Journeyy",
+        "Journe",
+        "Jaurney",
+        "Journey",
+        "Jurney"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Kingdam\"?",
+      "answer": "Kingdom",
+      "options": [
+        "Kngdom",
+        "Kingdom",
+        "Kingdam",
+        "Kingdomm",
+        "Kingdo"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Lanter\"?",
+      "answer": "Lantern",
+      "options": [
+        "Lantern",
+        "Lantarn",
+        "Lanter",
+        "Lntern",
+        "Lanternn"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Librar\"?",
+      "answer": "Library",
+      "options": [
+        "Librery",
+        "Library",
+        "Libraryy",
+        "Lbrary",
+        "Librar"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Magnatic\"?",
+      "answer": "Magnetic",
+      "options": [
+        "Magnetic",
+        "Magnatic",
+        "Mgnetic",
+        "Megnetic",
+        "Magneticc"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Meadow\"?",
+      "answer": "Meadows",
+      "options": [
+        "Madows",
+        "Meadowss",
+        "Meadows",
+        "Meadow",
+        "Maadows"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Mracle\"?",
+      "answer": "Miracle",
+      "options": [
+        "Miracle",
+        "Miracl",
+        "Mracle",
+        "Mirecle",
+        "Miracla"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Monsoonn\"?",
+      "answer": "Monsoon",
+      "options": [
+        "Monsoon",
+        "Monsoo",
+        "Monsoonn",
+        "Mansoon",
+        "Mnsoon"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Muntain\"?",
+      "answer": "Mountain",
+      "options": [
+        "Mountai",
+        "Muntain",
+        "Mountain",
+        "Mountein",
+        "Mountainn"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Myster\"?",
+      "answer": "Mystery",
+      "options": [
+        "Mystary",
+        "Mstery",
+        "Myster",
+        "Mystery",
+        "Mysteryy"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Natura\"?",
+      "answer": "Natural",
+      "options": [
+        "Naturall",
+        "Netural",
+        "Natural",
+        "Ntural",
+        "Natura"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Natebook\"?",
+      "answer": "Notebook",
+      "options": [
+        "Notebook",
+        "Notebookk",
+        "Noteboo",
+        "Ntebook",
+        "Natebook"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Archard\"?",
+      "answer": "Orchard",
+      "options": [
+        "Orchar",
+        "Archard",
+        "Ochard",
+        "Orchard",
+        "Orcherd"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Passionn\"?",
+      "answer": "Passion",
+      "options": [
+        "Passionn",
+        "Passio",
+        "Passion",
+        "Pssion",
+        "Passian"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Patter\"?",
+      "answer": "Pattern",
+      "options": [
+        "Patter",
+        "Pttern",
+        "Patternn",
+        "Pattern",
+        "Pattarn"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Pianeer\"?",
+      "answer": "Pioneer",
+      "options": [
+        "Pioneer",
+        "Pionee",
+        "Pionaer",
+        "Poneer",
+        "Pianeer"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Planett\"?",
+      "answer": "Planet",
+      "options": [
+        "Plenet",
+        "Planett",
+        "Plane",
+        "Panet",
+        "Planet"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Poatry\"?",
+      "answer": "Poetry",
+      "options": [
+        "Poetry",
+        "Petry",
+        "Poetryy",
+        "Poetr",
+        "Poatry"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Rilway\"?",
+      "answer": "Railway",
+      "options": [
+        "Railwayy",
+        "Railwa",
+        "Railway",
+        "Reilway",
+        "Rilway"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Reflectt\"?",
+      "answer": "Reflect",
+      "options": [
+        "Rflect",
+        "Reflectt",
+        "Reflect",
+        "Raflect",
+        "Reflec"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Sailin\"?",
+      "answer": "Sailing",
+      "options": [
+        "Sailing",
+        "Seiling",
+        "Sailin",
+        "Sailingg",
+        "Siling"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Sulptor\"?",
+      "answer": "Sculptor",
+      "options": [
+        "Sculptorr",
+        "Sulptor",
+        "Sculptar",
+        "Sculptor",
+        "Sculpto"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Seashel\"?",
+      "answer": "Seashell",
+      "options": [
+        "Seashell",
+        "Seashelll",
+        "Seeshell",
+        "Seashel",
+        "Sashell"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Sadows\"?",
+      "answer": "Shadows",
+      "options": [
+        "Shadows",
+        "Shadaws",
+        "Sadows",
+        "Shedows",
+        "Shadow"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Sparklee\"?",
+      "answer": "Sparkle",
+      "options": [
+        "Sparkla",
+        "Sparklee",
+        "Sarkle",
+        "Sparkle",
+        "Sparkl"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Statio\"?",
+      "answer": "Station",
+      "options": [
+        "Stationn",
+        "Station",
+        "Sation",
+        "Stetion",
+        "Statio"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Sunligh\"?",
+      "answer": "Sunlight",
+      "options": [
+        "Sunligh",
+        "Sunlight",
+        "Sunlightt",
+        "Sunlighd",
+        "Snlight"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Telegra\"?",
+      "answer": "Telegram",
+      "options": [
+        "Telegrem",
+        "Telegram",
+        "Telegra",
+        "Tlegram",
+        "Telegramm"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Tmple\"?",
+      "answer": "Temple",
+      "options": [
+        "Tample",
+        "Templee",
+        "Tmple",
+        "Templ",
+        "Temple"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Tunder\"?",
+      "answer": "Thunder",
+      "options": [
+        "Thunderr",
+        "Thunder",
+        "Thunde",
+        "Thundar",
+        "Tunder"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Tiangle\"?",
+      "answer": "Triangle",
+      "options": [
+        "Triangle",
+        "Tiangle",
+        "Triangl",
+        "Triangla",
+        "Trianglee"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Umbrellaa\"?",
+      "answer": "Umbrella",
+      "options": [
+        "Umbralla",
+        "Umbrella",
+        "Umbrelle",
+        "Ubrella",
+        "Umbrellaa"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Victary\"?",
+      "answer": "Victory",
+      "options": [
+        "Vctory",
+        "Victor",
+        "Victory",
+        "Victoryy",
+        "Victary"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Villagerr\"?",
+      "answer": "Villager",
+      "options": [
+        "Villager",
+        "Villagar",
+        "Villagerr",
+        "Village",
+        "Vllager"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Whispar\"?",
+      "answer": "Whisper",
+      "options": [
+        "Whisperr",
+        "Whispe",
+        "Wisper",
+        "Whispar",
+        "Whisper"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Wldlife\"?",
+      "answer": "Wildlife",
+      "options": [
+        "Wildlif",
+        "Wildlife",
+        "Wldlife",
+        "Wildlifa",
+        "Wildlifee"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Wndsock\"?",
+      "answer": "Windsock",
+      "options": [
+        "Windsock",
+        "Windsoc",
+        "Windsockk",
+        "Windsack",
+        "Wndsock"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Wnder\"?",
+      "answer": "Wonder",
+      "options": [
+        "Wander",
+        "Wonde",
+        "Wondar",
+        "Wonder",
+        "Wnder"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Zealaus\"?",
+      "answer": "Zealous",
+      "options": [
+        "Zaalous",
+        "Zealaus",
+        "Zealous",
+        "Zalous",
+        "Zealouss"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Bossom\"?",
+      "answer": "Blossom",
+      "options": [
+        "Bossom",
+        "Blosso",
+        "Blossom",
+        "Blassom",
+        "Blossomm"
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "prompt": "Correct spelling of \"Abstractt\"?",
+      "answer": "Abstract",
+      "options": [
+        "Ebstract",
+        "Abstractt",
+        "Abstract",
+        "Abstrac",
+        "Astract"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Aademic\"?",
+      "answer": "Academic",
+      "options": [
+        "Academi",
+        "Aademic",
+        "Academicc",
+        "Academic",
+        "Acadamic"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Acuracy\"?",
+      "answer": "Accuracy",
+      "options": [
+        "Eccuracy",
+        "Accurac",
+        "Accuracyy",
+        "Acuracy",
+        "Accuracy"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Alchemyy\"?",
+      "answer": "Alchemy",
+      "options": [
+        "Achemy",
+        "Alchemy",
+        "Alchem",
+        "Alchemyy",
+        "Elchemy"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Esteroid\"?",
+      "answer": "Asteroid",
+      "options": [
+        "Asteroid",
+        "Asteroidd",
+        "Asteraid",
+        "Ateroid",
+        "Esteroid"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Blueprin\"?",
+      "answer": "Blueprint",
+      "options": [
+        "Blueprint",
+        "Bueprint",
+        "Blueprintt",
+        "Blueprin",
+        "Bluaprint"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Cetalyst\"?",
+      "answer": "Catalyst",
+      "options": [
+        "Catalyst",
+        "Ctalyst",
+        "Catalys",
+        "Catalystt",
+        "Cetalyst"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Chronicl\"?",
+      "answer": "Chronicle",
+      "options": [
+        "Chranicle",
+        "Chronicl",
+        "Chroniclee",
+        "Chronicle",
+        "Cronicle"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Carity\"?",
+      "answer": "Clarity",
+      "options": [
+        "Carity",
+        "Clarityy",
+        "Clarit",
+        "Clerity",
+        "Clarity"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Compassionn\"?",
+      "answer": "Compassion",
+      "options": [
+        "Campassion",
+        "Compassio",
+        "Compassionn",
+        "Compassion",
+        "Cmpassion"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Contrest\"?",
+      "answer": "Contrast",
+      "options": [
+        "Cntrast",
+        "Contrest",
+        "Contrast",
+        "Contras",
+        "Contrastt"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Crescendoo\"?",
+      "answer": "Crescendo",
+      "options": [
+        "Crescendoo",
+        "Crascendo",
+        "Crescend",
+        "Crescendo",
+        "Cescendo"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Dalicate\"?",
+      "answer": "Delicate",
+      "options": [
+        "Delicete",
+        "Dalicate",
+        "Delicate",
+        "Delicat",
+        "Delicatee"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Dynamicss\"?",
+      "answer": "Dynamics",
+      "options": [
+        "Dynamics",
+        "Dynamicss",
+        "Dnamics",
+        "Dynemics",
+        "Dynamic"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Elevetion\"?",
+      "answer": "Elevation",
+      "options": [
+        "Elevatian",
+        "Elevatio",
+        "Elevation",
+        "Elevetion",
+        "Elevationn"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Euinox\"?",
+      "answer": "Equinox",
+      "options": [
+        "Equino",
+        "Aquinox",
+        "Equinox",
+        "Equinoxx",
+        "Euinox"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Fastival\"?",
+      "answer": "Festival",
+      "options": [
+        "Festival",
+        "Fstival",
+        "Festivall",
+        "Fastival",
+        "Festiva"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Farmidable\"?",
+      "answer": "Formidable",
+      "options": [
+        "Formidabl",
+        "Formidable",
+        "Formidablee",
+        "Formidabla",
+        "Farmidable"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Fractio\"?",
+      "answer": "Fraction",
+      "options": [
+        "Fractio",
+        "Fractionn",
+        "Faction",
+        "Fraction",
+        "Frection"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Galaxias\"?",
+      "answer": "Galaxies",
+      "options": [
+        "Galaxie",
+        "Gelaxies",
+        "Galaxias",
+        "Galaxies",
+        "Galaxeis"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Harmoni\"?",
+      "answer": "Harmonic",
+      "options": [
+        "Harmoni",
+        "Hrmonic",
+        "Harmonicc",
+        "Harmonic",
+        "Harmanic"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Heritagee\"?",
+      "answer": "Heritage",
+      "options": [
+        "Heritage",
+        "Heritagee",
+        "Haritage",
+        "Heritag",
+        "Heritege"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Horizonss\"?",
+      "answer": "Horizons",
+      "options": [
+        "Hrizons",
+        "Horizonss",
+        "Horizon",
+        "Horizons",
+        "Harizons"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Ilusion\"?",
+      "answer": "Illusion",
+      "options": [
+        "Illusionn",
+        "Illusion",
+        "Illusian",
+        "Ilusion",
+        "Illusio"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Immunit\"?",
+      "answer": "Immunity",
+      "options": [
+        "Immunity",
+        "Immunitd",
+        "Imunity",
+        "Immunit",
+        "Immunityy"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Infinit\"?",
+      "answer": "Infinite",
+      "options": [
+        "Infinite",
+        "Infinit",
+        "Infinita",
+        "Ifinite",
+        "Infinitee"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Jubilan\"?",
+      "answer": "Jubilant",
+      "options": [
+        "Jubilan",
+        "Jbilant",
+        "Jubilantt",
+        "Jubilent",
+        "Jubilant"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Landscap\"?",
+      "answer": "Landscape",
+      "options": [
+        "Landscape",
+        "Lndscape",
+        "Landscap",
+        "Landscapee",
+        "Lendscape"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Luminaryy\"?",
+      "answer": "Luminary",
+      "options": [
+        "Luminery",
+        "Lminary",
+        "Luminar",
+        "Luminaryy",
+        "Luminary"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Maratho\"?",
+      "answer": "Marathon",
+      "options": [
+        "Marathonn",
+        "Merathon",
+        "Marathon",
+        "Maratho",
+        "Mrathon"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Meridien\"?",
+      "answer": "Meridian",
+      "options": [
+        "Meridien",
+        "Mridian",
+        "Meridian",
+        "Maridian",
+        "Meridiann"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Mamentum\"?",
+      "answer": "Momentum",
+      "options": [
+        "Mamentum",
+        "Mmentum",
+        "Momentum",
+        "Momantum",
+        "Momentu"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Narrativ\"?",
+      "answer": "Narrative",
+      "options": [
+        "Narrativee",
+        "Nerrative",
+        "Nrrative",
+        "Narrative",
+        "Narrativ"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Obsidien\"?",
+      "answer": "Obsidian",
+      "options": [
+        "Obsidien",
+        "Obsidian",
+        "Osidian",
+        "Absidian",
+        "Obsidiann"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Arigamis\"?",
+      "answer": "Origamis",
+      "options": [
+        "Origamis",
+        "Origami",
+        "Oigamis",
+        "Arigamis",
+        "Origemis"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Paradoxx\"?",
+      "answer": "Paradox",
+      "options": [
+        "Paradox",
+        "Pradox",
+        "Parado",
+        "Paradoxx",
+        "Paradax"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Pevilion\"?",
+      "answer": "Pavilion",
+      "options": [
+        "Pavilionn",
+        "Pavilio",
+        "Pevilion",
+        "Pavilion",
+        "Pvilion"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Phaenix\"?",
+      "answer": "Phoenix",
+      "options": [
+        "Phoanix",
+        "Phoenix",
+        "Phoeni",
+        "Poenix",
+        "Phaenix"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Pradiction\"?",
+      "answer": "Prediction",
+      "options": [
+        "Pradiction",
+        "Pediction",
+        "Predictio",
+        "Prediction",
+        "Predictian"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Qantum\"?",
+      "answer": "Quantum",
+      "options": [
+        "Quantu",
+        "Quantum",
+        "Quentum",
+        "Quantumm",
+        "Qantum"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Rediance\"?",
+      "answer": "Radiance",
+      "options": [
+        "Rdiance",
+        "Radianc",
+        "Radianca",
+        "Radiance",
+        "Rediance"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Rasonant\"?",
+      "answer": "Resonant",
+      "options": [
+        "Rasonant",
+        "Rsonant",
+        "Resonant",
+        "Resonan",
+        "Resonantt"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Sepphire\"?",
+      "answer": "Sapphire",
+      "options": [
+        "Sapphir",
+        "Sapphira",
+        "Sapphire",
+        "Spphire",
+        "Sepphire"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Spectrumm\"?",
+      "answer": "Spectrum",
+      "options": [
+        "Spectru",
+        "Spectrum",
+        "Spectrumm",
+        "Spactrum",
+        "Sectrum"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Symphon\"?",
+      "answer": "Symphony",
+      "options": [
+        "Symphony",
+        "Smphony",
+        "Symphany",
+        "Symphon",
+        "Symphonyy"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Tangibl\"?",
+      "answer": "Tangible",
+      "options": [
+        "Tngible",
+        "Tengible",
+        "Tangible",
+        "Tangibl",
+        "Tangiblee"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Umbrelles\"?",
+      "answer": "Umbrellas",
+      "options": [
+        "Ubrellas",
+        "Umbrallas",
+        "Umbrellas",
+        "Umbrella",
+        "Umbrelles"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Vanguar\"?",
+      "answer": "Vanguard",
+      "options": [
+        "Vanguard",
+        "Vnguard",
+        "Vanguardd",
+        "Venguard",
+        "Vanguar"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Wildarness\"?",
+      "answer": "Wilderness",
+      "options": [
+        "Wilderness",
+        "Wildarness",
+        "Wlderness",
+        "Wildernesss",
+        "Wildernes"
+      ]
+    },
+    {
+      "prompt": "Correct spelling of \"Zenithel\"?",
+      "answer": "Zenithal",
+      "options": [
+        "Zenitha",
+        "Zenithall",
+        "Zenithel",
+        "Zenithal",
+        "Znithal"
+      ]
+    }
+  ]
+}
