@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../models/word_mode.dart';
 import '../navigation/app_routes.dart';
+import '../providers/user_provider.dart';
 
 class AdBanner extends StatelessWidget {
   const AdBanner({super.key, required this.location});
@@ -85,6 +87,7 @@ class ModeAppBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final difficulty = context.watch<UserProvider>().quizDifficulty;
     return Padding(
       padding: const EdgeInsets.fromLTRB(18, 10, 18, 12),
       child: Row(
@@ -109,7 +112,7 @@ class ModeAppBar extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'Level 42',
+                  difficulty,
                   style: TextStyle(
                     fontSize: 12,
                     color: Colors.black.withValues(alpha: 0.45),

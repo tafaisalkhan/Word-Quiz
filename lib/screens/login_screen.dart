@@ -82,32 +82,9 @@ class LoginScreen extends StatelessWidget {
                     .animate()
                     .fadeIn(delay: 150.ms, duration: 400.ms),
                 const SizedBox(height: 48),
-                _GoogleLoginButton(
-                  onTap: () => _showComingSoon(context, 'Google Sign-In'),
-                )
+                _PlayerProfileForm()
                     .animate()
                     .fadeIn(delay: 300.ms, duration: 400.ms)
-                    .moveY(begin: 15, end: 0, duration: 400.ms),
-                const SizedBox(height: 24),
-                const _Divider(label: 'or')
-                    .animate()
-                    .fadeIn(delay: 450.ms, duration: 400.ms),
-                const SizedBox(height: 24),
-                _EmailSignupForm()
-                    .animate()
-                    .fadeIn(delay: 600.ms, duration: 400.ms)
-                    .moveY(begin: 15, end: 0, duration: 400.ms),
-                const SizedBox(height: 24),
-                _GuestLoginButton(
-                  onTap: () {
-                    context.read<UserProvider>().loginAsGuest();
-                    Navigator.of(context).pushReplacement(
-                      MaterialPageRoute<void>(builder: (_) => const HomeScreen()),
-                    );
-                  },
-                )
-                    .animate()
-                    .fadeIn(delay: 750.ms, duration: 400.ms)
                     .moveY(begin: 15, end: 0, duration: 400.ms),
                 const SizedBox(height: 32),
                 const Text(
@@ -173,117 +150,30 @@ void _showComingSoon(BuildContext context, String feature) {
   );
 }
 
-class _GoogleLoginButton extends StatelessWidget {
-  const _GoogleLoginButton({required this.onTap});
-
-  final VoidCallback onTap;
+class _PlayerProfileForm extends StatefulWidget {
+  const _PlayerProfileForm();
 
   @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(16),
-      child: Container(
-        width: double.infinity,
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
-        decoration: BoxDecoration(
-          color: Colors.white,
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: const Color(0xFFE0E0E0)),
-          boxShadow: [
-            BoxShadow(
-              color: Colors.black.withValues(alpha: 0.08),
-              blurRadius: 8,
-              offset: const Offset(0, 2),
-            ),
-          ],
-        ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Container(
-              width: 24,
-              height: 24,
-              decoration: const BoxDecoration(
-                shape: BoxShape.circle,
-                color: Color(0xFFDB4437),
-              ),
-              child: const Icon(
-                Icons.g_mobiledata,
-                size: 18,
-                color: Colors.white,
-              ),
-            ),
-            const SizedBox(width: 12),
-            const Text(
-              'Continue with Google',
-              style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.w700,
-                color: Color(0xFF5F6368),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
+  State<_PlayerProfileForm> createState() => _PlayerProfileFormState();
 }
 
-class _Divider extends StatelessWidget {
-  const _Divider({required this.label});
-
-  final String label;
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        Expanded(child: Divider(color: const Color(0xFFD0C0E0).withValues(alpha: 0.5))),
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
-          child: Text(
-            label,
-            style: const TextStyle(
-              fontSize: 14,
-              color: Color(0xFF9B84B5),
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-        ),
-        Expanded(child: Divider(color: const Color(0xFFD0C0E0).withValues(alpha: 0.5))),
-      ],
-    );
-  }
-}
-
-class _EmailSignupForm extends StatefulWidget {
-  const _EmailSignupForm();
-
-  @override
-  State<_EmailSignupForm> createState() => _EmailSignupFormState();
-}
-
-class _EmailSignupFormState extends State<_EmailSignupForm> {
+class _PlayerProfileFormState extends State<_PlayerProfileForm> {
   final _formKey = GlobalKey<FormState>();
-  final _emailController = TextEditingController();
-  final _passwordController = TextEditingController();
-  final _confirmPasswordController = TextEditingController();
-  bool _isLogin = true;
-  bool _obscurePassword = true;
+  final _nameController = TextEditingController();
+  String _selectedDifficulty = 'Easy';
 
   @override
   void dispose() {
-    _emailController.dispose();
-    _passwordController.dispose();
-    _confirmPasswordController.dispose();
+    _nameController.dispose();
     super.dispose();
   }
 
   void _handleSubmit() {
     if (_formKey.currentState!.validate()) {
-      context.read<UserProvider>().loginWithEmail(_emailController.text);
-      _showComingSoon(context, _isLogin ? 'Login' : 'Sign Up');
+      context.read<UserProvider>().loginWithProfile(
+        _nameController.text.trim(),
+        _selectedDifficulty,
+      );
       Navigator.of(context).pushReplacement(
         MaterialPageRoute<void>(builder: (_) => const HomeScreen()),
       );
@@ -298,90 +188,55 @@ class _EmailSignupFormState extends State<_EmailSignupForm> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            Row(
-              children: [
-                Expanded(
-                  child: _TabButton(
-                    label: 'Login',
-                    active: _isLogin,
-                    onTap: () => setState(() => _isLogin = true),
-                  ),
-                ),
-                const SizedBox(width: 8),
-                Expanded(
-                  child: _TabButton(
-                    label: 'Sign Up',
-                    active: !_isLogin,
-                    onTap: () => setState(() => _isLogin = false),
-                  ),
-                ),
-              ],
-            ),
-            const SizedBox(height: 20),
             TextFormField(
-              controller: _emailController,
-              keyboardType: TextInputType.emailAddress,
+              controller: _nameController,
+              textInputAction: TextInputAction.next,
               decoration: _inputDecoration(
-                label: 'Email',
-                icon: Icons.email_outlined,
+                label: 'Name',
+                icon: Icons.person_outline_rounded,
+                hintText: 'Enter your name',
               ),
               validator: (value) {
-                if (value == null || value.isEmpty) {
-                  return 'Please enter your email';
-                }
-                if (!value.contains('@')) {
-                  return 'Please enter a valid email';
+                if (value == null || value.trim().isEmpty) {
+                  return 'Please enter your name';
                 }
                 return null;
               },
             ),
-            const SizedBox(height: 16),
-            TextFormField(
-              controller: _passwordController,
-              obscureText: _obscurePassword,
-              decoration: _inputDecoration(
-                label: 'Password',
-                icon: Icons.lock_outlined,
-                suffixIcon: IconButton(
-                  icon: Icon(
-                    _obscurePassword
-                        ? Icons.visibility_outlined
-                        : Icons.visibility_off_outlined,
-                  ),
-                  onPressed: () => setState(() => _obscurePassword = !_obscurePassword),
-                ),
-              ).copyWith(hintText: 'At least 6 characters'),
-              validator: (value) {
-                if (value == null || value.isEmpty) {
-                  return 'Please enter your password';
-                }
-                if (value.length < 6) {
-                  return 'Password must be at least 6 characters';
-                }
-                return null;
-              },
-            ),
-            if (!_isLogin) ...[
-              const SizedBox(height: 16),
-              TextFormField(
-                controller: _confirmPasswordController,
-                obscureText: _obscurePassword,
-                decoration: _inputDecoration(
-                  label: 'Confirm Password',
-                  icon: Icons.lock_outlined,
-                ),
-                validator: (value) {
-                  if (value == null || value.isEmpty) {
-                    return 'Please confirm your password';
-                  }
-                  if (value != _passwordController.text) {
-                    return 'Passwords do not match';
-                  }
-                  return null;
-                },
+            const SizedBox(height: 18),
+            const Text(
+              'Select quiz difficulty',
+              style: TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.w700,
+                color: Color(0xFF67537C),
               ),
-            ],
-            const SizedBox(height: 20),
+            ),
+            const SizedBox(height: 10),
+            Wrap(
+              spacing: 10,
+              runSpacing: 10,
+              children: ['Easy', 'Medium', 'Hard'].map((difficulty) {
+                final selected = _selectedDifficulty == difficulty;
+                return ChoiceChip(
+                  label: Text(difficulty),
+                  selected: selected,
+                  onSelected: (_) => setState(() => _selectedDifficulty = difficulty),
+                  selectedColor: const Color(0xFF6A37D4).withValues(alpha: 0.16),
+                  labelStyle: TextStyle(
+                    fontWeight: FontWeight.w700,
+                    color: selected ? const Color(0xFF6A37D4) : const Color(0xFF67537C),
+                  ),
+                  side: BorderSide(
+                    color: selected ? const Color(0xFF6A37D4) : const Color(0xFFD0C0E0),
+                  ),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(999),
+                  ),
+                );
+              }).toList(),
+            ),
+            const SizedBox(height: 22),
             FilledButton(
               onPressed: _handleSubmit,
               style: FilledButton.styleFrom(
@@ -391,9 +246,9 @@ class _EmailSignupFormState extends State<_EmailSignupForm> {
                   borderRadius: BorderRadius.circular(16),
                 ),
               ),
-              child: Text(
-                _isLogin ? 'Login' : 'Sign Up',
-                style: const TextStyle(
+              child: const Text(
+                'Start Quiz',
+                style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w700,
                 ),
@@ -408,10 +263,12 @@ class _EmailSignupFormState extends State<_EmailSignupForm> {
   InputDecoration _inputDecoration({
     required String label,
     required IconData icon,
+    String? hintText,
     Widget? suffixIcon,
   }) {
     return InputDecoration(
       labelText: label,
+      hintText: hintText,
       prefixIcon: Icon(icon, color: const Color(0xFF6A37D4)),
       suffixIcon: suffixIcon,
       filled: true,
@@ -431,89 +288,6 @@ class _EmailSignupFormState extends State<_EmailSignupForm> {
       errorBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(12),
         borderSide: const BorderSide(color: Color(0xFFE53935)),
-      ),
-    );
-  }
-}
-
-class _TabButton extends StatelessWidget {
-  const _TabButton({
-    required this.label,
-    required this.active,
-    required this.onTap,
-  });
-
-  final String label;
-  final bool active;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(12),
-      child: Container(
-        padding: const EdgeInsets.symmetric(vertical: 12),
-        decoration: BoxDecoration(
-          color: active
-              ? const Color(0xFF6A37D4).withValues(alpha: 0.12)
-              : Colors.transparent,
-          borderRadius: BorderRadius.circular(12),
-          border: Border.all(
-            color: active ? const Color(0xFF6A37D4) : const Color(0xFFD0C0E0),
-          ),
-        ),
-        child: Text(
-          label,
-          textAlign: TextAlign.center,
-          style: TextStyle(
-            fontSize: 14,
-            fontWeight: FontWeight.w700,
-            color: active ? const Color(0xFF6A37D4) : const Color(0xFF9B84B5),
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class _GuestLoginButton extends StatelessWidget {
-  const _GuestLoginButton({required this.onTap});
-
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: onTap,
-      borderRadius: BorderRadius.circular(16),
-      child: Container(
-        width: double.infinity,
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
-        decoration: BoxDecoration(
-          color: const Color(0xFF6A37D4).withValues(alpha: 0.08),
-          borderRadius: BorderRadius.circular(16),
-          border: Border.all(color: const Color(0xFF6A37D4).withValues(alpha: 0.3)),
-        ),
-        child: const Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.person_outline_rounded,
-              color: Color(0xFF6A37D4),
-              size: 24,
-            ),
-            SizedBox(width: 12),
-            Text(
-              'Continue as Guest',
-              style: TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.w700,
-                color: Color(0xFF6A37D4),
-              ),
-            ),
-          ],
-        ),
       ),
     );
   }

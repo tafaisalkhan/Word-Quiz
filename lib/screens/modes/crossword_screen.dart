@@ -3,10 +3,12 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:provider/provider.dart';
 
 import '../../data/quiz_repository.dart';
 import '../../models/quiz_content.dart';
 import '../../models/word_mode.dart';
+import '../../providers/user_provider.dart';
 import '../../widgets/shared_widgets.dart';
 import 'mode_screen.dart';
 
@@ -121,7 +123,10 @@ class _CrosswordQuizBodyState extends State<_CrosswordQuizBody> {
   void _prepareQuestionState() {
     final answer = _currentQuestion.answer;
     _entrySlots = List<String>.filled(answer.length, '');
-    _prefilledIndexes = _pickPrefilledIndexes(answer.length);
+    _prefilledIndexes = _pickPrefilledIndexes(
+      answer.length,
+      context.read<UserProvider>().quizDifficulty,
+    );
 
     for (final index in _prefilledIndexes) {
       _entrySlots[index] = answer[index];
@@ -139,14 +144,28 @@ class _CrosswordQuizBodyState extends State<_CrosswordQuizBody> {
     ]..shuffle(_random);
   }
 
-  Set<int> _pickPrefilledIndexes(int answerLength) {
-    if (answerLength <= 2) {
-      return {0};
-    }
+  Set<int> _pickPrefilledIndexes(int answerLength, String difficulty) {
+    final normalizedDifficulty = difficulty.toLowerCase();
+    final revealCount = switch (normalizedDifficulty) {
+      'easy' => switch (answerLength) {
+        0 || 1 => 0,
+        2 || 3 => min(2, answerLength),
+        4 || 5 => 2,
+        _ => 2,
+      },
+      'medium' => switch (answerLength) {
+        0 || 1 => 0,
+        2 || 3 => 1,
+        4 || 5 => 2,
+        6 || 7 => 3,
+        _ => 4,
+      },
+      'hard' => 0,
+      _ => 1,
+    };
 
-    final revealCount = max(1, min(3, answerLength ~/ 3));
-    final indexes = <int>{0};
-    while (indexes.length < revealCount) {
+    final indexes = <int>{};
+    while (indexes.length < min(revealCount, answerLength)) {
       indexes.add(_random.nextInt(answerLength));
     }
     return indexes;
