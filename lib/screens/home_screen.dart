@@ -10,7 +10,9 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final modes = WordMode.values;
+    final modes = WordMode.values.where((mode) {
+      return mode != WordMode.wordSearch && mode != WordMode.wordConnect;
+    }).toList();
 
     return Scaffold(
       body: Container(

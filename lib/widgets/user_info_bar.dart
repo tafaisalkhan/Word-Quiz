@@ -47,14 +47,6 @@ class UserInfoBar extends StatelessWidget {
                         ),
                       ),
                       Text(
-                        userProvider.points.toString(),
-                        style: const TextStyle(
-                          fontSize: 12,
-                          color: Color(0xFF67537C),
-                          fontWeight: FontWeight.w600,
-                        ),
-                      ),
-                      Text(
                         userProvider.quizDifficulty,
                         style: const TextStyle(
                           fontSize: 12,
