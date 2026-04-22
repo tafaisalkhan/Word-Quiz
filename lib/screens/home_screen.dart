@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
-import '../providers/user_provider.dart';
 import '../models/word_mode.dart';
 import '../navigation/app_routes.dart';
 import '../widgets/shared_widgets.dart';
@@ -26,6 +24,8 @@ class HomeScreen extends StatelessWidget {
         child: SafeArea(
           child: Column(
             children: [
+              AdBanner(location: 'top'),
+              const SizedBox(height: 8),
               Padding(
                 padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
                 child: _HomeHeader(
@@ -71,6 +71,8 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              const SizedBox(height: 16),
+              AdBanner(location: 'bottom'),
             ],
           ),
         ),

@@ -776,6 +776,8 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
     return Scaffold(
       body: Column(
         children: [
+          AdBanner(location: 'top'),
+          const SizedBox(height: 8),
           const UserInfoBar(horizontal: 16, vertical: 10),
           const SizedBox(height: 12),
           Expanded(
@@ -904,6 +906,8 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
           ),
           const SizedBox(height: 12),
           const UserInfoBar(horizontal: 16, vertical: 10),
+          const SizedBox(height: 8),
+          AdBanner(location: 'bottom'),
         ],
       ),
     );
@@ -991,13 +995,13 @@ class _ModeResultView extends StatelessWidget {
         ? 3
         : (wrongAnswers == 1 ? 2 : (wrongAnswers >= 3 ? 1 : 2));
 
-    if (isPass) {
-      final pointsEarned = 100 + (stars * 50);
-      WidgetsBinding.instance.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (isPass) {
+        final pointsEarned = 100 + (stars * 50);
         context.read<UserProvider>().addPoints(pointsEarned);
-        _showFullScreenAd(context);
-      });
-    }
+      }
+      _showFullScreenAd(context);
+    });
 
     return Center(
       child: SingleChildScrollView(

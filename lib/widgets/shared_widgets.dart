@@ -3,6 +3,37 @@ import 'package:flutter/material.dart';
 import '../models/word_mode.dart';
 import '../navigation/app_routes.dart';
 
+class AdBanner extends StatelessWidget {
+  const AdBanner({super.key, required this.location});
+
+  final String location;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: double.infinity,
+      height: 60,
+      margin: const EdgeInsets.symmetric(horizontal: 20),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.5),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(
+          color: const Color(0xFF6A37D4).withValues(alpha: 0.2),
+        ),
+      ),
+      child: Center(
+        child: Text(
+          'Ad Banner ($location)',
+          style: const TextStyle(
+            color: Color(0xFF67537C),
+            fontSize: 12,
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 class GlassPanel extends StatelessWidget {
   const GlassPanel({super.key, required this.child});
 
