@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:provider/provider.dart';
 
+import '../providers/user_provider.dart';
 import '../widgets/shared_widgets.dart';
 import 'home_screen.dart';
 
@@ -55,7 +57,7 @@ class LoginScreen extends StatelessWidget {
                     ),
                 const SizedBox(height: 24),
                 Text(
-                  'Ethereal Lexicon',
+                  'Word Quizz',
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.w900,
@@ -98,6 +100,7 @@ class LoginScreen extends StatelessWidget {
                 const SizedBox(height: 24),
                 _GuestLoginButton(
                   onTap: () {
+                    context.read<UserProvider>().loginAsGuest();
                     Navigator.of(context).pushReplacement(
                       MaterialPageRoute<void>(builder: (_) => const HomeScreen()),
                     );
@@ -279,6 +282,7 @@ class _EmailSignupFormState extends State<_EmailSignupForm> {
 
   void _handleSubmit() {
     if (_formKey.currentState!.validate()) {
+      context.read<UserProvider>().loginWithEmail(_emailController.text);
       _showComingSoon(context, _isLogin ? 'Login' : 'Sign Up');
       Navigator.of(context).pushReplacement(
         MaterialPageRoute<void>(builder: (_) => const HomeScreen()),

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
+import '../providers/user_provider.dart';
 import '../screens/login_screen.dart';
 import 'theme.dart';
 
@@ -8,11 +10,14 @@ class WordPuzzleApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Ethereal Lexicon',
-      theme: buildAppTheme(),
-      home: const LoginScreen(),
+    return ChangeNotifierProvider(
+      create: (_) => UserProvider(),
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: 'Word Quizz',
+        theme: buildAppTheme(),
+        home: const LoginScreen(),
+      ),
     );
   }
 }

@@ -3,11 +3,14 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_animate/flutter_animate.dart';
+import 'package:provider/provider.dart';
 
 import '../../data/quiz_repository.dart';
 import '../../models/quiz_content.dart';
 import '../../models/word_mode.dart';
+import '../../providers/user_provider.dart';
 import '../../widgets/shared_widgets.dart';
+import '../../widgets/user_info_bar.dart';
 
 class ModeQuizQuestion {
   const ModeQuizQuestion({
@@ -770,125 +773,137 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
     final question = _currentQuestion;
     final progress = _questionIndex / _questions.length;
 
-    return SingleChildScrollView(
-      padding: const EdgeInsets.all(20),
-      child: Column(
+    return Scaffold(
+      body: Column(
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                'Score: $_score',
-                style: const TextStyle(
-                  fontWeight: FontWeight.w800,
-                  fontSize: 16,
-                ),
-              ),
-              Row(
+          const UserInfoBar(horizontal: 16, vertical: 10),
+          const SizedBox(height: 12),
+          Expanded(
+            child: SingleChildScrollView(
+              padding: const EdgeInsets.all(20),
+              child: Column(
                 children: [
-                  Text(
-                    'Lives: $_lives',
-                    style: const TextStyle(fontWeight: FontWeight.w700),
-                  ),
-                  const SizedBox(width: 12),
-                  Text(
-                    '${_questionIndex + 1}/${_questions.length}',
-                    style: const TextStyle(fontWeight: FontWeight.w700),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const SizedBox(height: 10),
-          ClipRRect(
-            borderRadius: BorderRadius.circular(999),
-            child: LinearProgressIndicator(
-              value: progress,
-              minHeight: 10,
-              backgroundColor: const Color(0xFFE8D8FF),
-            ),
-          ),
-          const SizedBox(height: 24),
-          GlassPanel(
-            child: Column(
-              children: [
-                Text(
-                  widget.prompt,
-                  style: const TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w700,
-                    color: Color(0xFF67537C),
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  question.word,
-                  style: const TextStyle(
-                    fontSize: 44,
-                    fontWeight: FontWeight.w800,
-                  ),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 20),
-          _buildAnswerInteraction(question)
-              .animate()
-              .fadeIn(duration: 220.ms)
-              .moveY(
-                begin: 12,
-                end: 0,
-                duration: 220.ms,
-                curve: Curves.easeOutCubic,
-              ),
-          const SizedBox(height: 20),
-          if (_answered)
-            GlassPanel(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.center,
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Icon(
-                        _selectedAnswer == question.correctAnswer
-                            ? Icons.check_circle
-                            : Icons.cancel,
-                        size: 56,
-                        color: _selectedAnswer == question.correctAnswer
-                            ? const Color(0xFF1B8F3A)
-                            : const Color(0xFFE53935),
-                      ),
-                      const SizedBox(height: 8),
                       Text(
-                        _selectedAnswer ?? '',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.w900,
-                          color: _selectedAnswer == question.correctAnswer
-                              ? const Color(0xFF1B8F3A)
-                              : const Color(0xFFE53935),
+                        'Score: $_score',
+                        style: const TextStyle(
+                          fontWeight: FontWeight.w800,
+                          fontSize: 16,
                         ),
+                      ),
+                      Row(
+                        children: [
+                          Text(
+                            'Lives: $_lives',
+                            style: const TextStyle(fontWeight: FontWeight.w700),
+                          ),
+                          const SizedBox(width: 12),
+                          Text(
+                            '${_questionIndex + 1}/${_questions.length}',
+                            style: const TextStyle(fontWeight: FontWeight.w700),
+                          ),
+                        ],
                       ),
                     ],
                   ),
-                )
-                .animate()
-                .scale(
-                  begin: const Offset(0.96, 0.96),
-                  end: const Offset(1, 1),
-                  duration: 220.ms,
-                )
-                .fadeIn(duration: 200.ms),
-          if (!_answered) ...[
-            const SizedBox(height: 10),
-            Text(
-              _interactionHint,
-              textAlign: TextAlign.center,
-              style: const TextStyle(
-                color: Color(0xFF67537C),
-                fontWeight: FontWeight.w600,
+                  const SizedBox(height: 10),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(999),
+                    child: LinearProgressIndicator(
+                      value: progress,
+                      minHeight: 10,
+                      backgroundColor: const Color(0xFFE8D8FF),
+                    ),
+                  ),
+                  const SizedBox(height: 24),
+                  GlassPanel(
+                    child: Column(
+                      children: [
+                        Text(
+                          widget.prompt,
+                          style: const TextStyle(
+                            fontSize: 14,
+                            fontWeight: FontWeight.w700,
+                            color: Color(0xFF67537C),
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(
+                          question.word,
+                          style: const TextStyle(
+                            fontSize: 44,
+                            fontWeight: FontWeight.w800,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+                  _buildAnswerInteraction(question)
+                      .animate()
+                      .fadeIn(duration: 220.ms)
+                      .moveY(
+                        begin: 12,
+                        end: 0,
+                        duration: 220.ms,
+                        curve: Curves.easeOutCubic,
+                      ),
+                  const SizedBox(height: 20),
+                  if (_answered)
+                    GlassPanel(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        children: [
+                          Icon(
+                            _selectedAnswer == question.correctAnswer
+                                ? Icons.check_circle
+                                : Icons.cancel,
+                            size: 56,
+                            color: _selectedAnswer == question.correctAnswer
+                                ? const Color(0xFF1B8F3A)
+                                : const Color(0xFFE53935),
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            _selectedAnswer ?? '',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                              fontSize: 22,
+                              fontWeight: FontWeight.w900,
+                              color: _selectedAnswer == question.correctAnswer
+                                  ? const Color(0xFF1B8F3A)
+                                  : const Color(0xFFE53935),
+                            ),
+                          ),
+                        ],
+                      ),
+                    )
+                    .animate()
+                    .scale(
+                      begin: const Offset(0.96, 0.96),
+                      end: const Offset(1, 1),
+                      duration: 220.ms,
+                    )
+                    .fadeIn(duration: 200.ms),
+                  if (!_answered) ...[
+                    const SizedBox(height: 10),
+                    Text(
+                      _interactionHint,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        color: Color(0xFF67537C),
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ],
+                ],
               ),
             ),
-          ],
+          ),
+          const SizedBox(height: 12),
+          const UserInfoBar(horizontal: 16, vertical: 10),
         ],
       ),
     );
@@ -975,6 +990,14 @@ class _ModeResultView extends StatelessWidget {
     final stars = wrongAnswers == 0
         ? 3
         : (wrongAnswers == 1 ? 2 : (wrongAnswers >= 3 ? 1 : 2));
+
+    if (isPass) {
+      final pointsEarned = 100 + (stars * 50);
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        context.read<UserProvider>().addPoints(pointsEarned);
+        _showFullScreenAd(context);
+      });
+    }
 
     return Center(
       child: SingleChildScrollView(
@@ -1084,6 +1107,73 @@ class _ModeResultView extends StatelessWidget {
       ),
     );
   }
+}
+
+void _showFullScreenAd(BuildContext context) {
+  showDialog(
+    context: context,
+    barrierDismissible: false,
+    builder: (context) {
+      Future.delayed(const Duration(seconds: 3), () {
+        if (context.mounted) Navigator.of(context).pop();
+      });
+      return Dialog(
+        insetPadding: EdgeInsets.zero,
+        child: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [
+                const Color(0xFF6A37D4),
+                const Color(0xFFB00D6A),
+              ],
+            ),
+          ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              const Icon(
+                Icons.celebration,
+                size: 100,
+                color: Colors.white,
+              ),
+              const SizedBox(height: 24),
+              const Text(
+                'Congratulations!',
+                style: TextStyle(
+                  fontSize: 32,
+                  fontWeight: FontWeight.w900,
+                  color: Colors.white,
+                ),
+              ),
+              const SizedBox(height: 12),
+              const Text(
+                'Quiz Completed Successfully',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.white70,
+                ),
+              ),
+              const SizedBox(height: 32),
+              const CircularProgressIndicator(
+                valueColor: AlwaysStoppedAnimation<Color>(Colors.white),
+              ),
+              const SizedBox(height: 16),
+              const Text(
+                'Closing in 3s...',
+                style: TextStyle(
+                  fontSize: 14,
+                  color: Colors.white70,
+                ),
+              ),
+            ],
+          ),
+        ),
+      );
+    },
+  );
 }
 
 class _PulseIcon extends StatefulWidget {
