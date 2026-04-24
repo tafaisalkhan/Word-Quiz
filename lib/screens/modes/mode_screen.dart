@@ -29,7 +29,6 @@ abstract class ModeScreen extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: BottomNav(selected: mode),
     );
   }
 }

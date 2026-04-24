@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -9,6 +10,8 @@ import '../../data/quiz_repository.dart';
 import '../../models/quiz_content.dart';
 import '../../models/word_mode.dart';
 import '../../providers/user_provider.dart';
+import '../../services/daily_progress_service.dart';
+import '../../widgets/end_interstitial_ad.dart';
 import '../../widgets/shared_widgets.dart';
 import '../../widgets/user_info_bar.dart';
 
@@ -58,6 +61,11 @@ enum _QuizStatus { inProgress, passed, failed }
 class _ModeQuizBodyState extends State<ModeQuizBody> {
   static const int _initialLives = 3;
   static const int _questionsPerRound = 10;
+  static const MethodChannel _feedbackChannel =
+      MethodChannel('word_quiz/feedback_tones');
+  static const String _correctAnswerTone = 'play_correct_answer_tone';
+  static const String _wrongAnswerTone = 'play_wrong_answer_tone';
+  static const String _completeTone = 'play_complete_tone';
 
   final Random _random = Random();
   final QuizRepository _quizRepository = QuizRepository.instance;
@@ -71,7 +79,9 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
   bool _answered = false;
   bool _showIntro = true;
   String? _selectedAnswer;
+  bool _showAnswerPopup = false;
   _QuizStatus _quizStatus = _QuizStatus.inProgress;
+  bool _endInterstitialRequested = false;
   late final TextEditingController _textController;
   late final FocusNode _textFocusNode;
   bool _isRevealed = false;
@@ -129,10 +139,17 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
   List<ModeQuizQuestion> _pickRoundQuestions() {
     final picked = <ModeQuizQuestion>[];
     final seen = <String>{};
+    final difficulty = context.read<UserProvider>().quizDifficulty.toLowerCase();
+    final source = switch (difficulty) {
+      'easy' => _questionPack.easy,
+      'medium' => _questionPack.medium,
+      'hard' => _questionPack.hard,
+      _ => _questionPack.easy,
+    };
 
-    void takeFrom(List<QuizQuestionData> source, int count) {
+    void takeFrom(List<QuizQuestionData> items, int count) {
       var remaining = count;
-      final shuffled = List<QuizQuestionData>.from(source)..shuffle(_random);
+      final shuffled = List<QuizQuestionData>.from(items)..shuffle(_random);
       for (final item in shuffled) {
         if (picked.length >= _questionsPerRound || remaining == 0) break;
         if (!seen.add(item.uniqueKey)) continue;
@@ -147,16 +164,10 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
       }
     }
 
-    takeFrom(_questionPack.easy, 4);
-    takeFrom(_questionPack.medium, 3);
-    takeFrom(_questionPack.hard, 3);
+    takeFrom(source, _questionsPerRound);
 
     if (picked.length < _questionsPerRound) {
-      final fallback = [
-        ..._questionPack.easy,
-        ..._questionPack.medium,
-        ..._questionPack.hard,
-      ]..shuffle(_random);
+      final fallback = List<QuizQuestionData>.from(source)..shuffle(_random);
       for (final item in fallback) {
         if (picked.length >= _questionsPerRound) break;
         if (!seen.add(item.uniqueKey)) continue;
@@ -177,8 +188,10 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
     if (_answered || _quizStatus != _QuizStatus.inProgress) return;
 
     final isCorrect = answer == _currentQuestion.correctAnswer;
+    _playAnswerFeedback(isCorrect);
     setState(() {
       _selectedAnswer = answer;
+      _showAnswerPopup = true;
       _answered = true;
       if (isCorrect) {
         _score++;
@@ -187,7 +200,7 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
       }
     });
 
-    await Future<void>.delayed(const Duration(milliseconds: 550));
+    await Future<void>.delayed(const Duration(seconds: 3));
     if (!mounted) return;
 
     final isLastQuestion = _questionIndex == _questions.length - 1;
@@ -195,6 +208,7 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
       setState(() {
         _quizStatus = _QuizStatus.failed;
       });
+      _showEndInterstitialOnce();
       return;
     }
 
@@ -202,6 +216,11 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
       setState(() {
         _quizStatus = _QuizStatus.passed;
       });
+      if (widget.mode == WordMode.dailyChallenge) {
+        unawaited(DailyProgressService.instance.markCompletedToday());
+      }
+      _playCompletionChime();
+      _showEndInterstitialOnce();
       return;
     }
 
@@ -213,7 +232,30 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
       _activeOptionIndex = 0;
       _sliderIndex = 0;
       _textController.clear();
+      _showAnswerPopup = false;
     });
+  }
+
+  void _playAnswerFeedback(bool isCorrect) {
+    if (isCorrect) {
+      HapticFeedback.mediumImpact();
+      unawaited(_feedbackChannel.invokeMethod<void>(_correctAnswerTone));
+      return;
+    }
+
+    HapticFeedback.heavyImpact();
+    unawaited(_feedbackChannel.invokeMethod<void>(_wrongAnswerTone));
+  }
+
+  void _playCompletionChime() {
+    HapticFeedback.lightImpact();
+    unawaited(_feedbackChannel.invokeMethod<void>(_completeTone));
+  }
+
+  void _showEndInterstitialOnce() {
+    if (_endInterstitialRequested) return;
+    _endInterstitialRequested = true;
+    EndInterstitialAd.showIfReady();
   }
 
   void _restart() {
@@ -230,6 +272,8 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
       _activeOptionIndex = 0;
       _sliderIndex = 0;
       _textController.clear();
+      _showAnswerPopup = false;
+      _endInterstitialRequested = false;
     });
   }
 
@@ -774,143 +818,195 @@ class _ModeQuizBodyState extends State<ModeQuizBody> {
     final progress = _questionIndex / _questions.length;
 
     return Scaffold(
-      body: Column(
+      body: Stack(
         children: [
-          AdBanner(location: 'top'),
-          const SizedBox(height: 8),
-          const UserInfoBar(horizontal: 16, vertical: 10),
-          const SizedBox(height: 12),
-          Expanded(
-            child: SingleChildScrollView(
-              padding: const EdgeInsets.all(20),
-              child: Column(
-                children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text(
-                        'Score: $_score',
-                        style: const TextStyle(
-                          fontWeight: FontWeight.w800,
-                          fontSize: 16,
-                        ),
-                      ),
-                      Row(
-                        children: [
-                          Text(
-                            'Lives: $_lives',
-                            style: const TextStyle(fontWeight: FontWeight.w700),
-                          ),
-                          const SizedBox(width: 12),
-                          Text(
-                            '${_questionIndex + 1}/${_questions.length}',
-                            style: const TextStyle(fontWeight: FontWeight.w700),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                  const SizedBox(height: 10),
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(999),
-                    child: LinearProgressIndicator(
-                      value: progress,
-                      minHeight: 10,
-                      backgroundColor: const Color(0xFFE8D8FF),
-                    ),
-                  ),
-                  const SizedBox(height: 24),
-                  GlassPanel(
-                    child: Column(
-                      children: [
-                        Text(
-                          widget.prompt,
-                          style: const TextStyle(
-                            fontSize: 14,
-                            fontWeight: FontWeight.w700,
-                            color: Color(0xFF67537C),
-                          ),
-                        ),
-                        const SizedBox(height: 8),
-                        Text(
-                          question.word,
-                          style: const TextStyle(
-                            fontSize: 44,
-                            fontWeight: FontWeight.w800,
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  const SizedBox(height: 20),
-                  _buildAnswerInteraction(question)
-                      .animate()
-                      .fadeIn(duration: 220.ms)
-                      .moveY(
-                        begin: 12,
-                        end: 0,
-                        duration: 220.ms,
-                        curve: Curves.easeOutCubic,
-                      ),
-                  const SizedBox(height: 20),
-                  if (_answered)
-                    GlassPanel(
+          Column(
+            children: [
+              AdBanner(location: 'top'),
+              const SizedBox(height: 8),
+              const UserInfoBar(horizontal: 16, vertical: 10),
+              const SizedBox(height: 12),
+              Expanded(
+                child: Stack(
+                  children: [
+                    SingleChildScrollView(
+                      padding: const EdgeInsets.fromLTRB(20, 20, 20, 28),
+                      keyboardDismissBehavior:
+                          ScrollViewKeyboardDismissBehavior.onDrag,
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisSize: MainAxisSize.min,
                         children: [
-                          Icon(
-                            _selectedAnswer == question.correctAnswer
-                                ? Icons.check_circle
-                                : Icons.cancel,
-                            size: 56,
-                            color: _selectedAnswer == question.correctAnswer
-                                ? const Color(0xFF1B8F3A)
-                                : const Color(0xFFE53935),
-                          ),
-                          const SizedBox(height: 8),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
                           Text(
-                            _selectedAnswer ?? '',
-                            textAlign: TextAlign.center,
-                            style: TextStyle(
-                              fontSize: 22,
-                              fontWeight: FontWeight.w900,
-                              color: _selectedAnswer == question.correctAnswer
-                                  ? const Color(0xFF1B8F3A)
-                                  : const Color(0xFFE53935),
+                            'Score: $_score',
+                            style: const TextStyle(
+                              fontWeight: FontWeight.w800,
+                              fontSize: 16,
                             ),
                           ),
+                          Row(
+                            children: [
+                              Text(
+                                'Lives: $_lives',
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                              const SizedBox(width: 12),
+                              Text(
+                                '${_questionIndex + 1}/${_questions.length}',
+                                style: const TextStyle(
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            ],
+                          ),
                         ],
                       ),
-                    )
-                    .animate()
-                    .scale(
-                      begin: const Offset(0.96, 0.96),
-                      end: const Offset(1, 1),
-                      duration: 220.ms,
-                    )
-                    .fadeIn(duration: 200.ms),
-                  if (!_answered) ...[
-                    const SizedBox(height: 10),
-                    Text(
-                      _interactionHint,
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(
-                        color: Color(0xFF67537C),
-                        fontWeight: FontWeight.w600,
+                      const SizedBox(height: 10),
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(999),
+                        child: LinearProgressIndicator(
+                          value: progress,
+                          minHeight: 10,
+                          backgroundColor: const Color(0xFFE8D8FF),
+                        ),
+                      ),
+                      const SizedBox(height: 24),
+                      GlassPanel(
+                        child: Column(
+                          children: [
+                            Text(
+                              widget.prompt,
+                              style: const TextStyle(
+                                fontSize: 14,
+                                fontWeight: FontWeight.w700,
+                                color: Color(0xFF67537C),
+                              ),
+                            ),
+                            const SizedBox(height: 8),
+                            Text(
+                              question.word,
+                              style: const TextStyle(
+                                fontSize: 44,
+                                fontWeight: FontWeight.w800,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                          const SizedBox(height: 20),
+                          _buildAnswerInteraction(question)
+                              .animate()
+                              .fadeIn(duration: 220.ms)
+                              .moveY(
+                                begin: 12,
+                                end: 0,
+                                duration: 220.ms,
+                                curve: Curves.easeOutCubic,
+                              ),
+                          const SizedBox(height: 20),
+                          if (!_answered) ...[
+                            const SizedBox(height: 10),
+                            Text(
+                              _interactionHint,
+                              textAlign: TextAlign.center,
+                              style: const TextStyle(
+                                color: Color(0xFF67537C),
+                                fontWeight: FontWeight.w600,
+                              ),
+                            ),
+                          ],
+                        ],
                       ),
                     ),
+                    if (_showAnswerPopup)
+                      Positioned.fill(
+                        child: Align(
+                          alignment: Alignment.center,
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 20),
+                            child: _AnswerPopup(
+                              success: _selectedAnswer == question.correctAnswer,
+                              answer: question.correctAnswer,
+                            ),
+                          ),
+                        ),
+                      ),
                   ],
-                ],
+                ),
               ),
-            ),
+              const SizedBox(height: 12),
+              AdBanner(location: 'bottom'),
+            ],
           ),
-          const SizedBox(height: 12),
-          const UserInfoBar(horizontal: 16, vertical: 10),
-          const SizedBox(height: 8),
-          AdBanner(location: 'bottom'),
         ],
       ),
     );
+  }
+}
+
+class _AnswerPopup extends StatelessWidget {
+  const _AnswerPopup({
+    required this.success,
+    required this.answer,
+  });
+
+  final bool success;
+  final String answer;
+
+  @override
+  Widget build(BuildContext context) {
+    final color = success ? const Color(0xFF1B8F3A) : const Color(0xFFE53935);
+    final icon = success ? Icons.check_circle_rounded : Icons.cancel_rounded;
+    final label = success ? 'Right' : 'Wrong';
+
+    return Container(
+      padding: const EdgeInsets.all(18),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: color, width: 3),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.15),
+            blurRadius: 20,
+            offset: const Offset(0, 10),
+          ),
+        ],
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, size: 64, color: color),
+          const SizedBox(height: 10),
+          Text(
+            label,
+            style: TextStyle(
+              fontSize: 28,
+              fontWeight: FontWeight.w900,
+              color: color,
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Answer: $answer',
+            textAlign: TextAlign.center,
+            style: const TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w800,
+              color: Color(0xFF67537C),
+            ),
+          ),
+        ],
+      ),
+    ).animate().scale(
+      begin: const Offset(0.9, 0.9),
+      end: const Offset(1, 1),
+      duration: 180.ms,
+    ).fadeIn(duration: 180.ms);
   }
 }
 
@@ -930,11 +1026,16 @@ class _ModeIntroView extends StatefulWidget {
 }
 
 class _ModeIntroViewState extends State<_ModeIntroView> {
+  bool _canStart = false;
+
   @override
   void initState() {
     super.initState();
     Future<void>.delayed(const Duration(milliseconds: 1700), () {
       if (!mounted) return;
+      setState(() {
+        _canStart = true;
+      });
       widget.onAnimationDone();
     });
   }
@@ -943,7 +1044,7 @@ class _ModeIntroViewState extends State<_ModeIntroView> {
   Widget build(BuildContext context) {
     final word = widget.word.replaceAll(' ', '');
     return GestureDetector(
-      onTap: widget.onStart,
+      onTap: _canStart ? widget.onStart : null,
       behavior: HitTestBehavior.opaque,
       child: Container(
         color: Colors.white,

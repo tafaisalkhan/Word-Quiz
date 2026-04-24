@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../models/word_mode.dart';
 import '../navigation/app_routes.dart';
+import '../providers/user_provider.dart';
+import 'daily_progress_screen.dart';
 import '../widgets/shared_widgets.dart';
-import '../widgets/user_info_bar.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -15,6 +17,7 @@ class HomeScreen extends StatelessWidget {
     }).toList();
 
     return Scaffold(
+      endDrawer: const _SettingsDrawer(),
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
@@ -30,15 +33,14 @@ class HomeScreen extends StatelessWidget {
               const SizedBox(height: 8),
               Padding(
                 padding: const EdgeInsets.fromLTRB(20, 0, 20, 0),
-                child: _HomeHeader(
-                  onOpenSettings: () => _showComingSoon(context, 'Settings'),
-                  onOpenMenu: () => _showComingSoon(context, 'Menu'),
+                child: Builder(
+                  builder: (headerContext) {
+                    return _HomeHeader(
+                      onOpenSettings: () =>
+                          Scaffold.of(headerContext).openEndDrawer(),
+                    );
+                  },
                 ),
-              ),
-              const SizedBox(height: 8),
-              const Padding(
-                padding: EdgeInsets.fromLTRB(20, 0, 20, 0),
-                child: UserInfoBar(),
               ),
               const SizedBox(height: 16),
               Padding(
@@ -46,7 +48,11 @@ class HomeScreen extends StatelessWidget {
                 child: AppSectionHeader(
                   title: 'Game Modes',
                   actionLabel: 'View Stats',
-                  onAction: () => pushMode(context, WordMode.dailyChallenge),
+                  onAction: () => Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (_) => const DailyProgressScreen(),
+                    ),
+                  ),
                 ),
               ),
               const SizedBox(height: 12),
@@ -84,17 +90,14 @@ class HomeScreen extends StatelessWidget {
 }
 
 class _HomeHeader extends StatelessWidget {
-  const _HomeHeader({required this.onOpenMenu, required this.onOpenSettings});
+  const _HomeHeader({required this.onOpenSettings});
 
-  final VoidCallback onOpenMenu;
   final VoidCallback onOpenSettings;
 
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        _IconButton(icon: Icons.menu_rounded, onPressed: onOpenMenu),
-        const SizedBox(width: 12),
         Expanded(
           child: Text(
             'Word Quizz',
@@ -108,6 +111,80 @@ class _HomeHeader extends StatelessWidget {
         ),
         _IconButton(icon: Icons.settings_rounded, onPressed: onOpenSettings),
       ],
+    );
+  }
+}
+
+class _SettingsDrawer extends StatelessWidget {
+  const _SettingsDrawer();
+
+  @override
+  Widget build(BuildContext context) {
+    final currentDifficulty = context.watch<UserProvider>().quizDifficulty;
+
+    return Drawer(
+      child: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text(
+                'Settings',
+                style: Theme.of(context).textTheme.headlineMedium,
+              ),
+              const SizedBox(height: 20),
+              Text(
+                'Current Difficulty',
+                style: const TextStyle(
+                  fontSize: 13,
+                  fontWeight: FontWeight.w700,
+                  color: Color(0xFF67537C),
+                ),
+              ),
+              const SizedBox(height: 8),
+              Text(
+                currentDifficulty,
+                style: const TextStyle(
+                  fontSize: 22,
+                  fontWeight: FontWeight.w900,
+                  color: Color(0xFF6A37D4),
+                ),
+              ),
+              const SizedBox(height: 20),
+              const Text(
+                'Reset Difficulty',
+                style: TextStyle(fontSize: 13, fontWeight: FontWeight.w700),
+              ),
+              const SizedBox(height: 10),
+              Wrap(
+                spacing: 10,
+                runSpacing: 10,
+                children: ['Easy', 'Medium', 'Hard'].map((difficulty) {
+                  final selected = difficulty == currentDifficulty;
+                  return ChoiceChip(
+                    label: Text(difficulty),
+                    selected: selected,
+                    onSelected: (_) {
+                      context.read<UserProvider>().setQuizDifficulty(difficulty);
+                      Navigator.of(context).pop();
+                    },
+                  );
+                }).toList(),
+              ),
+              const Spacer(),
+              FilledButton.tonalIcon(
+                onPressed: () {
+                  context.read<UserProvider>().setQuizDifficulty('Easy');
+                  Navigator.of(context).pop();
+                },
+                icon: const Icon(Icons.restart_alt_rounded),
+                label: const Text('Reset to Easy'),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
@@ -273,10 +350,4 @@ class _ModeTile extends StatelessWidget {
       ),
     );
   }
-}
-
-void _showComingSoon(BuildContext context, String title) {
-  ScaffoldMessenger.of(
-    context,
-  ).showSnackBar(SnackBar(content: Text('$title is coming soon')));
 }

@@ -27,6 +27,11 @@ class UserProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  void setQuizDifficulty(String difficulty) {
+    _quizDifficulty = difficulty;
+    notifyListeners();
+  }
+
   void addPoints(int amount) {
     _points += amount;
     notifyListeners();

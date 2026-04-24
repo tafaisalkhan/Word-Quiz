@@ -9,7 +9,9 @@ import '../../data/quiz_repository.dart';
 import '../../models/quiz_content.dart';
 import '../../models/word_mode.dart';
 import '../../providers/user_provider.dart';
+import '../../widgets/end_interstitial_ad.dart';
 import '../../widgets/shared_widgets.dart';
+import '../../widgets/user_info_bar.dart';
 import 'mode_screen.dart';
 
 class CrosswordScreen extends ModeScreen {
@@ -43,7 +45,9 @@ class _CrosswordQuizBodyState extends State<_CrosswordQuizBody> {
   bool _showIntro = true;
   bool _answered = false;
   String? _submittedAnswer;
+  bool _showAnswerPopup = false;
   _CrosswordStatus _status = _CrosswordStatus.inProgress;
+  bool _endInterstitialRequested = false;
   bool _isLoading = true;
   String? _loadError;
 
@@ -88,10 +92,17 @@ class _CrosswordQuizBodyState extends State<_CrosswordQuizBody> {
   List<_CrosswordQuestion> _pickRoundQuestions() {
     final picked = <_CrosswordQuestion>[];
     final seen = <String>{};
+    final difficulty = context.read<UserProvider>().quizDifficulty.toLowerCase();
+    final source = switch (difficulty) {
+      'easy' => _questionPack.easy,
+      'medium' => _questionPack.medium,
+      'hard' => _questionPack.hard,
+      _ => _questionPack.easy,
+    };
 
-    void takeFrom(List<QuizQuestionData> source, int count) {
+    void takeFrom(List<QuizQuestionData> items, int count) {
       var remaining = count;
-      final shuffled = List<QuizQuestionData>.from(source)..shuffle(_random);
+      final shuffled = List<QuizQuestionData>.from(items)..shuffle(_random);
       for (final item in shuffled) {
         if (picked.length >= _questionsPerRound || remaining == 0) break;
         if (!seen.add(item.uniqueKey)) continue;
@@ -100,16 +111,10 @@ class _CrosswordQuizBodyState extends State<_CrosswordQuizBody> {
       }
     }
 
-    takeFrom(_questionPack.easy, 3);
-    takeFrom(_questionPack.medium, 3);
-    takeFrom(_questionPack.hard, 2);
+    takeFrom(source, _questionsPerRound);
 
     if (picked.length < _questionsPerRound) {
-      final fallback = [
-        ..._questionPack.easy,
-        ..._questionPack.medium,
-        ..._questionPack.hard,
-      ]..shuffle(_random);
+      final fallback = List<QuizQuestionData>.from(source)..shuffle(_random);
       for (final item in fallback) {
         if (picked.length >= _questionsPerRound) break;
         if (!seen.add(item.uniqueKey)) continue;
@@ -206,6 +211,7 @@ class _CrosswordQuizBodyState extends State<_CrosswordQuizBody> {
     HapticFeedback.mediumImpact();
     setState(() {
       _submittedAnswer = guess;
+      _showAnswerPopup = true;
       _answered = true;
       if (isCorrect) {
         _score++;
@@ -214,17 +220,19 @@ class _CrosswordQuizBodyState extends State<_CrosswordQuizBody> {
       }
     });
 
-    await Future<void>.delayed(const Duration(milliseconds: 700));
+    await Future<void>.delayed(const Duration(seconds: 3));
     if (!mounted) return;
 
     final isLastQuestion = _questionIndex == _questions.length - 1;
     if (_lives <= 0) {
       setState(() => _status = _CrosswordStatus.failed);
+      _showEndInterstitialOnce();
       return;
     }
 
     if (isLastQuestion) {
       setState(() => _status = _CrosswordStatus.passed);
+      _showEndInterstitialOnce();
       return;
     }
 
@@ -232,8 +240,15 @@ class _CrosswordQuizBodyState extends State<_CrosswordQuizBody> {
       _questionIndex++;
       _answered = false;
       _submittedAnswer = null;
+      _showAnswerPopup = false;
       _prepareQuestionState();
     });
+  }
+
+  void _showEndInterstitialOnce() {
+    if (_endInterstitialRequested) return;
+    _endInterstitialRequested = true;
+    EndInterstitialAd.showIfReady();
   }
 
   void _clearEntry() {
@@ -262,6 +277,8 @@ class _CrosswordQuizBodyState extends State<_CrosswordQuizBody> {
       _answered = false;
       _submittedAnswer = null;
       _status = _CrosswordStatus.inProgress;
+      _showAnswerPopup = false;
+      _endInterstitialRequested = false;
       _startNewQuiz();
     });
   }
@@ -350,218 +367,264 @@ class _CrosswordQuizBodyState extends State<_CrosswordQuizBody> {
 
     return SingleChildScrollView(
       padding: const EdgeInsets.all(20),
-      child: Column(
+      child: Stack(
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          Column(
             children: [
-              Text(
-                'Score: $_score',
-                style: const TextStyle(
-                  fontWeight: FontWeight.w800,
-                  fontSize: 16,
-                ),
-              ),
+              const UserInfoBar(horizontal: 0, vertical: 10),
+              const SizedBox(height: 10),
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Lives: $_lives',
-                    style: const TextStyle(fontWeight: FontWeight.w700),
-                  ),
-                  const SizedBox(width: 12),
-                  Text(
-                    '${_questionIndex + 1}/${_questions.length}',
-                    style: const TextStyle(fontWeight: FontWeight.w700),
-                  ),
-                ],
-              ),
-            ],
-          ),
-          const SizedBox(height: 10),
-          ClipRRect(
-            borderRadius: BorderRadius.circular(999),
-            child: LinearProgressIndicator(
-              value: progress,
-              minHeight: 10,
-              backgroundColor: const Color(0xFFE8D8FF),
-            ),
-          ),
-          const SizedBox(height: 24),
-          GlassPanel(
-            child: Column(
-              children: [
-                const Text(
-                  'Solve the clue by filling the answer slots',
-                  style: TextStyle(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w700,
-                    color: Color(0xFF67537C),
-                  ),
-                ),
-                const SizedBox(height: 10),
-                Text(
-                  question.clue,
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontSize: 30,
-                    fontWeight: FontWeight.w900,
-                    height: 1.15,
-                  ),
-                ),
-                const SizedBox(height: 14),
-                Text(
-                  '${question.answer.length} letters',
-                  style: const TextStyle(
-                    fontSize: 15,
-                    fontWeight: FontWeight.w700,
-                    color: Color(0xFF67537C),
-                  ),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 20),
-          Wrap(
-            alignment: WrapAlignment.center,
-            spacing: 10,
-            runSpacing: 10,
-            children: List.generate(_entrySlots.length, (index) {
-              return GestureDetector(
-                onTap: () => _removeLetterAt(index),
-                child: AnimatedContainer(
-                  duration: const Duration(milliseconds: 180),
-                  width: 48,
-                  height: 56,
-                  alignment: Alignment.center,
-                  decoration: BoxDecoration(
-                    color: Colors.white.withValues(alpha: 0.8),
-                    borderRadius: BorderRadius.circular(14),
-                    border: Border.all(color: _slotAccent(index), width: 2),
-                  ),
-                  child: Text(
-                    _entrySlots[index].isEmpty ? ' ' : _entrySlots[index],
-                    style: TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.w900,
-                      color: _slotAccent(index),
+                    'Score: $_score',
+                    style: const TextStyle(
+                      fontWeight: FontWeight.w800,
+                      fontSize: 16,
                     ),
                   ),
-                ),
-              );
-            }),
-          ).animate().fadeIn(duration: 220.ms).moveY(begin: 12, end: 0),
-          const SizedBox(height: 18),
-          GlassPanel(
-            child: Column(
-              children: [
-                const Text(
-                  'Letter Bank',
-                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
-                ),
-                const SizedBox(height: 14),
-                Wrap(
-                  alignment: WrapAlignment.center,
-                  spacing: 10,
-                  runSpacing: 10,
-                  children: _letterBank.map((letter) {
-                    return InkWell(
-                      onTap: () => _addLetter(letter),
-                      borderRadius: BorderRadius.circular(14),
-                      child: Container(
-                        width: 46,
-                        height: 46,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          gradient: const LinearGradient(
-                            colors: [Color(0xFF7C4DFF), Color(0xFF4E8DFF)],
-                          ),
-                          borderRadius: BorderRadius.circular(14),
-                        ),
-                        child: Text(
-                          letter,
-                          style: const TextStyle(
-                            color: Colors.white,
-                            fontSize: 22,
-                            fontWeight: FontWeight.w900,
-                          ),
-                        ),
-                      ),
-                    );
-                  }).toList(),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(height: 16),
-          Row(
-            children: [
-              Expanded(
-                child: OutlinedButton(
-                  onPressed: _entrySlots.every((letter) => letter.isEmpty)
-                      ? null
-                      : _clearEntry,
-                  child: const Text('Clear'),
-                ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: FilledButton(
-                  onPressed: isFilled ? _submitGuess : null,
-                  child: const Text('Check'),
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 12),
-          if (_answered)
-            GlassPanel(
-                  child: Column(
+                  Row(
                     children: [
-                      Icon(
-                        _submittedAnswer == question.answer
-                            ? Icons.check_circle
-                            : Icons.cancel,
-                        size: 56,
-                        color: _submittedAnswer == question.answer
-                            ? const Color(0xFF1B8F3A)
-                            : const Color(0xFFE53935),
-                      ),
-                      const SizedBox(height: 8),
                       Text(
-                        _submittedAnswer == question.answer
-                            ? 'Correct'
-                            : 'Answer: ${question.answer}',
-                        textAlign: TextAlign.center,
-                        style: TextStyle(
-                          fontSize: 22,
-                          fontWeight: FontWeight.w900,
-                          color: _submittedAnswer == question.answer
-                              ? const Color(0xFF1B8F3A)
-                              : const Color(0xFFE53935),
-                        ),
+                        'Lives: $_lives',
+                        style: const TextStyle(fontWeight: FontWeight.w700),
+                      ),
+                      const SizedBox(width: 12),
+                      Text(
+                        '${_questionIndex + 1}/${_questions.length}',
+                        style: const TextStyle(fontWeight: FontWeight.w700),
                       ),
                     ],
                   ),
-                )
-                .animate()
-                .scale(
-                  begin: const Offset(0.96, 0.96),
-                  end: const Offset(1, 1),
-                  duration: 220.ms,
-                )
-                .fadeIn(duration: 200.ms)
-          else
-            const Text(
-              'Blue letters are fixed. Tap letters to fill the empty slots.',
-              textAlign: TextAlign.center,
-              style: TextStyle(
-                color: Color(0xFF67537C),
-                fontWeight: FontWeight.w600,
+                ],
+              ),
+              const SizedBox(height: 10),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(999),
+                child: LinearProgressIndicator(
+                  value: progress,
+                  minHeight: 10,
+                  backgroundColor: const Color(0xFFE8D8FF),
+                ),
+              ),
+              const SizedBox(height: 24),
+              GlassPanel(
+                child: Column(
+                  children: [
+                    const Text(
+                      'Solve the clue by filling the answer slots',
+                      style: TextStyle(
+                        fontSize: 14,
+                        fontWeight: FontWeight.w700,
+                        color: Color(0xFF67537C),
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    Text(
+                      question.clue,
+                      textAlign: TextAlign.center,
+                      style: const TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.w900,
+                        height: 1.15,
+                      ),
+                    ),
+                    const SizedBox(height: 14),
+                    Text(
+                      '${question.answer.length} letters',
+                      style: const TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.w700,
+                        color: Color(0xFF67537C),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 20),
+              Wrap(
+                alignment: WrapAlignment.center,
+                spacing: 10,
+                runSpacing: 10,
+                children: List.generate(_entrySlots.length, (index) {
+                  return GestureDetector(
+                    onTap: () => _removeLetterAt(index),
+                    child: AnimatedContainer(
+                      duration: const Duration(milliseconds: 180),
+                      width: 48,
+                      height: 56,
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.white.withValues(alpha: 0.8),
+                        borderRadius: BorderRadius.circular(14),
+                        border: Border.all(color: _slotAccent(index), width: 2),
+                      ),
+                      child: Text(
+                        _entrySlots[index].isEmpty ? ' ' : _entrySlots[index],
+                        style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.w900,
+                          color: _slotAccent(index),
+                        ),
+                      ),
+                    ),
+                  );
+                }),
+              ).animate().fadeIn(duration: 220.ms).moveY(begin: 12, end: 0),
+              const SizedBox(height: 18),
+              GlassPanel(
+                child: Column(
+                  children: [
+                    const Text(
+                      'Letter Bank',
+                      style: TextStyle(fontSize: 16, fontWeight: FontWeight.w800),
+                    ),
+                    const SizedBox(height: 14),
+                    Wrap(
+                      alignment: WrapAlignment.center,
+                      spacing: 10,
+                      runSpacing: 10,
+                      children: _letterBank.map((letter) {
+                        return InkWell(
+                          onTap: () => _addLetter(letter),
+                          borderRadius: BorderRadius.circular(14),
+                          child: Container(
+                            width: 46,
+                            height: 46,
+                            alignment: Alignment.center,
+                            decoration: BoxDecoration(
+                              gradient: const LinearGradient(
+                                colors: [Color(0xFF7C4DFF), Color(0xFF4E8DFF)],
+                              ),
+                              borderRadius: BorderRadius.circular(14),
+                            ),
+                            child: Text(
+                              letter,
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 22,
+                                fontWeight: FontWeight.w900,
+                              ),
+                            ),
+                          ),
+                        );
+                      }).toList(),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 16),
+              Row(
+                children: [
+                  Expanded(
+                    child: OutlinedButton(
+                      onPressed: _entrySlots.every((letter) => letter.isEmpty)
+                          ? null
+                          : _clearEntry,
+                      child: const Text('Clear'),
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: FilledButton(
+                      onPressed: isFilled ? _submitGuess : null,
+                      child: const Text('Check'),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 12),
+              if (!_answered)
+                const Text(
+                  'Blue letters are fixed. Tap letters to fill the empty slots.',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    color: Color(0xFF67537C),
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+            ],
+          ),
+          if (_showAnswerPopup)
+            Positioned.fill(
+              child: Container(
+                color: Colors.black.withValues(alpha: 0.24),
+                child: Center(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20),
+                    child: _CrosswordAnswerPopup(
+                      success: _submittedAnswer == question.answer,
+                      answer: question.answer,
+                    ),
+                  ),
+                ),
               ),
             ),
         ],
       ),
     );
+  }
+}
+
+class _CrosswordAnswerPopup extends StatelessWidget {
+  const _CrosswordAnswerPopup({
+    required this.success,
+    required this.answer,
+  });
+
+  final bool success;
+  final String answer;
+
+  @override
+  Widget build(BuildContext context) {
+    final color = success ? const Color(0xFF1B8F3A) : const Color(0xFFE53935);
+    final icon = success ? Icons.check_circle_rounded : Icons.cancel_rounded;
+    final label = success ? 'Right' : 'Wrong';
+
+    return Container(
+      padding: const EdgeInsets.all(18),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(color: color, width: 3),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withValues(alpha: 0.15),
+            blurRadius: 20,
+            offset: const Offset(0, 10),
+          ),
+        ],
+      ),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, size: 64, color: color),
+          const SizedBox(height: 10),
+          Text(
+            label,
+            style: TextStyle(
+              fontSize: 28,
+              fontWeight: FontWeight.w900,
+              color: color,
+            ),
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Answer: $answer',
+            textAlign: TextAlign.center,
+            style: const TextStyle(
+              fontSize: 18,
+              fontWeight: FontWeight.w800,
+              color: Color(0xFF67537C),
+            ),
+          ),
+        ],
+      ),
+    ).animate().scale(
+      begin: const Offset(0.9, 0.9),
+      end: const Offset(1, 1),
+      duration: 180.ms,
+    ).fadeIn(duration: 180.ms);
   }
 }
 

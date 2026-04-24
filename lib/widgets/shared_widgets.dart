@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
 
 import '../models/word_mode.dart';
@@ -12,27 +13,87 @@ class AdBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      height: 60,
-      margin: const EdgeInsets.symmetric(horizontal: 20),
-      decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.5),
-        borderRadius: BorderRadius.circular(12),
-        border: Border.all(
-          color: const Color(0xFF6A37D4).withValues(alpha: 0.2),
-        ),
-      ),
-      child: Center(
-        child: Text(
-          'Ad Banner ($location)',
-          style: const TextStyle(
-            color: Color(0xFF67537C),
-            fontSize: 12,
-          ),
-        ),
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 20),
+      child: _BannerAdView(location: location),
+    );
+  }
+}
+
+class _BannerAdView extends StatefulWidget {
+  const _BannerAdView({required this.location});
+
+  final String location;
+
+  @override
+  State<_BannerAdView> createState() => _BannerAdViewState();
+}
+
+class _BannerAdViewState extends State<_BannerAdView> {
+  static const String _bannerAdUnitId =
+      'ca-app-pub-6335276076640590/9163210192';
+
+  BannerAd? _bannerAd;
+  bool _isLoaded = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _loadAd();
+  }
+
+  void _loadAd() {
+    final bannerAd = BannerAd(
+      adUnitId: _bannerAdUnitId,
+      size: AdSize.banner,
+      request: const AdRequest(),
+      listener: BannerAdListener(
+        onAdLoaded: (ad) {
+          if (!mounted) return;
+          setState(() {
+            _bannerAd = ad as BannerAd;
+            _isLoaded = true;
+          });
+        },
+        onAdFailedToLoad: (ad, error) {
+          ad.dispose();
+          if (!mounted) return;
+          setState(() {
+            _bannerAd = null;
+            _isLoaded = false;
+          });
+        },
       ),
     );
+
+    bannerAd.load();
+  }
+
+  @override
+  void dispose() {
+    _bannerAd?.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    if (_bannerAd != null && _isLoaded) {
+      return Container(
+        alignment: Alignment.center,
+        width: double.infinity,
+        height: _bannerAd!.size.height.toDouble(),
+        decoration: BoxDecoration(
+          color: Colors.white.withValues(alpha: 0.5),
+          borderRadius: BorderRadius.circular(12),
+          border: Border.all(
+            color: const Color(0xFF6A37D4).withValues(alpha: 0.2),
+          ),
+        ),
+        child: AdWidget(ad: _bannerAd!),
+      );
+    }
+
+    return const SizedBox.shrink();
   }
 }
 
@@ -120,14 +181,6 @@ class ModeAppBar extends StatelessWidget {
                   ),
                 ),
               ],
-            ),
-          ),
-          IconButton(
-            onPressed: () {},
-            icon: const Icon(Icons.settings_rounded),
-            style: IconButton.styleFrom(
-              backgroundColor: Colors.white.withValues(alpha: 0.55),
-              foregroundColor: const Color(0xFF6A37D4),
             ),
           ),
         ],
@@ -318,6 +371,44 @@ class LetterBox extends StatelessWidget {
       child: Text(
         letter,
         style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w800),
+      ),
+    );
+  }
+}
+
+class WQIcon extends StatelessWidget {
+  const WQIcon({super.key, this.size = 100});
+
+  final double size;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: size,
+      height: size,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        gradient: const LinearGradient(
+          colors: [Color(0xFFAE8DFF), Color(0xFFFFC1D6)],
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: const Color(0xFF6A37D4).withValues(alpha: 0.3),
+            blurRadius: 20,
+            offset: const Offset(0, 8),
+          ),
+        ],
+      ),
+      child: const Center(
+        child: Text(
+          'WQ',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 36,
+            fontWeight: FontWeight.w900,
+            letterSpacing: 2,
+          ),
+        ),
       ),
     );
   }
